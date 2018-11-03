@@ -91,20 +91,20 @@ public class viewscoreController implements Initializable{
 
         pane.setMinSize(100, 25);
         Label topic_text = new Label("Topic");
-        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:18 ");
+        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:17 ");
         topic_text.setMinHeight(25);
         topic_text.setMinWidth(wLable);
         topic_text.setMaxWidth(wLable);
 
         Label score_text = new Label("Score");
-        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:18");
+        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:17");
         score_text.setMinHeight(25);
         score_text.setLayoutX(wLable);
         score_text.setMinWidth(wLable);
         score_text.setMaxWidth(wLable);
 
         Label maxscore_text = new Label("Max Score");
-        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:18");
+        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:17");
         maxscore_text.setMinHeight(25);
         maxscore_text.setLayoutX(wLable*2);
         maxscore_text.setMinWidth(258);
