@@ -5,7 +5,6 @@
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.SplitPane?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
@@ -73,21 +72,19 @@
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="306.0" prefWidth="737.0">
                <children>
-                  <TextField layoutX="294.0" layoutY="169.0" />
-                  <TextField layoutX="294.0" layoutY="210.0" />
                   <Label layoutX="208.0" layoutY="173.0" text="Subject Name" />
-                  <Label layoutX="208.0" layoutY="214.0" text="Department" />
-                  <DatePicker layoutX="294.0" layoutY="255.0" />
-                  <Label layoutX="208.0" layoutY="259.0" text="Teaching day" />
-                  <ComboBox layoutX="294.0" layoutY="295.0" prefWidth="150.0" />
-                  <Label layoutX="210.0" layoutY="299.0" text="Session time" />
-                  <Label layoutX="305.0" layoutY="97.0" text="Open Subject">
+                  <DatePicker layoutX="294.0" layoutY="213.0" />
+                  <Label layoutX="208.0" layoutY="217.0" text="Teaching day" />
+                  <ComboBox layoutX="294.0" layoutY="253.0" prefWidth="150.0" />
+                  <Label layoutX="210.0" layoutY="257.0" text="Session time" />
+                  <Label layoutX="305.0" layoutY="97.0" text="Edit Subject">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Button layoutX="296.0" layoutY="342.0" mnemonicParsing="false" text="Submit" />
-                  <Button layoutX="371.0" layoutY="342.0" mnemonicParsing="false" text="Cancel" />
+                  <Button layoutX="296.0" layoutY="303.0" mnemonicParsing="false" text="Submit" />
+                  <Button layoutX="371.0" layoutY="303.0" mnemonicParsing="false" text="Cancel" />
+                  <ComboBox layoutX="296.0" layoutY="169.0" prefWidth="150.0" />
                </children>
             </AnchorPane>
         </items>
