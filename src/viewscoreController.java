@@ -13,6 +13,8 @@ public class viewscoreController implements Initializable{
     public void initialize(URL url, ResourceBundle rb) {
         System.out.println("connect");
     }
+
+    @FXML
     public void jumpEnroll()throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("enroll.fxml"));
         Parent root = (Parent) fxmlLoader.load();
@@ -21,6 +23,7 @@ public class viewscoreController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    @FXML
     public void jumpChange()throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("changeCourse.fxml"));
         Parent root = (Parent) fxmlLoader.load();
@@ -29,6 +32,7 @@ public class viewscoreController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    @FXML
     public void jumpDrop()throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("drop.fxml"));
         Parent root = (Parent) fxmlLoader.load();
@@ -37,6 +41,7 @@ public class viewscoreController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    @FXML
     public void jumpView()throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("viewscore.fxml"));
         Parent root = (Parent) fxmlLoader.load();
@@ -45,6 +50,7 @@ public class viewscoreController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    @FXML
     public void jumpLogout() throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
