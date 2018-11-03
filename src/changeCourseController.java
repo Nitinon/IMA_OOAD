@@ -3,6 +3,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
@@ -11,10 +12,25 @@ import java.util.ResourceBundle;
 public class changeCourseController implements Initializable{
     @FXML
     private AnchorPane backpane;
+    @FXML
+    private Label nameLB;
+    @FXML
+    private Label surnameLB;
+    @FXML
+    private Label ageLB;
+    @FXML
+    private Label contactLB;
+    @FXML
+    private Label emailLB;
 
     public void initialize(URL url, ResourceBundle rb) {
-        System.out.println("connect");
+        nameLB.setText("Nitinon");
+        surnameLB.setText("Penglao");
+        contactLB.setText("0848841659");
+        ageLB.setText("21");
+        emailLB.setText("nitinon556@hotmail.com");
     }
+
     public void jumpEnroll()throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("enroll.fxml"));
         Parent root = (Parent) fxmlLoader.load();
