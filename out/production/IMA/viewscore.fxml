@@ -85,7 +85,7 @@
                      </font>
                   </Text>
                   <Button fx:id="viewEnterBT" layoutX="502.0" layoutY="125.0" mnemonicParsing="false" text="View" />
-                  <ScrollPane fx:id="scrollPane" layoutX="-2.0" layoutY="163.0" prefHeight="618.0" prefWidth="736.0" />
+                  <ScrollPane fx:id="scrollPane" layoutX="-2.0" layoutY="197.0" prefHeight="537.0" prefWidth="743.0" />
                </children>
             </AnchorPane>
         </items>

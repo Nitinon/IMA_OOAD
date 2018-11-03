@@ -47,7 +47,7 @@ public class viewscoreController implements Initializable{
         gridpane.getColumnConstraints().add(new ColumnConstraints(0));
         scrollPane.setContent(gridpane);
         gridpane.add(createHeader(),0, 0);
-        for(int i=1;i<100;i++){
+        for(int i=1;i<20;i++){
             gridpane.add(createPane("eiei","Zaa"),0, i);
         }
 
@@ -82,7 +82,6 @@ public class viewscoreController implements Initializable{
         pane.getChildren().addAll(topic_header,score_header,maxscore_header);
         return pane;
     }
-
 
     public Pane createPane(String subject, String teacher ) {
         Pane pane = new Pane();

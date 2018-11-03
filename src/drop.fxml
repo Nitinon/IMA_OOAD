@@ -2,6 +2,7 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.image.ImageView?>
@@ -72,12 +73,14 @@
          <items>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="325.0" prefWidth="737.0">
                <children>
-                  <ScrollPane layoutX="-12.0" layoutY="80.0" prefHeight="668.0" prefWidth="761.0" />
+                  <ScrollPane layoutX="-3.0" layoutY="196.0" prefHeight="537.0" prefWidth="743.0" />
                   <Text layoutX="302.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drop Course">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Text>
+                  <PasswordField layoutX="280.0" layoutY="108.0" prefHeight="25.0" prefWidth="206.0" />
+                  <Button layoutX="529.0" layoutY="109.0" mnemonicParsing="false" text="Enter Password" />
                </children>
             </AnchorPane>
          </items>
@@ -111,10 +114,10 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Button fx:id="changeBT" onMouseClicked="#jumpChange" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="enrollBT" onMouseClicked="#jumpEnroll" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="dropBT" onMouseClicked="#jumpDrop" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="viewBT" onMouseClicked="#jumpView" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="logoutBT" onMouseClicked="#jumpLogout" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" text="log out" />
+      <Button fx:id="changeBT" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#jumpChange" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" onMouseClicked="#jumpEnroll" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" onMouseClicked="#jumpDrop" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#jumpView" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
    </children>
 </AnchorPane>
