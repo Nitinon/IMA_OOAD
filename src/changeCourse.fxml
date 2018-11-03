@@ -69,7 +69,7 @@
       <Line endX="-17.0" endY="520.0" layoutX="366.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
       <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
       <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
-      <SplitPane dividerPositions="0.32605729877216916" layoutX="547.0" layoutY="-9.0" orientation="VERTICAL" prefHeight="735.0" prefWidth="739.0">
+      <SplitPane layoutX="547.0" layoutY="-9.0" orientation="VERTICAL" prefHeight="735.0" prefWidth="739.0">
          <items>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="306.0" prefWidth="737.0">
                <children>
@@ -85,11 +85,7 @@
                      </font>
                   </Text>
                   <Button fx:id="viewEnterBT" layoutX="502.0" layoutY="125.0" mnemonicParsing="false" text="View" />
-               </children>
-            </AnchorPane>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="325.0" prefWidth="737.0">
-               <children>
-                  <ScrollPane fx:id="scorePane" prefHeight="618.0" prefWidth="776.0" />
+                  <ScrollPane fx:id="scorePane" layoutY="164.0" prefHeight="569.0" prefWidth="737.0" />
                </children>
             </AnchorPane>
          </items>
@@ -123,10 +119,10 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Button fx:id="changeBT" onMouseClicked="#jumpChange" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="enrollBT" onMouseClicked="#jumpEnroll" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="dropBT" onMouseClicked="#jumpDrop" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="viewBT" onMouseClicked="#jumpView" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="logoutBT" onMouseClicked="#jumpLogout" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" text="log out" />
+      <Button fx:id="changeBT" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#jumpChange" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" onMouseClicked="#jumpEnroll" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" onMouseClicked="#jumpDrop" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#jumpView" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
    </children>
 </AnchorPane>
