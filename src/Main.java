@@ -14,7 +14,7 @@ public class Main extends Application {
     public void start (Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
         primaryStage.setTitle("IMA");
-        primaryStage.setScene(new Scene(root));
+        primaryStage.setScene(new Scene(root,1280,720));
         primaryStage.show();
         Preferences userPreferences = Preferences.userRoot();
         userPreferences.put("aa","eieieieiei");

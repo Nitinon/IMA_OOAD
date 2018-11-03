@@ -29,6 +29,8 @@ public class viewscoreController implements Initializable{
     @FXML
     private ScrollPane scrollPane;
 
+
+
     public void initialize(URL url, ResourceBundle rb) {
         nameLB.setText("Nitinon");
         surnameLB.setText("Penglao");
@@ -38,8 +40,8 @@ public class viewscoreController implements Initializable{
 
         GridPane gridpane = new GridPane();
         gridpane.setStyle("-fx-border-color:black;");
-        gridpane.setMinSize(762, 588);
-        gridpane.getColumnConstraints().add(new ColumnConstraints(50));
+        gridpane.setMinSize(737, 588);
+        gridpane.getColumnConstraints().add(new ColumnConstraints(0));
         scrollPane.setContent(gridpane);
         for(int i=0;i<100;i++){
             gridpane.add(createPane("eiei","Zaa"),0, i);
@@ -48,13 +50,30 @@ public class viewscoreController implements Initializable{
     }
     public Pane createPane(String subject, String teacher ) {
         Pane pane = new Pane();
-        pane.setMinSize(100, 12);
-        Label email_text = new Label("Subject");
-        email_text.setStyle("-fx-border-color:black");
-        email_text.setMinWidth(188);
-        email_text.setMaxWidth(188);
-        Button hihi=new Button("Hee");
-        pane.getChildren().addAll(email_text,hihi);
+        double wScore=scrollPane.getPrefWidth();
+        double wLable=wScore/3;
+        pane.setMinSize(100, 25);
+        Label topic_text = new Label("Topic");
+        topic_text.setStyle("-fx-border-color:black");
+        topic_text.setMinHeight(25);
+        topic_text.setMinWidth(wLable);
+        topic_text.setMaxWidth(wLable);
+
+        Label score_text = new Label("Score");
+        score_text.setStyle("-fx-border-color:black");
+        score_text.setMinHeight(25);
+        score_text.setLayoutX(wLable);
+        score_text.setMinWidth(wLable);
+        score_text.setMaxWidth(wLable);
+
+        Label maxscore_text = new Label("Max Score");
+        maxscore_text.setStyle("-fx-border-color:black");
+        maxscore_text.setMinHeight(25);
+        maxscore_text.setLayoutX(wLable*2);
+        maxscore_text.setMinWidth(258);
+        maxscore_text.setMaxWidth(258);
+
+        pane.getChildren().addAll(topic_text,score_text,maxscore_text);
 
         return pane;
     }
