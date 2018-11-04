@@ -121,10 +121,10 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Button fx:id="changeBT" layoutX="350.0" layoutY="132.0" mnemonicParsing="false"  opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false"  opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false"  opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false"  text="log out" />
+      <Button fx:id="changeBT" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" onAction="#jumpEditCourse" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" onAction="#jumpEnroll" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" onAction="#jumpDeleteCourse" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onAction="#jumpEditScore" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" text="log out" />
    </children>
 </AnchorPane>

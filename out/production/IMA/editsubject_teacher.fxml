@@ -12,7 +12,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-image: url('file:C:/Users/Farong/Pictures/pic.png');" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewscoreController">
+<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-image: url('file:C:/Users/Farong/Pictures/pic.png');" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="editsubject_teacherController">
    <children>
       <ImageView fitHeight="117.0" fitWidth="133.0" layoutX="50.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-radius: -fx-border-radius: 10 10 10 10;-fx-background-radius: 10 10 10 10;" />
       <Label alignment="TOP_LEFT" layoutX="50.0" layoutY="290.0" prefHeight="27.0" prefWidth="52.0" text="Name" textAlignment="CENTER">
@@ -118,10 +118,10 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Button fx:id="changeBT" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#jumpChange" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" onMouseClicked="#jumpEnroll" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" onMouseClicked="#jumpDrop" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#jumpView" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="changeBT" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" onAction="#jumpEditCourse" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" onAction="#jumpEnroll" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" onAction="#jumpDeleteCourse" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onAction="#jumpEditScore" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
    </children>
 </AnchorPane>
