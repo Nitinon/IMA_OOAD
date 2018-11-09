@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import java.util.Date;
 
 public class announcementController implements Initializable {
     @FXML
@@ -39,19 +40,33 @@ public class announcementController implements Initializable {
         contactLB.setText("0848841659");
         ageLB.setText("21");
         emailLB.setText("nitinon556@hotmail.com");
-//        Button[] btns = new Button[10];
-//        btns[0].setText("asdasd");
-//        announcepane.add(btns[0],1,1);
-        int i = 0;
-        for (i = 0;i<10;i++) {
-            announcepane.add(createButton(), 1, i);
+        Date date = new Date();
+        int firstday = 1;
+        int month = date.getMonth();
+        int day = date.getDay();
+        int check = 0;
+        for (int i = 0;i<6;i++) {
+            for (int j = 0;j<7;j++) {
+                if(j == day){
+                    check = 1;
+                }
+                if(check==0){
+                    announcepane.add(createButton(0,0), j, i);
+                }
+                else{
+                    announcepane.add(createButton(firstday,month), j, i);
+                    firstday++;
+                }
+            }
         }
+        check = 0;
+
 
 
 
     }
-    private Button createButton(){
-        Button aa=new Button("asdsad");
+    private Button createButton(int i,int j){
+        Button aa=new Button("asdsad-"+i+" "+j);
         return aa;
     }
 //    private void initBtnsArray() {
