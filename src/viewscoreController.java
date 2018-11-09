@@ -48,7 +48,7 @@ public class viewscoreController implements Initializable{
         scrollPane.setContent(gridpane);
         gridpane.add(createHeader(),0, 0);
         for(int i=1;i<20;i++){
-            gridpane.add(createButton(i),0, i);
+            gridpane.add(createButton(i,i+100),0, i);
         }
 
     }
@@ -115,24 +115,23 @@ public class viewscoreController implements Initializable{
         return pane;
     }
 
-    public Button createButton (int txt){
+    public Button createButton (int txt,int k){
         String txtbtn = Integer.toString(txt);
         Button btn = new Button();
         double wscore = scrollPane.getPrefWidth();
         double wLabel = wscore/3;
         btn.setOnAction(event -> {
-            System.out.println(((Button)event.getSource()).getText());//prints out Click Me
+//            System.out.println(((Button)event.getSource()).getUserData());//prints out Click Me
+            getID(k);
         });
         btn.setMinSize(100,25);
-        btn.setText(txtbtn);
+        btn.setText("click");
+        btn.setUserData(txtbtn);
         return btn;
-
-
-
     }
-
-
-
+    public void getID(int k){
+        System.out.println(k);
+    }
 
     @FXML
     public void jumpEnroll()throws IOException{

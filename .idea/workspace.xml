@@ -102,12 +102,18 @@
     <session id="-1518690772">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="216" />
+          <entry key="java" value="326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="216" />
+          <entry key="JAVA" value="326" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -206,10 +212,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/viewscoreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="124" column="11" lean-forward="true" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+            <state relative-caret-position="406">
+              <caret line="128" column="32" lean-forward="true" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+<<<<<<< Updated upstream
 =======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/opencourse_teacher.fxml">
@@ -240,6 +247,10 @@
               <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+>>>>>>> Stashed changes
+=======
+                <element signature="e#4490#4491#0" expanded="true" />
+                <element signature="e#4526#4527#0" expanded="true" />
 >>>>>>> Stashed changes
               </folding>
             </state>
@@ -459,9 +470,14 @@
     </navigator>
     <panes>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <pane id="Scope" />
       <pane id="PackagesPane" />
 =======
+>>>>>>> Stashed changes
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
 >>>>>>> Stashed changes
       <pane id="ProjectPane">
         <subPane>
@@ -545,6 +561,7 @@
       <workItem from="1541229820739" duration="6913000" />
 <<<<<<< Updated upstream
       <workItem from="1541685674475" duration="2028000" />
+<<<<<<< Updated upstream
 =======
       <workItem from="1541483287831" duration="3225000" />
       <workItem from="1541490878999" duration="2370000" />
@@ -554,20 +571,27 @@
       <workItem from="1541609281780" duration="1918000" />
       <workItem from="1541677652989" duration="596000" />
 >>>>>>> Stashed changes
+=======
+      <workItem from="1541732623684" duration="2015000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="28757000" />
 =======
     <option name="totallyTimeSpent" value="49183000" />
+>>>>>>> Stashed changes
+=======
+    <option name="totallyTimeSpent" value="30772000" />
 >>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1337953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13486141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -836,6 +860,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/viewscoreController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="345">
           <caret line="124" column="11" lean-forward="true" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
 =======
@@ -844,8 +869,14 @@
         <state relative-caret-position="357">
           <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
 >>>>>>> Stashed changes
+=======
+        <state relative-caret-position="406">
+          <caret line="128" column="32" lean-forward="true" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4490#4491#0" expanded="true" />
+            <element signature="e#4526#4527#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -907,7 +938,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
