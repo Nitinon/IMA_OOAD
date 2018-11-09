@@ -42,6 +42,15 @@ public class enrollController implements Initializable {
         emailLB.setText("nitinon556@hotmail.com");
 
         GridPane gridpane = new GridPane();
+        gridpane.setMinSize(scrollPane1.getMinWidth(), 0);
+        scrollPane1.setContent(gridpane);
+        gridpane.add(createHeader(), 1, 1);
+        for (int i = 0; i < 5; i++) {
+            gridpane.add(createPane( i, "Zaa"), 1, i+2);
+        }
+
+
+        gridpane = new GridPane();
         gridpane.setMinSize(scrollPane2.getMinWidth(), 0);
         scrollPane2.setContent(gridpane);
         gridpane.add(createHeader(), 1, 1);
@@ -151,7 +160,22 @@ public class enrollController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    public void jumpChangePass() throws  IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/changePass.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
 
+        changePassController controller = fxmlLoader.<changePassController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
+    public void jumpEditProfile() throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/editProfile.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        ediProfileController controller = fxmlLoader.<ediProfileController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
     public void jumpLogout() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
