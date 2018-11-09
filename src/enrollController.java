@@ -42,11 +42,11 @@ public class enrollController implements Initializable {
         emailLB.setText("nitinon556@hotmail.com");
 
         GridPane gridpane = new GridPane();
-        gridpane.setMinSize(scrollPane1.getMinWidth(), 588);
-        scrollPane1.setContent(gridpane);
+        gridpane.setMinSize(scrollPane2.getMinWidth(), 0);
+        scrollPane2.setContent(gridpane);
         gridpane.add(createHeader(), 1, 1);
-        for (int i = 2; i < 20; i++) {
-            gridpane.add(createPane("eiei", "Zaa"), 1, i);
+        for (int i = 0; i < 100; i++) {
+            gridpane.add(createPane( i, "Zaa"), 1, i+2);
         }
 
     }
@@ -54,32 +54,31 @@ public class enrollController implements Initializable {
 
     public Pane createHeader() {
         Pane pane = new Pane();
-        double wScore = scrollPane1.getPrefWidth();
+        double wScore = scrollPane2.getPrefWidth();
         double wLable = wScore / 4;
         pane.setMinSize(100, 25);
 
         Label topic_header = createLable("ID", 25, wLable, 0);
         Label score_header = createLable("Subject", 25, wLable, wLable);
         Label maxscore_header = createLable("eiei", 25, wLable, wLable * 2);
-        Label enroll_header = createLable("enroll", 25, wLable - 18, wLable * 3);
+        Label enroll_header = createLable("enroll", 25, wLable , wLable * 3);
 
         pane.getChildren().addAll(topic_header, score_header, maxscore_header, enroll_header);
 
         return pane;
     }
 
-    public Button createButton(int txt) {
-        String txtbtn = Integer.toString(txt);
+    public Button createButton(String txt,int subject) {
         Button btn = new Button();
         btn.setOnAction(event -> {
-            createDialog();
+            createDialog(subject);
         });
         btn.setText("click");
-        btn.setUserData(txtbtn);
+        btn.setUserData(txt);
         return btn;
     }
 
-    public Pane createPane(String subject, String teacher) {
+    public Pane createPane(int id, String teacher) {
         Pane pane = new Pane();
         double wScore = scrollPane1.getPrefWidth();
         double wLable = wScore / 4;
@@ -88,12 +87,12 @@ public class enrollController implements Initializable {
         Label topic_text = createLable("topic", 25, wLable, 0);
         Label score_text = createLable("topic", 25, wLable, wLable);
         Label maxscore_text = createLable("topic", 25, wLable, wLable * 2);
-        Label btn_text = createLable("topic", 25, wLable - 18, wLable * 3);
+        Label btn_text = createLable("topic", 25, wLable , wLable * 3);
 
-        Button btn1 = createButton(1);
+        Button btn1 = createButton("Eieieiei",id);
         btn1.setStyle("-fx-border-color:black; -fx-alignment:center;");
         btn1.setLayoutX(wLable * 3);
-        btn1.setMinSize(wLable - 18, 25);
+        btn1.setMinSize(wLable , 25);
 
         pane.getChildren().addAll(topic_text, score_text, maxscore_text, btn_text, btn1);
 
@@ -110,10 +109,11 @@ public class enrollController implements Initializable {
         return label;
     }
 
-    public void createDialog() {
+    public void createDialog(int id) {
         passwordDialog pd = new passwordDialog();
         Optional<String> result = pd.showAndWait();
-        result.ifPresent(password -> System.out.println(password));
+//        result.ifPresent(password -> System.out.println(password));
+        System.out.println(id);
     }
 
     //    jump=======================================================================================
