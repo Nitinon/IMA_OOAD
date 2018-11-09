@@ -1,7 +1,6 @@
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -10,8 +9,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
-import javafx.scene.text.Font;
-import javafx.scene.text.TextAlignment;
 
 import java.io.IOException;
 import java.net.URL;
@@ -48,7 +45,7 @@ public class viewscoreController implements Initializable{
         scrollPane.setContent(gridpane);
         gridpane.add(createHeader(),0, 0);
         for(int i=1;i<20;i++){
-            gridpane.add(createButton(i,i+100),0, i);
+            gridpane.add(createButton(i),0, i);
         }
 
     }
@@ -115,14 +112,13 @@ public class viewscoreController implements Initializable{
         return pane;
     }
 
-    public Button createButton (int txt,int k){
+    public Button createButton (int txt){
         String txtbtn = Integer.toString(txt);
         Button btn = new Button();
         double wscore = scrollPane.getPrefWidth();
         double wLabel = wscore/3;
         btn.setOnAction(event -> {
 //            System.out.println(((Button)event.getSource()).getUserData());//prints out Click Me
-            getID(k);
         });
         btn.setMinSize(100,25);
         btn.setText("click");
@@ -135,7 +131,7 @@ public class viewscoreController implements Initializable{
 
     @FXML
     public void jumpEnroll()throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("enroll.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         enrollController controller = fxmlLoader.<enrollController>getController();
@@ -144,7 +140,7 @@ public class viewscoreController implements Initializable{
     }
     @FXML
     public void jumpChange()throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("changeCourse.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/changeCourse.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         changeCourseController controller = fxmlLoader.<changeCourseController>getController();
@@ -153,7 +149,7 @@ public class viewscoreController implements Initializable{
     }
     @FXML
     public void jumpDrop()throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("drop.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/drop.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         dropController controller = fxmlLoader.<dropController>getController();
@@ -162,7 +158,7 @@ public class viewscoreController implements Initializable{
     }
     @FXML
     public void jumpView()throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("viewscore.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/viewscore.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         viewscoreController controller = fxmlLoader.<viewscoreController>getController();
@@ -171,7 +167,7 @@ public class viewscoreController implements Initializable{
     }
     @FXML
     public void jumpLogout() throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         loginController controller = fxmlLoader.<loginController>getController();

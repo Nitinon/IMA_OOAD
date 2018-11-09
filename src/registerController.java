@@ -7,8 +7,6 @@ import javafx.scene.layout.AnchorPane;
 
 import javafx.scene.control.Alert.AlertType;
 
-import javax.xml.soap.Text;
-import java.awt.event.ActionEvent;
 import java.io.IOException;
 import java.net.URL;
 import java.time.LocalDate;
@@ -77,8 +75,6 @@ public class registerController implements Initializable {
             alert.showAndWait();
             System.out.println(nameIn + "\n" + surnameIn + "\n" + emailIn + "\n" + telIn + "\n" + facultyIn + "\n" + yearIn + "\n" + date);
 
-//            Save Data
-
             jumpBack();
         }
         }
@@ -86,7 +82,7 @@ public class registerController implements Initializable {
     }
 
     public void jumpBack() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
         loginController controller = fxmlLoader.<loginController>getController();
         fxmlLoader.setController(controller);

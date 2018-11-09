@@ -1,14 +1,14 @@
+package controller;
+
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
-import javax.xml.soap.Text;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -33,7 +33,7 @@ public class loginController implements Initializable {
         if (username.getText().equals("student")) {
             popUp(true);
             userPreferences.put("currentUser", "student");
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("enroll.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
             Parent root = (Parent) fxmlLoader.load();
 
             enrollController controller = fxmlLoader.<enrollController>getController();
@@ -42,7 +42,7 @@ public class loginController implements Initializable {
         } else if (username.getText().equals("teacher")) {
             popUp(true);
             userPreferences.put("currentUser", "teacher");
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("opencourse_teacher.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/opencourse_teacher.fxml"));
             Parent root = (Parent) fxmlLoader.load();
             opencourse_teacherController controller = fxmlLoader.<opencourse_teacherController>getController();
             fxmlLoader.setController(controller);
@@ -74,7 +74,7 @@ public class loginController implements Initializable {
     }
 
     public void jumpRegister() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("register.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/register.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         registerController controller = fxmlLoader.<registerController>getController();
