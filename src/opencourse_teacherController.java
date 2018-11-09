@@ -2,6 +2,8 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.layout.AnchorPane;
 
 import java.io.IOException;
@@ -11,8 +13,16 @@ import java.util.ResourceBundle;
 public class opencourse_teacherController implements Initializable {
     @FXML
     private AnchorPane backpane;
+    @FXML
+    private ComboBox sessionTime;
+    @FXML
+    private ComboBox teachingDate;
+
     public void initialize(URL url, ResourceBundle rb) {
-        System.out.println("connect");
+        sessionTime.getItems().addAll("Morning","Afternoon","Evening");
+        sessionTime.getSelectionModel().selectFirst();
+        teachingDate.getItems().addAll("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday");
+        teachingDate.getSelectionModel().selectFirst();
     }
 
     public void jumpEnroll()throws IOException {

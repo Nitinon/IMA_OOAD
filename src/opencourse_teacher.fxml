@@ -2,9 +2,9 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -74,20 +74,24 @@
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="306.0" prefWidth="737.0">
                <children>
                   <TextField layoutX="294.0" layoutY="169.0" />
-                  <TextField layoutX="294.0" layoutY="210.0" />
                   <Label layoutX="208.0" layoutY="173.0" text="Subject Name" />
                   <Label layoutX="208.0" layoutY="214.0" text="Department" />
-                  <DatePicker layoutX="294.0" layoutY="255.0" />
+                  <ComboBox fx:id="teachingDate" layoutX="294.0" layoutY="255.0" prefWidth="150.0" />
+
+
                   <Label layoutX="208.0" layoutY="259.0" text="Teaching day" />
-                  <ComboBox layoutX="294.0" layoutY="295.0" prefWidth="150.0" />
+                  <ComboBox fx:id="sessionTime" layoutX="294.0" layoutY="295.0" prefWidth="150.0" />
                   <Label layoutX="210.0" layoutY="299.0" text="Session time" />
                   <Label layoutX="305.0" layoutY="97.0" text="Open Subject">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Button layoutX="296.0" layoutY="342.0" mnemonicParsing="false" text="Submit" />
-                  <Button layoutX="371.0" layoutY="342.0" mnemonicParsing="false" text="Cancel" />
+                  <Button layoutX="296.0" layoutY="459.0" mnemonicParsing="false" text="Submit" />
+                  <Button layoutX="371.0" layoutY="459.0" mnemonicParsing="false" text="Cancel" />
+                  <ComboBox fx:id="department" layoutX="296.0" layoutY="210.0" prefWidth="150.0" />
+                  <TextArea layoutX="294.0" layoutY="334.0" prefHeight="117.0" prefWidth="200.0" />
+                  <Label layoutX="215.0" layoutY="334.0" text="Description" />
                </children>
             </AnchorPane>
         </items>
@@ -116,7 +120,7 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="388.0" layoutY="146.0" text="Edit Course">
+      <Label layoutX="388.0" layoutY="146.0" text="Announce">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -125,6 +129,6 @@
       <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" onAction="#jumpEnroll" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" onAction="#jumpDeleteCourse" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onAction="#jumpEditScore" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" text="log out" />
+      <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
    </children>
 </AnchorPane>
