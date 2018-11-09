@@ -2,7 +2,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
@@ -32,7 +31,7 @@ public class dropController implements Initializable{
     }
 
     public void jumpEnroll()throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("enroll.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         enrollController controller = fxmlLoader.<enrollController>getController();
@@ -40,7 +39,7 @@ public class dropController implements Initializable{
         backpane.getChildren().setAll(root);
     }
     public void jumpChange()throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("changeCourse.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/changeCourse.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         changeCourseController controller = fxmlLoader.<changeCourseController>getController();
@@ -48,7 +47,7 @@ public class dropController implements Initializable{
         backpane.getChildren().setAll(root);
     }
     public void jumpDrop()throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("drop.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/drop.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         dropController controller = fxmlLoader.<dropController>getController();
@@ -56,7 +55,7 @@ public class dropController implements Initializable{
         backpane.getChildren().setAll(root);
     }
     public void jumpView()throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("viewscore.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/viewscore.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         viewscoreController controller = fxmlLoader.<viewscoreController>getController();
@@ -64,7 +63,7 @@ public class dropController implements Initializable{
         backpane.getChildren().setAll(root);
     }
     public void jumpLogout() throws IOException{
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
         loginController controller = fxmlLoader.<loginController>getController();
