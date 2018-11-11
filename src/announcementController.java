@@ -32,7 +32,8 @@ public class announcementController implements Initializable {
     @FXML
     private Label emailLB;
 
-    Button[][] aa = new Button[7][6];
+    Button[][] aa = new Button[10][10];
+    String[] dayy = {"sunday","monday","tuesday","wednesday","thursday","friday","saturday"};
     public void initialize(URL url, ResourceBundle rb) {
         nameLB.setText("Nitinon");
         surnameLB.setText("Penglao");
@@ -50,13 +51,15 @@ public class announcementController implements Initializable {
         int day = date.getDay();
         System.out.println(day);
         int check = 0;
-        for (int i = 0;i<6;i++) {
+        for(int k = 0;k<7;k++){
+            announcepane.add(new Label(dayy[k]),k,0);
+        }
+        for (int i = 1;i<7;i++) {
             for (int j = 0;j<7;j++) {
                 if(j == day){
                     check = 1;
                 }
                 if(check==0){
-                    announcepane.add(createButton(0,0,j,i), j, i);
                 }
                 else{
                     announcepane.add(createButton(firstday,month,j,i), j, i);
@@ -68,6 +71,8 @@ public class announcementController implements Initializable {
     }
     private Button createButton(int day,int month,int j,int i){
         aa[j][i] = new Button();
+        aa[j][i].setMinHeight(60.0);
+        aa[j][i].setMinWidth(80.0);
         aa[j][i].setText(day+" "+month);
         aa[j][i].setOnAction(e ->{
             dayBtnAction(day,month);

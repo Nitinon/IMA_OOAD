@@ -180,10 +180,10 @@ public class enrollController implements Initializable {
         backpane.getChildren().setAll(root);
     }
     public void jumpAnnounce() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/announcement.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
-        enrollController controller = fxmlLoader.<enrollController>getController();
+        announcementController controller = fxmlLoader.<announcementController>getController();
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
