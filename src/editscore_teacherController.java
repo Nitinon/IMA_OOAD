@@ -36,6 +36,11 @@ public class editscore_teacherController implements Initializable {
             gridpane.add(createHeader(),0, i);
         }
     }
+    public void submitScore(){
+        for(int i=0;i<listScore.size();i++){
+            System.out.println(listScore.get(i).getText());
+        }
+    }
     public Pane createHeader() {
         Pane pane = new Pane();
         double wScore = scrollPane.getPrefWidth();
