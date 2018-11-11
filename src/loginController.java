@@ -80,10 +80,15 @@ public class loginController implements Initializable {
     }
 
     public void jumpRegister() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/register.fxml"));
+//        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/register.fxml"));
+//        Parent root = (Parent) fxmlLoader.load();
+//
+//        registerController controller = fxmlLoader.<registerController>getController();
+//        fxmlLoader.setController(controller);
+//        backpane.getChildren().setAll(root);
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/opencourse_teacher.fxml"));
         Parent root = (Parent) fxmlLoader.load();
-
-        registerController controller = fxmlLoader.<registerController>getController();
+        opencourse_teacherController controller = fxmlLoader.<opencourse_teacherController>getController();
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }

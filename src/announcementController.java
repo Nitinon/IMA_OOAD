@@ -52,7 +52,7 @@ public class announcementController implements Initializable {
         int firstday = 1;
         date.setDate(1);
         date.setMonth(month);
-        date.setMonth(year);
+        date.setYear(year);
         int day = date.getDay();
         int check = 0;
         for(int k = 0;k<7;k++){
@@ -72,7 +72,6 @@ public class announcementController implements Initializable {
                 }
             }
         }
-        check = 0;
     }
     private Button createButton(int day,int month,int j,int i){
         aa[j][i] = new Button();

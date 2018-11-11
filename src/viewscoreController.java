@@ -45,38 +45,24 @@ public class viewscoreController implements Initializable{
         scrollPane.setContent(gridpane);
         gridpane.add(createHeader(),0, 0);
         for(int i=1;i<20;i++){
-            gridpane.add(createButton(i),0, i);
+            gridpane.add(createHeader(),0, i);
         }
 
     }
-    public Pane createHeader (){
+    public Pane createHeader() {
         Pane pane = new Pane();
-        double wScore=scrollPane.getPrefWidth();
-        double wLable=wScore/3;
-
-
+        double wScore = scrollPane.getPrefWidth();
+        double wLable = wScore / 4;
         pane.setMinSize(100, 25);
+        Label topic_header = createLable("ID", 25, wLable, 0);
+        Label score_header = createLable("Subject", 25, wLable, wLable);
+        Label maxscore_header = createLable("eiei", 25, wLable, wLable * 2);
 
-        Label topic_header = new Label("TopicHeader");
-        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:20");
-        topic_header.setMinHeight(25);
-        topic_header.setMinWidth(wLable);
-        topic_header.setMaxWidth(wLable);
+        Button btn=createButton(1);
+        btn.setLayoutX(wLable*2+30);
+        btn.setLayoutY(3);
 
-        Label score_header = new Label("ScoreHeader");
-        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:20");
-        score_header.setMinHeight(25);
-        score_header.setLayoutX(wLable);
-        score_header.setMinWidth(wLable);
-        score_header.setMaxWidth(wLable);
-
-        Label maxscore_header = new Label("MaxScoreHeader");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:20");
-        maxscore_header.setMinHeight(25);
-        maxscore_header.setLayoutX(wLable*2);
-        maxscore_header.setMinWidth(258);
-        maxscore_header.setMaxWidth(258);
-        pane.getChildren().addAll(topic_header,score_header,maxscore_header);
+        pane.getChildren().addAll(topic_header, score_header, maxscore_header,btn);
         return pane;
     }
 
@@ -111,6 +97,15 @@ public class viewscoreController implements Initializable{
 
         return pane;
     }
+    public Label createLable(String txt, double height, double width, double pos) {
+        Label label = new Label(txt);
+        label.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:20");
+        label.setMinHeight(height);
+        label.setMinWidth(width);
+        label.setMaxWidth(width);
+        label.setLayoutX(pos);
+        return label;
+    }
 
     public Button createButton (int txt){
         String txtbtn = Integer.toString(txt);
@@ -118,7 +113,7 @@ public class viewscoreController implements Initializable{
         double wscore = scrollPane.getPrefWidth();
         double wLabel = wscore/3;
         btn.setOnAction(event -> {
-//            System.out.println(((Button)event.getSource()).getUserData());//prints out Click Me
+            System.out.println(txt);
         });
         btn.setMinSize(100,25);
         btn.setText("click");

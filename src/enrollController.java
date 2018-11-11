@@ -47,13 +47,13 @@ public class enrollController implements Initializable {
         scrollPane1.setContent(gridpane);
         gridpane.add(createHeader(), 1, 1);
         for (int i = 0; i < 5; i++) {
+
             double wScore = scrollPane1.getPrefWidth();
             double wLable = wScore / 4;
-            Button btn1 = createButton("Eieieiei",123);
+            Button btn1 = createButton("Eieieiei",i);
             btn1.setStyle("-fx-border-color:black; -fx-alignment:center;");
             btn1.setLayoutX(wLable);
             btn1.setMinSize(100 , 25);
-
 
             gridpane.add(createPane( i, "Zaa"), 1, i+2);
             gridpane.add(btn1, 2, i+2);
@@ -77,13 +77,10 @@ public class enrollController implements Initializable {
         double wScore = scrollPane2.getPrefWidth();
         double wLable = wScore / 4;
         pane.setMinSize(100, 25);
-
         Label topic_header = createLable("ID", 25, wLable, 0);
         Label score_header = createLable("Subject", 25, wLable, wLable);
         Label maxscore_header = createLable("eiei", 25, wLable, wLable * 2);
-
         pane.getChildren().addAll(topic_header, score_header, maxscore_header);
-
         return pane;
     }
 
