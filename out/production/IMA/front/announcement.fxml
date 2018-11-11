@@ -78,12 +78,12 @@
                      </font>
                   </Text>
                   <GridPane fx:id="announcepane" layoutX="95.0" layoutY="107.0" prefHeight="425.0" prefWidth="586.0" />
-                  <Button layoutX="116.0" layoutY="544.0" mnemonicParsing="false" text="Previous Month">
+                  <Button layoutX="116.0" layoutY="544.0" mnemonicParsing="false" onMouseClicked="#preMonth" text="Previous Month">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Button>
-                  <Button layoutX="561.0" layoutY="544.0" mnemonicParsing="false" text="Next Month">
+                  <Button layoutX="561.0" layoutY="544.0" mnemonicParsing="false" onMouseClicked="#nxtMonth" text="Next Month">
                      <font>
                         <Font size="18.0" />
                      </font>

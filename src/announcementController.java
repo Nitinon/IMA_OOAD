@@ -32,6 +32,10 @@ public class announcementController implements Initializable {
     @FXML
     private Label emailLB;
 
+    Date date = new Date();
+    int month = date.getMonth();
+    int year = date.getYear();
+
     Button[][] aa = new Button[10][10];
     String[] dayy = {"sunday","monday","tuesday","wednesday","thursday","friday","saturday"};
     public void initialize(URL url, ResourceBundle rb) {
@@ -40,16 +44,16 @@ public class announcementController implements Initializable {
         contactLB.setText("0848841659");
         ageLB.setText("21");
         emailLB.setText("nitinon556@hotmail.com");
-        initCalendar();
+        initCalendar(month,year);
 
     }
-    private void initCalendar(){
+    private void initCalendar(int month,int year){
         Date date = new Date();
         int firstday = 1;
         date.setDate(1);
-        int month = date.getMonth();
+        date.setMonth(month);
+        date.setMonth(year);
         int day = date.getDay();
-        System.out.println(day);
         int check = 0;
         for(int k = 0;k<7;k++){
             announcepane.add(new Label(dayy[k]),k,0);
@@ -60,9 +64,10 @@ public class announcementController implements Initializable {
                     check = 1;
                 }
                 if(check==0){
+                    announcepane.add(createButton(0,0,j,i), j, i);
                 }
                 else{
-                    announcepane.add(createButton(firstday,month,j,i), j, i);
+                    announcepane.add(createButton(firstday,month+1,j,i), j, i);
                     firstday++;
                 }
             }
@@ -73,15 +78,35 @@ public class announcementController implements Initializable {
         aa[j][i] = new Button();
         aa[j][i].setMinHeight(60.0);
         aa[j][i].setMinWidth(80.0);
-        aa[j][i].setText(day+" "+month);
+        if (day ==0) aa[j][i].setText(" ");
+        else aa[j][i].setText(day+" "+month+" "+year);
         aa[j][i].setOnAction(e ->{
             dayBtnAction(day,month);
         });
         return aa[j][i];
     }
-    private void dayBtnAction(int day,int month){
-        System.out.println(day+" "+month);
+    public void dayBtnAction(int day,int month){
+        System.out.println(day+" "+month+" "+year);
     }
+    public void nxtMonth(){
+        if(month==11){
+            month = 0;
+            year++;
+        }else{
+            month++;
+        }
+        initCalendar(month,year);
+    }
+    public void preMonth(){
+        if(month==-1){
+            month = 11;
+            year--;
+        }else{
+            month--;
+        }
+        initCalendar(month,year);
+    }
+
 
     public void createDialog() {
         passwordDialog pd = new passwordDialog();
