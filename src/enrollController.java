@@ -176,6 +176,15 @@ public class enrollController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    public void jumpAnnounce() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        enrollController controller = fxmlLoader.<enrollController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
+
     public void jumpLogout() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();

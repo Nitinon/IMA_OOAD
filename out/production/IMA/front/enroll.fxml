@@ -87,10 +87,12 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
       <Circle fill="WHITE" layoutX="540.0" layoutY="90.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="540.0" layoutY="159.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="540.0" layoutY="227.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="WHITE" layoutX="540.0" layoutY="291.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="540.0" layoutY="356.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Label layoutX="388.0" layoutY="277.0" text="View Corse">
          <font>
             <Font name="System Bold" size="18.0" />
@@ -111,10 +113,16 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
+      <Label layoutX="388.0" layoutY="343.0" text="Announcement">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
       <Button fx:id="changeBT" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#jumpChange" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" onMouseClicked="#jumpEnroll" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" onMouseClicked="#jumpDrop" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#jumpView" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="announceBT1" layoutX="350.0" layoutY="328.0" mnemonicParsing="false" onMouseClicked="#jumpAnnounce" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
    </children>
 </AnchorPane>
