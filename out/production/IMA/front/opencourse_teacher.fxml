@@ -120,7 +120,7 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="388.0" layoutY="146.0" text="Announce">
+      <Label layoutX="388.0" layoutY="146.0" text="Edit Course">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>

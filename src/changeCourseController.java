@@ -160,6 +160,14 @@ public class changeCourseController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    public void jumpAnnounce() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/announcement.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        announcementController controller = fxmlLoader.<announcementController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
     public void jumpLogout() throws IOException{
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
