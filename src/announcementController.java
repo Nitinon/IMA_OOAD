@@ -69,15 +69,14 @@ public class announcementController implements Initializable {
     private Button createButton(int day,int month,int j,int i){
         aa[j][i] = new Button();
         aa[j][i].setText(day+" "+month);
+        aa[j][i].setOnAction(e ->{
+            dayBtnAction(day,month);
+        });
         return aa[j][i];
     }
-//    private void initBtnsArray() {
-//        for(int i = 0; i < btns.length; i++) {
-//            btns[i] = new Button("Button-"+i);
-//        }
-//    }
-
-
+    private void dayBtnAction(int day,int month){
+        System.out.println(day+" "+month);
+    }
 
     public void createDialog() {
         passwordDialog pd = new passwordDialog();
