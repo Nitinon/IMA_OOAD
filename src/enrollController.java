@@ -42,6 +42,26 @@ public class enrollController implements Initializable {
         emailLB.setText("nitinon556@hotmail.com");
 
         GridPane gridpane = new GridPane();
+        gridpane.setMinSize(scrollPane1.getMinWidth(), 0);
+        gridpane.setStyle("-fx-border-color:black; -fx-alignment:center;");
+        scrollPane1.setContent(gridpane);
+        gridpane.add(createHeader(), 1, 1);
+        for (int i = 0; i < 5; i++) {
+            double wScore = scrollPane1.getPrefWidth();
+            double wLable = wScore / 4;
+            Button btn1 = createButton("Eieieiei",123);
+            btn1.setStyle("-fx-border-color:black; -fx-alignment:center;");
+            btn1.setLayoutX(wLable);
+            btn1.setMinSize(100 , 25);
+
+
+            gridpane.add(createPane( i, "Zaa"), 1, i+2);
+            gridpane.add(btn1, 2, i+2);
+
+        }
+
+
+        gridpane = new GridPane();
         gridpane.setMinSize(scrollPane2.getMinWidth(), 0);
         scrollPane2.setContent(gridpane);
         gridpane.add(createHeader(), 1, 1);
@@ -61,9 +81,8 @@ public class enrollController implements Initializable {
         Label topic_header = createLable("ID", 25, wLable, 0);
         Label score_header = createLable("Subject", 25, wLable, wLable);
         Label maxscore_header = createLable("eiei", 25, wLable, wLable * 2);
-        Label enroll_header = createLable("enroll", 25, wLable , wLable * 3);
 
-        pane.getChildren().addAll(topic_header, score_header, maxscore_header, enroll_header);
+        pane.getChildren().addAll(topic_header, score_header, maxscore_header);
 
         return pane;
     }
@@ -87,14 +106,10 @@ public class enrollController implements Initializable {
         Label topic_text = createLable("topic", 25, wLable, 0);
         Label score_text = createLable("topic", 25, wLable, wLable);
         Label maxscore_text = createLable("topic", 25, wLable, wLable * 2);
-        Label btn_text = createLable("topic", 25, wLable , wLable * 3);
 
-        Button btn1 = createButton("Eieieiei",id);
-        btn1.setStyle("-fx-border-color:black; -fx-alignment:center;");
-        btn1.setLayoutX(wLable * 3);
-        btn1.setMinSize(wLable , 25);
 
-        pane.getChildren().addAll(topic_text, score_text, maxscore_text, btn_text, btn1);
+
+        pane.getChildren().addAll(topic_text, score_text, maxscore_text);
 
         return pane;
     }
@@ -148,6 +163,22 @@ public class enrollController implements Initializable {
         Parent root = (Parent) fxmlLoader.load();
 
         viewscoreController controller = fxmlLoader.<viewscoreController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
+    public void jumpChangePass() throws  IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/changePass.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        changePassController controller = fxmlLoader.<changePassController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
+    public void jumpEditProfile() throws IOException{
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/editProfile.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        ediProfileController controller = fxmlLoader.<ediProfileController>getController();
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
