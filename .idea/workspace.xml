@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291f37bd-5811-4630-8272-030227240e05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/changeCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/changeCourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dropController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dropController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/announcement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/announcement.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/announcement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/announcement.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/front/changeCourse.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/changeCourse.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/front/drop.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/drop.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/front/editscore_teacher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/editscore_teacher.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/front/opencourse_teacher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/opencourse_teacher.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/enroll.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/enroll.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/register.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/front/viewscore.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/viewscore.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewscoreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/viewscoreController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +57,7 @@
     <session id="-1159475618">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.opened" value="5" />
@@ -64,26 +65,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="184" />
-          <entry key="java" value="2524" />
+          <entry key="fxml" value="188" />
+          <entry key="java" value="2528" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2524" />
-          <entry key="XML" value="184" />
+          <entry key="JAVA" value="2528" />
+          <entry key="XML" value="188" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="5" />
+          <entry key="fxml" value="9" />
           <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="11" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -165,68 +166,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/viewscoreController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="159" column="21" lean-forward="true" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6679#6696#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dropController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/changeCourseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="923">
-              <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6231#6255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/front/enroll.fxml">
+        <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="124" selection-start-line="124" selection-end-line="125" />
+            <state relative-caret-position="199">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="120" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/enrollController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="181" selection-start-line="181" selection-end-line="189" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/front/changeCourse.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -235,18 +189,18 @@
         <entry file="file://$PROJECT_DIR$/src/front/drop.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="126" selection-start-line="126" selection-end-line="127" />
+            <state relative-caret-position="272">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/front/viewscore.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="204">
+              <caret line="108" column="28" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -293,22 +247,22 @@
         <option value="$PROJECT_DIR$/src/deletesubject_teacherController.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/opencourse_teacherController.java" />
-        <option value="$PROJECT_DIR$/src/announcement.fxml" />
-        <option value="$PROJECT_DIR$/src/front/enroll.fxml" />
         <option value="$PROJECT_DIR$/src/enrollController.java" />
-        <option value="$PROJECT_DIR$/src/front/announcement.fxml" />
         <option value="$PROJECT_DIR$/src/announcementController.java" />
         <option value="$PROJECT_DIR$/src/enrollController.java" />
         <option value="$PROJECT_DIR$/src/loginController.java" />
         <option value="$PROJECT_DIR$/src/front/editscore_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/editscore_teacherController.java" />
-        <option value="$PROJECT_DIR$/src/front/changeCourse.fxml" />
-        <option value="$PROJECT_DIR$/src/front/drop.fxml" />
-        <option value="$PROJECT_DIR$/src/front/viewscore.fxml" />
         <option value="$PROJECT_DIR$/src/viewscoreController.java" />
         <option value="$PROJECT_DIR$/src/viewscoreController.java" />
         <option value="$PROJECT_DIR$/src/dropController.java" />
         <option value="$PROJECT_DIR$/src/changeCourseController.java" />
+        <option value="$PROJECT_DIR$/src/front/enroll.fxml" />
+        <option value="$PROJECT_DIR$/src/front/changeCourse.fxml" />
+        <option value="$PROJECT_DIR$/src/front/drop.fxml" />
+        <option value="$PROJECT_DIR$/src/front/viewscore.fxml" />
+        <option value="$PROJECT_DIR$/src/announcement.fxml" />
+        <option value="$PROJECT_DIR$/src/front/announcement.fxml" />
       </list>
     </option>
   </component>
@@ -498,7 +452,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541929267694" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541953709446" />
     <property name="last_opened_file_path" value="H:/My Drive/3D_1/OOAD/MovieBooking-develope" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -636,16 +590,15 @@
       <workItem from="1541685674475" duration="2028000" />
       <workItem from="1541913422296" duration="2539000" />
       <workItem from="1541916431021" duration="2120000" />
-      <workItem from="1541918603215" duration="3513000" />
+      <workItem from="1541918603215" duration="7853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57510000" />
+    <option name="totallyTimeSpent" value="61850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15405117" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -658,14 +611,14 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3449024" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3449024" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32986766" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32919255" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Mongo Explorer" order="1" />
@@ -766,22 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/announcement.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/enroll.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="124" selection-start-line="124" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -807,14 +744,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="102" column="54" selection-start-line="102" selection-start-column="54" selection-end-line="102" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/enrollController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -836,17 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dropController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/changeCourseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="923">
-          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6231#6255#0" expanded="true" />
@@ -854,27 +776,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/viewscore.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/dropController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="568">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/drop.fxml">
+    <entry file="file://$PROJECT_DIR$/src/front/enroll.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="126" selection-start-line="126" selection-end-line="127" />
+        <state relative-caret-position="-493">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="120" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/front/changeCourse.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="82" column="27" lean-forward="true" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/drop.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/announcement.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/editsubject_teacher.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/announcement.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/viewscore.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="108" column="28" lean-forward="true" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
         </state>
       </provider>
     </entry>

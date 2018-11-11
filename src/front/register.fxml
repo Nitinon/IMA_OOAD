@@ -7,6 +7,8 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
@@ -17,85 +19,101 @@
             <Font size="63.0" />
          </font>
       </Text>
-      <TextField fx:id="name" layoutX="508.0" layoutY="259.0" prefHeight="39.0" prefWidth="279.0">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="surname" layoutX="508.0" layoutY="313.0" prefHeight="39.0" prefWidth="279.0">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <Label layoutX="452.0" layoutY="263.0" text="Name">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="430.0" layoutY="319.0" text="Surname">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="396.0" layoutY="376.0" text="Date of Birth">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <TextField fx:id="email" layoutX="508.0" layoutY="423.0" prefHeight="37.0" prefWidth="279.0" promptText="example@hotmail.com">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </TextField>
-      <Label layoutX="456.0" layoutY="428.0" text="Email">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <TextField fx:id="tel" layoutX="508.0" layoutY="476.0" prefHeight="37.0" prefWidth="279.0">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </TextField>
-      <Label layoutX="468.0" layoutY="481.0" text="Tel.">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="456.0" layoutY="536.0" text="Year">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <ComboBox fx:id="year" layoutX="504.0" layoutY="535.0" prefHeight="37.0" prefWidth="48.0" />
-      <Label layoutX="577.0" layoutY="540.0" text="Faculty">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <ComboBox fx:id="faculty" layoutX="641.0" layoutY="535.0" prefHeight="37.0" prefWidth="140.0" />
-      <Button fx:id="registerBT" layoutX="523.0" layoutY="606.0" mnemonicParsing="false" onMouseClicked="#register" prefHeight="39.0" prefWidth="112.0" text="Register">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Button>
-      <Button fx:id="cancelBT" layoutX="641.0" layoutY="606.0" mnemonicParsing="false" onMouseClicked="#jumpBack" prefHeight="39.0" prefWidth="112.0" text="Cancel">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Button>
-      <DatePicker fx:id="datePicker" layoutX="508.0" layoutY="371.0" prefHeight="37.0" prefWidth="279.0" />
-      <PasswordField fx:id="passwordCon" layoutX="508.0" layoutY="207.0" prefHeight="39.0" prefWidth="279.0" />
-      <PasswordField fx:id="password" layoutX="508.0" layoutY="153.0" prefHeight="39.0" prefWidth="279.0" />
-      <Label layoutX="354.0" layoutY="213.0" text="Comfirm Password">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="428.0" layoutY="159.0" text="Password">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
+      <VBox layoutX="508.0" layoutY="153.0" spacing="15.0">
+         <children>
+            <PasswordField fx:id="password" prefHeight="39.0" prefWidth="279.0" />
+            <PasswordField fx:id="passwordCon" prefHeight="39.0" prefWidth="279.0" />
+            <TextField fx:id="name" prefHeight="39.0" prefWidth="279.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="surname" prefHeight="39.0" prefWidth="279.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <DatePicker fx:id="datePicker" prefHeight="37.0" prefWidth="279.0" />
+            <TextField fx:id="email" prefHeight="37.0" prefWidth="279.0" promptText="example@hotmail.com">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tel" prefHeight="37.0" prefWidth="279.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <HBox spacing="10.0">
+               <children>
+                  <ComboBox fx:id="year" prefHeight="37.0" prefWidth="48.0" />
+                  <Label text="Faculty">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="faculty" prefHeight="37.0" prefWidth="140.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_RIGHT" layoutX="347.0" layoutY="160.0" spacing="25.0">
+         <children>
+            <Label text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Comfirm Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Surname">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Date of Birth">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Tel.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="Year">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox layoutX="523.0" layoutY="606.0" spacing="10.0">
+         <children>
+            <Button fx:id="registerBT" mnemonicParsing="false" onMouseClicked="#register" prefHeight="39.0" prefWidth="112.0" text="Register">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelBT" mnemonicParsing="false" onMouseClicked="#jumpBack" prefHeight="39.0" prefWidth="112.0" text="Cancel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
    </children>
 </AnchorPane>
