@@ -32,18 +32,23 @@ public class announcementController implements Initializable {
     @FXML
     private Label emailLB;
 
-
-
+    Button[][] aa = new Button[7][6];
     public void initialize(URL url, ResourceBundle rb) {
         nameLB.setText("Nitinon");
         surnameLB.setText("Penglao");
         contactLB.setText("0848841659");
         ageLB.setText("21");
         emailLB.setText("nitinon556@hotmail.com");
+        initCalendar();
+
+    }
+    private void initCalendar(){
         Date date = new Date();
         int firstday = 1;
+        date.setDate(1);
         int month = date.getMonth();
         int day = date.getDay();
+        System.out.println(day);
         int check = 0;
         for (int i = 0;i<6;i++) {
             for (int j = 0;j<7;j++) {
@@ -51,23 +56,20 @@ public class announcementController implements Initializable {
                     check = 1;
                 }
                 if(check==0){
-                    announcepane.add(createButton(0,0), j, i);
+                    announcepane.add(createButton(0,0,j,i), j, i);
                 }
                 else{
-                    announcepane.add(createButton(firstday,month), j, i);
+                    announcepane.add(createButton(firstday,month,j,i), j, i);
                     firstday++;
                 }
             }
         }
         check = 0;
-
-
-
-
     }
-    private Button createButton(int i,int j){
-        Button aa=new Button("asdsad-"+i+" "+j);
-        return aa;
+    private Button createButton(int day,int month,int j,int i){
+        aa[j][i] = new Button();
+        aa[j][i].setText(day+" "+month);
+        return aa[j][i];
     }
 //    private void initBtnsArray() {
 //        for(int i = 0; i < btns.length; i++) {
