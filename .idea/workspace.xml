@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291f37bd-5811-4630-8272-030227240e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMA/announcement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMA/announcementController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IMA/front/announcement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/announcement.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/announcementController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/front/announcement.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IMA/enrollController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/enrollController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IMA/front/enroll.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/front/enroll.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/enrollController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enrollController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/front/enroll.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/enroll.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,12 +58,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="151" />
-          <entry key="java" value="2105" />
+          <entry key="java" value="2152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2105" />
+          <entry key="JAVA" value="2152" />
           <entry key="XML" value="151" />
         </counts>
       </usages-collector>
@@ -199,8 +188,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/enrollController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="468">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5880#5902#0" expanded="true" />
@@ -234,6 +223,7 @@
       <find>Butto</find>
       <find>scr</find>
       <find>Mouse</find>
+      <find>createButton</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -466,7 +456,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541914272148" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541915527817" />
     <property name="last_opened_file_path" value="H:/My Drive/3D_1/OOAD/MovieBooking-develope" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -602,12 +592,12 @@
       <workItem from="1541227001640" duration="2003000" />
       <workItem from="1541229820739" duration="6913000" />
       <workItem from="1541685674475" duration="2028000" />
-      <workItem from="1541913422296" duration="849000" />
+      <workItem from="1541913422296" duration="2104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50187000" />
+    <option name="totallyTimeSpent" value="51442000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -623,7 +613,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0889371" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -893,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/enrollController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="468">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5880#5902#0" expanded="true" />
