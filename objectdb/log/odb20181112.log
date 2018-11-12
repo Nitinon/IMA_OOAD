@@ -4130,3 +4130,105 @@ Type classss.Teacher is not enhanced.
 [2018-11-12 16:15:51 #7 store] 
 Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 11832@DESKTOP-T3JNAP7
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 16:17:04 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 1900@DESKTOP-T3JNAP7
+
+[2018-11-12 16:17:04 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 16:17:04 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 16:17:04 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 16:17:04 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 16:17:04 #6 type] 
+Type classss.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 16:17:20 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 6988@DESKTOP-T3JNAP7
+
+[2018-11-12 16:17:20 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 16:17:20 #3 type.registry] 
+New type classss.Subject
+
+[2018-11-12 16:17:20 #4 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 16:17:20 #5 type.registry] 
+New type classss.Account
+
+[2018-11-12 16:17:20 #6 type.registry] 
+New type classss.Student
+
+[2018-11-12 16:17:20 #7 type.registry] 
+New type classss.Teacher
+
+[2018-11-12 16:17:20 #8 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 16:17:20 #9 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 16:17:20 #10 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 16:17:21 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 16:17:21 #12 type.registry] 
+New type java.util.ArrayList<classss.Student>
+
+[2018-11-12 16:17:21 #13 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 6988@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 16:17:26 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 14472@DESKTOP-T3JNAP7
+
+[2018-11-12 16:17:26 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 16:17:26 #3 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 16:17:26 #4 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 16:17:26 #5 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 16:17:26 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 16:17:26 #7 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 14472@DESKTOP-T3JNAP7
+
+[2018-11-12 16:17:52 #8 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 14472@DESKTOP-T3JNAP7
+
+[2018-11-12 16:17:52 #9 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 16:17:52 #10 type.registry] 
+New type java.util.ArrayList<classss.Subject>
+
+[2018-11-12 16:17:52 #11 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 14472@DESKTOP-T3JNAP7
+
+[2018-11-12 16:17:59 #12 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 14472@DESKTOP-T3JNAP7
+
+[2018-11-12 16:17:59 #13 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
