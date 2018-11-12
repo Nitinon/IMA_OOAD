@@ -1,0 +1,70 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-13 00:55:55 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 16776@DESKTOP-CBH5LMM
+
+[2018-11-13 00:55:55 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-13 00:55:55 #3 type.registry] 
+New type classss.Account
+
+[2018-11-13 00:55:55 #4 type.registry] 
+New type classss.Student
+
+[2018-11-13 00:55:55 #5 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-13 00:55:55 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-13 00:55:55 #7 type.registry] 
+New type classss.Subject
+
+[2018-11-13 00:55:55 #8 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-13 00:55:55 #9 type.registry] 
+New type classss.Teacher
+
+[2018-11-13 00:55:55 #10 type] 
+Type classss.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-13 00:56:51 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' has been recovered (tr. 1-3)
+
+[2018-11-13 00:56:51 #2 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 24000@DESKTOP-CBH5LMM
+
+[2018-11-13 00:56:51 #3 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-13 00:56:51 #4 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-13 00:56:51 #5 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-13 00:56:51 #6 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-13 00:56:51 #7 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-13 00:56:51 #8 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-13 00:56:51 #9 type.registry] 
+New type java.util.ArrayList<classss.Subject>
+
+[2018-11-13 00:56:51 #10 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 24000@DESKTOP-CBH5LMM
+
+[2018-11-13 00:56:56 #11 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 24000@DESKTOP-CBH5LMM
+
+[2018-11-13 00:56:56 #12 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
