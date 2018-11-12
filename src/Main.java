@@ -16,7 +16,6 @@ import classss.Subject;
 
 public class Main extends Application {
     public static void main (String[] args){
-        //createSubject("ENG",40,"12.30",1);
         launch(args);
     }
     @Override
