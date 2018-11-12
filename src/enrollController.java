@@ -46,17 +46,14 @@ public class enrollController implements Initializable {
         gridpane.setStyle("-fx-border-color:black; -fx-alignment:center;");
         scrollPane1.setContent(gridpane);
         gridpane.add(createHeader(), 1, 1);
+
         for (int i = 0; i < 5; i++) {
 
             double wScore = scrollPane1.getPrefWidth();
             double wLable = wScore / 4;
-            Button btn1 = createButton("Eieieiei",i);
-            btn1.setStyle("-fx-border-color:black; -fx-alignment:center;");
-            btn1.setLayoutX(wLable);
-            btn1.setMinSize(100 , 25);
-
+            Pane panebtn = createPanebutton("eieiei",123);
             gridpane.add(createPane( i, "Zaa"), 1, i+2);
-            gridpane.add(btn1, 2, i+2);
+            gridpane.add(panebtn, 2, i+2);
 
         }
 
@@ -91,7 +88,25 @@ public class enrollController implements Initializable {
         });
         btn.setText("click");
         btn.setUserData(txt);
+
         return btn;
+    }
+
+    public Pane createPanebutton (String txt , int subject){
+        Pane pane = new Pane();
+        double wScore = scrollPane1.getPrefWidth();
+        double wLable = wScore / 4;
+
+        Button btn1 = createButton("Eieieiei",123);
+        btn1.setStyle("-fx-border-color:black; -fx-alignment:center;");
+        btn1.setLayoutX(wLable);
+        btn1.setMinSize(100 , 25);
+        btn1.setLayoutX(5);
+        btn1.setLayoutY(5);
+
+        pane.getChildren().addAll(btn1);
+
+        return pane;
     }
 
     public Pane createPane(int id, String teacher) {
@@ -103,6 +118,7 @@ public class enrollController implements Initializable {
         Label topic_text = createLable("topic", 25, wLable, 0);
         Label score_text = createLable("topic", 25, wLable, wLable);
         Label maxscore_text = createLable("topic", 25, wLable, wLable * 2);
+
 
 
 
@@ -196,6 +212,7 @@ public class enrollController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+
 
 
 }

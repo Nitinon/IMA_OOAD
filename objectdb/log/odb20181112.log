@@ -1,0 +1,3222 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 11:42:28 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 11:42:28 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 11:42:28 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 11:42:28 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 11:42:28 #7 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #8 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #9 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #10 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #11 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #12 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #19 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #21 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #22 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #24 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #25 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #27 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #28 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #30 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:28 #31 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:28 #33 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:29 #34 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #36 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:29 #37 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #39 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:29 #40 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #42 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:29 #43 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #44 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #45 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:29 #46 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #47 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10740@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:29 #48 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:42:29 #49 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10740@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 11:42:59 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:42:59 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:00 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 11:43:00 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 11:43:00 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 11:43:00 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 11:43:00 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 11:43:00 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 11:43:00 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 11:43:00 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 11:43:00 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 11:43:00 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 11:43:00 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:00 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 11:43:00 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:00 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:00 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:00 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:00 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:00 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:00 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:01 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #36 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #37 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:01 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:01 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:01 #44 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #45 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #46 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:01 #47 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 11:43:01 #48 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 11:43:01 #49 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 11:43:01 #50 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #51 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #52 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:01 #53 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #54 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #55 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:01 #56 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #57 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6164@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:01 #58 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:01 #59 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6164@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 11:43:28 #1 store.file] 
+readTextFile error.
+
+[2018-11-12 11:43:28 #2 store.file] 
+java.io.FileNotFoundException: C:\Users\Farong\.objectdb\exolorer.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.<clinit>(CNF.java:32)
+	at com.objectdb.o.MainFrame.init(MainFrame.java:132)
+	at com.objectdb.o.EXA.<init>(EXA.java:77)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-11-12 11:43:28 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12352@DESKTOP-T3JNAP7
+
+[2018-11-12 11:43:28 #4 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:43:28 #5 store.file] 
+readTextFile error.
+
+[2018-11-12 11:43:28 #6 store.file] 
+java.io.FileNotFoundException: C:\Users\Farong\.objectdb\exolorer.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.f(CNF.java:130)
+	at com.objectdb.o.CNC.s(CNC.java:119)
+	at com.objectdb.o.EXA.<init>(EXA.java:87)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-11-12 11:50:37 #7 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12352@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 11:50:56 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:56 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 11:50:56 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 11:50:56 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 11:50:56 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 11:50:56 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 11:50:56 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 11:50:56 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 11:50:56 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 11:50:56 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 11:50:56 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 11:50:56 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:56 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 11:50:56 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:56 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:56 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:56 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:56 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:56 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:56 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:57 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #36 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #37 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:57 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:57 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:57 #44 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #45 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #46 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:57 #47 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 11:50:57 #48 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 11:50:57 #49 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 11:50:57 #50 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #51 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #52 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:57 #53 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #54 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-T3JNAP7
+
+[2018-11-12 11:50:57 #55 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 11:50:57 #56 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13064@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 11:51:09 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 9612@DESKTOP-T3JNAP7
+
+[2018-11-12 11:51:09 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:03:32 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 9612@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:04:48 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:48 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:48 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 12:04:48 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 12:04:48 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:04:48 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:04:48 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 12:04:48 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:04:48 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 12:04:48 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 12:04:48 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 12:04:48 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 12:04:48 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:48 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:48 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:48 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 12:04:48 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:48 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:48 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:48 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:48 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:48 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:48 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #36 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #37 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #44 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #45 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #46 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #47 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 12:04:49 #48 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 12:04:49 #49 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 12:04:49 #50 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #51 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:49 #52 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:49 #53 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:50 #54 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:50 #55 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:50 #56 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:50 #57 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12396@DESKTOP-T3JNAP7
+
+[2018-11-12 12:04:50 #58 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:04:50 #59 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12396@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:05:12 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12804@DESKTOP-T3JNAP7
+
+[2018-11-12 12:05:12 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:06:01 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12804@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:09:16 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:16 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 12:09:16 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 12:09:16 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:09:16 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:09:16 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 12:09:16 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:09:16 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 12:09:16 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 12:09:16 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 12:09:16 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 12:09:16 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:16 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 12:09:16 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:16 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:16 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:16 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:16 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:17 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:17 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:17 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #36 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #37 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:17 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:17 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:17 #44 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #45 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #46 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:17 #47 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 12:09:17 #48 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 12:09:17 #49 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 12:09:17 #50 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #51 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #52 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:17 #53 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #54 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:17 #55 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:18 #56 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:18 #57 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12440@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:18 #58 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:18 #59 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12440@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:09:22 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 5412@DESKTOP-T3JNAP7
+
+[2018-11-12 12:09:22 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:09:39 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 5412@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:10:18 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:18 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:18 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 12:10:18 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 12:10:18 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:10:18 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:10:18 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 12:10:18 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:10:18 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 12:10:18 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 12:10:18 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 12:10:18 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 12:10:18 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:18 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:18 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:18 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 12:10:18 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:18 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:18 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:18 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:18 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:18 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:18 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #36 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #37 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #44 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #45 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #46 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #47 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 12:10:19 #48 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 12:10:19 #49 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 12:10:19 #50 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #51 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:19 #52 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:19 #53 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:20 #54 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:20 #55 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:20 #56 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:20 #57 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7780@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:20 #58 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:20 #59 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7780@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:10:28 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:10:28 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:10:52 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:29:53 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7004@DESKTOP-T3JNAP7
+
+[2018-11-12 12:29:53 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:29:53 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:29:53 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:29:53 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:29:53 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:30:08 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:30:08 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:30:08 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:30:08 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:30:08 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:30:08 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:31:07 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13180@DESKTOP-T3JNAP7
+
+[2018-11-12 12:31:07 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:31:07 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:31:07 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:31:07 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:31:07 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:31:30 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 9264@DESKTOP-T3JNAP7
+
+[2018-11-12 12:31:30 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:31:30 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:31:30 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:31:30 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:31:30 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:31:43 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 9972@DESKTOP-T3JNAP7
+
+[2018-11-12 12:31:43 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:31:43 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:31:43 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:31:43 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:31:43 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:32:53 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 3864@DESKTOP-T3JNAP7
+
+[2018-11-12 12:32:53 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:32:53 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:32:53 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:32:53 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:32:53 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:33:00 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12860@DESKTOP-T3JNAP7
+
+[2018-11-12 12:33:00 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:33:00 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:33:00 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:33:00 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:33:00 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:36:10 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11516@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:10 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:10 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:36:10 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:36:10 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:36:10 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:36:46 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:46 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:46 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 12:36:46 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 12:36:46 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:36:46 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:36:46 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 12:36:46 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:36:46 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 12:36:46 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 12:36:47 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 12:36:47 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 12:36:47 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:47 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 12:36:47 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:47 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:47 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:47 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:47 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:47 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:47 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #36 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:47 #37 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:47 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:48 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:48 #44 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 12:36:48 #45 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 12:36:48 #46 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 12:36:48 #47 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #48 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #49 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:48 #50 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #51 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #52 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:36:48 #53 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #54 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2740@DESKTOP-T3JNAP7
+
+[2018-11-12 12:36:48 #55 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:37:29 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11196@DESKTOP-T3JNAP7
+
+[2018-11-12 12:37:29 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:37:29 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:37:29 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:37:29 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:37:29 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:39:11 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12800@DESKTOP-T3JNAP7
+
+[2018-11-12 12:39:11 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:39:12 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:39:12 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:39:12 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:39:12 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:39:18 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12500@DESKTOP-T3JNAP7
+
+[2018-11-12 12:39:18 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:47:30 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12500@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:50:29 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:50:29 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 12:50:29 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 12:50:29 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:50:29 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:50:29 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 12:50:29 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:50:29 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 12:50:29 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 12:50:29 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 12:50:29 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 12:50:29 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:50:29 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:50:29 #19 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #21 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:50:29 #22 type.registry] 
+New type ooad.Score
+
+[2018-11-12 12:50:29 #23 type] 
+Type ooad.Score is not enhanced.
+
+[2018-11-12 12:50:29 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #25 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11848@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:29 #26 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:50:39 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8032@DESKTOP-T3JNAP7
+
+[2018-11-12 12:50:39 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:50:51 #3 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 12:50:51 #4 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 12:50:51 #5 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 12:50:53 #6 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8032@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:56:35 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10076@DESKTOP-T3JNAP7
+
+[2018-11-12 12:56:35 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:56:36 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 12:56:36 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 12:56:36 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:56:36 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:56:36 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 12:56:36 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:56:36 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 12:56:36 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 12:56:36 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 12:56:36 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 12:56:36 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10076@DESKTOP-T3JNAP7
+
+[2018-11-12 12:56:36 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10076@DESKTOP-T3JNAP7
+
+[2018-11-12 12:56:36 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:57:23 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 5960@DESKTOP-T3JNAP7
+
+[2018-11-12 12:57:23 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:57:29 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 5960@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 12:58:56 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12724@DESKTOP-T3JNAP7
+
+[2018-11-12 12:58:56 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 12:58:56 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 12:58:56 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 12:58:56 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 12:58:56 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 12:58:56 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 12:58:56 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 12:58:56 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 12:58:56 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 12:58:56 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 12:58:56 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:03:55 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:55 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:03:56 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:03:56 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:03:56 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:03:56 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:03:56 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:03:56 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:03:56 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:03:56 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:03:56 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:03:56 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:03:56 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:03:56 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:03:56 #19 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:03:56 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:03:56 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:03:56 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:03:56 #29 type.registry] 
+New type ooad.Score
+
+[2018-11-12 13:03:56 #30 type] 
+Type ooad.Score is not enhanced.
+
+[2018-11-12 13:03:56 #31 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11844@DESKTOP-T3JNAP7
+
+[2018-11-12 13:03:56 #33 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:04:04 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 4084@DESKTOP-T3JNAP7
+
+[2018-11-12 13:04:04 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:04:36 #3 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 13:04:36 #4 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 13:04:36 #5 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 13:04:56 #6 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 4084@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:05:25 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:25 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:05:25 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:05:25 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:05:25 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:05:25 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:05:25 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:05:25 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:05:25 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:05:25 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:05:25 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:05:25 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:25 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:25 #19 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:05:25 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:25 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:25 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:25 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:25 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:25 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:26 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:26 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:26 #35 type.registry] 
+New type ooad.Score
+
+[2018-11-12 13:05:26 #36 type] 
+Type ooad.Score is not enhanced.
+
+[2018-11-12 13:05:26 #37 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:26 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 11428@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:26 #39 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:05:45 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:45 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:46 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:05:46 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:05:46 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:05:46 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:05:46 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:05:46 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:05:46 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:05:46 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:05:46 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:05:46 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:05:46 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:46 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:46 #19 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:05:46 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:46 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:46 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:46 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:46 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:05:46 #35 type.registry] 
+New type ooad.Score
+
+[2018-11-12 13:05:46 #36 type] 
+Type ooad.Score is not enhanced.
+
+[2018-11-12 13:05:46 #37 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6268@DESKTOP-T3JNAP7
+
+[2018-11-12 13:05:46 #39 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:14:47 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:47 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:14:47 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:14:47 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:14:47 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:14:47 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:14:47 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:14:47 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:14:47 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:14:47 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:14:47 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:14:47 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:14:47 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:47 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:47 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:14:47 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:14:48 #19 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:14:48 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:14:48 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:14:48 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:14:48 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:14:48 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8008@DESKTOP-T3JNAP7
+
+[2018-11-12 13:14:48 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:15:12 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:12 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:13 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:15:13 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:15:13 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:15:13 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:15:13 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:15:13 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:15:13 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:15:13 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:15:13 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:15:13 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:15:13 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:13 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:13 #19 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:15:13 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:13 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:13 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:13 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:13 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12480@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:13 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:15:54 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:54 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:55 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:15:55 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:15:55 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:15:55 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:15:55 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:15:55 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:15:55 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:15:55 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:15:55 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:15:55 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:15:55 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:55 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:55 #19 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:15:55 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:55 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:55 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:55 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:55 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:55 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:15:55 #35 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 13:15:55 #36 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 13:15:55 #37 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 13:15:55 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:56 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 6468@DESKTOP-T3JNAP7
+
+[2018-11-12 13:15:56 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:16:12 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:12 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:12 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:16:12 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:16:12 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:16:12 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:16:12 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:16:12 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:16:12 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:16:12 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:16:12 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:16:12 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:16:12 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:12 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:12 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:12 #16 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:12 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:12 #18 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:12 #19 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:16:12 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:12 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:12 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:12 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:13 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:13 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:13 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:13 #35 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 13:16:13 #36 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 13:16:13 #37 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 13:16:13 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:13 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:16:13 #44 type.registry] 
+New type ooad.Score
+
+[2018-11-12 13:16:13 #45 type] 
+Type ooad.Score is not enhanced.
+
+[2018-11-12 13:16:13 #46 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #47 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 2484@DESKTOP-T3JNAP7
+
+[2018-11-12 13:16:13 #48 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:18:22 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13216@DESKTOP-T3JNAP7
+
+[2018-11-12 13:18:22 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:21:09 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13216@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:21:54 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:54 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:21:54 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:21:54 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:21:54 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:21:54 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:21:55 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:21:55 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:21:55 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:21:55 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:21:55 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:21:55 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:21:55 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:21:55 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:21:55 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:21:55 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:21:55 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:21:55 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:21:55 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:21:55 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 10528@DESKTOP-T3JNAP7
+
+[2018-11-12 13:21:55 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:22:22 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:22 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:22 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:22:22 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:22:22 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:22:22 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:22:22 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:22:22 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:22:22 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:22:22 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:22:22 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:22:22 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:22:22 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:22:23 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #36 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #37 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:23 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:23 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:24 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:24 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:24 #44 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 13:22:24 #45 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 13:22:24 #46 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 13:22:24 #47 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:24 #48 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:24 #49 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:24 #50 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:24 #51 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:24 #52 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:22:24 #53 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:24 #54 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 7544@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:24 #55 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:22:32 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 8272@DESKTOP-T3JNAP7
+
+[2018-11-12 13:22:32 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:14 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 8272@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:24:20 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:20 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:20 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-12 13:24:20 #4 type.registry] 
+New type ooad.Student
+
+[2018-11-12 13:24:20 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:24:20 #6 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:24:20 #7 type.registry] 
+New type ooad.Subject
+
+[2018-11-12 13:24:20 #8 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:24:20 #9 type.registry] 
+New type ooad.Teacher
+
+[2018-11-12 13:24:20 #10 type] 
+Type ooad.Teacher is not enhanced.
+
+[2018-11-12 13:24:20 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:24:20 #12 type.registry] 
+New type java.util.ArrayList<ooad.Subject>
+
+[2018-11-12 13:24:20 #13 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #14 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #15 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #16 type.registry] 
+New type java.util.ArrayList<ooad.Student>
+
+[2018-11-12 13:24:21 #17 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #18 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #19 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #20 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #21 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #22 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #23 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #24 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #25 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #26 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #27 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #28 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #29 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #30 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #31 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #32 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #33 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #34 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #35 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #36 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #37 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #38 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #39 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:21 #40 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:21 #41 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #42 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #43 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:22 #44 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #45 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #46 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:22 #47 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 13:24:22 #48 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 13:24:22 #49 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 13:24:22 #50 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #51 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #52 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:22 #53 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #54 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #55 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:24:22 #56 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #57 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 12872@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:22 #58 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:24:40 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 13304@DESKTOP-T3JNAP7
+
+[2018-11-12 13:24:40 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:28:28 #3 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is closed by 13304@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:28:32 #1 store] 
+Database 'C:\Users\Farong\Desktop\test_ooad\objectdb\db\AccountDB.odb' is opened by 1736@DESKTOP-T3JNAP7
+
+[2018-11-12 13:28:32 #2 store] 
+Configuration path: C:\Users\Farong\Desktop\test_ooad\objectdb\objectdb.conf
+
+[2018-11-12 13:28:32 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-12 13:28:32 #4 type] 
+Type ooad.Student is not enhanced.
+
+[2018-11-12 13:28:32 #5 type] 
+Type ooad.Subject is not enhanced.
+
+[2018-11-12 13:28:32 #6 type] 
+Type ooad.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:47:33 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13856@DESKTOP-T3JNAP7
+
+[2018-11-12 13:47:33 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:47:33 #3 type.registry] 
+New type classss.Account
+
+[2018-11-12 13:47:33 #4 type.registry] 
+New type classss.Student
+
+[2018-11-12 13:47:33 #5 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 13:47:33 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 13:47:33 #7 type.registry] 
+New type classss.Subject
+
+[2018-11-12 13:47:33 #8 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 13:47:33 #9 type.registry] 
+New type classss.Teacher
+
+[2018-11-12 13:47:33 #10 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 13:47:33 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:47:33 #12 type.registry] 
+New type java.util.ArrayList<classss.Subject>
+
+[2018-11-12 13:47:33 #13 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 13856@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:47:46 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13392@DESKTOP-T3JNAP7
+
+[2018-11-12 13:47:46 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:49:53 #3 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 13392@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:49:57 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13380@DESKTOP-T3JNAP7
+
+[2018-11-12 13:49:57 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:49:57 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 13:49:57 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 13:49:57 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 13:49:57 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 13:49:58 #7 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 13380@DESKTOP-T3JNAP7
+
+[2018-11-12 13:49:58 #8 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13380@DESKTOP-T3JNAP7
+
+[2018-11-12 13:49:58 #9 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:49:58 #10 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 13380@DESKTOP-T3JNAP7
+
+[2018-11-12 13:49:58 #11 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13380@DESKTOP-T3JNAP7
+
+[2018-11-12 13:49:58 #12 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:49:58 #13 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 13380@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:50:11 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13552@DESKTOP-T3JNAP7
+
+[2018-11-12 13:50:11 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:50:11 #3 type.registry] 
+New type classss.Account
+
+[2018-11-12 13:50:11 #4 type.registry] 
+New type classss.Student
+
+[2018-11-12 13:50:11 #5 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 13:50:11 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 13:50:11 #7 type.registry] 
+New type classss.Subject
+
+[2018-11-12 13:50:11 #8 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 13:50:11 #9 type.registry] 
+New type classss.Teacher
+
+[2018-11-12 13:50:11 #10 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 13:50:11 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 13:50:11 #12 type.registry] 
+New type java.util.ArrayList<classss.Subject>
+
+[2018-11-12 13:50:11 #13 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 13552@DESKTOP-T3JNAP7
+
+[2018-11-12 13:50:11 #14 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13552@DESKTOP-T3JNAP7
+
+[2018-11-12 13:50:11 #15 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:50:11 #16 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 13552@DESKTOP-T3JNAP7
+
+[2018-11-12 13:50:11 #17 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13552@DESKTOP-T3JNAP7
+
+[2018-11-12 13:50:11 #18 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:50:11 #19 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 13552@DESKTOP-T3JNAP7
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 13:50:18 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 2596@DESKTOP-T3JNAP7
+
+[2018-11-12 13:50:18 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 13:52:06 #3 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 2596@DESKTOP-T3JNAP7
+

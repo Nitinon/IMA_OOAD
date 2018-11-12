@@ -1,0 +1,1765 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 00:00:55 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 00:00:55 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 00:00:55 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #21 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #22 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #23 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #24 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #25 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #26 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #27 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #28 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #29 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #30 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 1840@DESKTOP-8KJON6P
+
+[2018-11-06 00:00:55 #31 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:00:55 #32 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 1840@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 00:01:35 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:01:35 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 00:01:35 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 00:01:35 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:01:35 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:01:35 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:01:35 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:35 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:01:35 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:36 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:36 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:01:36 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:36 #21 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8888@DESKTOP-8KJON6P
+
+[2018-11-06 00:01:36 #22 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:01:36 #23 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8888@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 00:02:10 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:10 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 00:02:10 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 00:02:10 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:10 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:10 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:10 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:10 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:10 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #21 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #22 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:10 #23 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #24 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7644@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:10 #25 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:10 #26 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7644@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 00:02:44 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 00:02:44 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 00:02:44 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #21 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #22 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #23 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #24 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #25 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #26 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #27 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7304@DESKTOP-8KJON6P
+
+[2018-11-06 00:02:44 #28 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:02:44 #29 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7304@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 00:03:11 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:11 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 00:03:11 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 00:03:11 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:11 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:11 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:11 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:11 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:11 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #21 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #22 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:11 #23 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #24 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:11 #25 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:12 #26 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:12 #27 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:12 #28 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:12 #29 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:12 #30 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14540@DESKTOP-8KJON6P
+
+[2018-11-06 00:03:12 #31 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:03:12 #32 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 14540@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 00:04:32 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 00:04:32 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 00:04:32 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #21 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #22 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #23 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #24 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #25 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #26 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #27 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #28 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #29 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #30 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #31 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #32 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #33 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11624@DESKTOP-8KJON6P
+
+[2018-11-06 00:04:32 #34 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 00:04:32 #35 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11624@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:23:21 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:23:21 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:23:21 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:23:21 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:23:21 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:23:21 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:23:21 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:23:21 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7324@DESKTOP-8KJON6P
+
+[2018-11-06 14:23:21 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:23:21 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7324@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:26:04 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:26:04 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:26:04 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:26:04 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:26:04 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:26:04 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:26:04 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:26:04 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6056@DESKTOP-8KJON6P
+
+[2018-11-06 14:26:04 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:26:04 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6056@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:28:51 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:28:51 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:28:51 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:28:51 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:28:51 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:28:51 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:28:51 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:28:51 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15304@DESKTOP-8KJON6P
+
+[2018-11-06 14:28:51 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:28:51 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15304@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:29:15 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:15 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:29:15 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:29:15 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:15 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:15 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:15 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:15 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 6316@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:15 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:15 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 6316@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:29:49 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:49 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:29:49 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:29:49 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:49 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:49 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:49 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:49 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10824@DESKTOP-8KJON6P
+
+[2018-11-06 14:29:49 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:29:49 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10824@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:31:36 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:36 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:31:36 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:31:36 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:31:36 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:36 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:36 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:31:36 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:36 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:36 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:31:36 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:36 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:36 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:31:36 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:37 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:37 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:31:37 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:37 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15276@DESKTOP-8KJON6P
+
+[2018-11-06 14:31:37 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:31:37 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15276@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:32:05 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:32:05 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:32:05 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:32:05 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:32:05 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:32:05 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:32:05 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:32:05 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10204@DESKTOP-8KJON6P
+
+[2018-11-06 14:32:05 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:32:05 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10204@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:42:25 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:42:25 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:42:25 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:42:25 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:42:25 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:42:25 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:42:25 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:42:25 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 8932@DESKTOP-8KJON6P
+
+[2018-11-06 14:42:25 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:42:25 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 8932@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:54:00 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 13532@DESKTOP-8KJON6P
+
+[2018-11-06 14:54:00 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:55:33 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 14512@DESKTOP-8KJON6P
+
+[2018-11-06 14:55:33 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 14:56:18 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' has been recovered (tr. 1-2)
+
+[2018-11-06 14:56:18 #2 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #3 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:56:18 #4 type.registry] 
+New type ooad.Account
+
+[2018-11-06 14:56:18 #5 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 14:56:18 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #7 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #8 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:56:18 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #10 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #11 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:56:18 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #13 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #14 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:56:18 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #16 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #17 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:56:18 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #19 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11544@DESKTOP-8KJON6P
+
+[2018-11-06 14:56:18 #20 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 14:56:18 #21 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11544@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 19:08:53 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:08:53 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 19:08:53 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 19:08:53 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:08:53 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:08:53 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:08:53 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:08:53 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 3468@DESKTOP-8KJON6P
+
+[2018-11-06 19:08:53 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:08:53 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 3468@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 19:09:37 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:09:37 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 19:09:37 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 19:09:37 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:09:37 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:09:37 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:09:37 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:09:37 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7080@DESKTOP-8KJON6P
+
+[2018-11-06 19:09:37 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 19:09:37 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7080@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:13:51 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:13:51 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 23:13:51 #4 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #6 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:13:51 #7 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #9 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:13:51 #10 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #12 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:13:51 #13 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:51 #15 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:13:52 #16 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:52 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15704@DESKTOP-8KJON6P
+
+[2018-11-06 23:13:52 #18 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:13:52 #19 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15704@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:14:34 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:14:34 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 23:14:34 #4 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #6 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:14:34 #7 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #9 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:14:34 #10 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #12 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:14:34 #13 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #15 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:14:34 #16 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 10052@DESKTOP-8KJON6P
+
+[2018-11-06 23:14:34 #18 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:14:34 #19 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 10052@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:15:10 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:15:10 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 23:15:10 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 23:15:10 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:15:10 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:15:10 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:15:10 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:15:10 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 15532@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:10 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:15:10 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 15532@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:15:37 #1 store.file] 
+readTextFile error.
+
+[2018-11-06 23:15:37 #2 store.file] 
+java.io.FileNotFoundException: C:\Users\COP100PER\.objectdb\exolorer.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.<clinit>(CNF.java:32)
+	at com.objectdb.o.MainFrame.init(MainFrame.java:132)
+	at com.objectdb.o.EXA.<init>(EXA.java:77)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-11-06 23:15:37 #3 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 16244@DESKTOP-8KJON6P
+
+[2018-11-06 23:15:37 #4 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:15:37 #5 store.file] 
+readTextFile error.
+
+[2018-11-06 23:15:37 #6 store.file] 
+java.io.FileNotFoundException: C:\Users\COP100PER\.objectdb\exolorer.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.f(CNF.java:130)
+	at com.objectdb.o.CNC.s(CNC.java:119)
+	at com.objectdb.o.EXA.<init>(EXA.java:87)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-11-06 23:17:24 #7 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 16244@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:17:43 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:17:43 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 23:17:43 #4 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #6 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:17:43 #7 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #9 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:17:43 #10 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #12 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:17:43 #13 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #15 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:17:43 #16 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 11536@DESKTOP-8KJON6P
+
+[2018-11-06 23:17:43 #18 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:17:43 #19 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 11536@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:18:23 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 16064@DESKTOP-8KJON6P
+
+[2018-11-06 23:18:23 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:19:18 #3 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 16064@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:19:57 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:19:57 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 23:19:57 #4 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #6 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:19:57 #7 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #9 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:19:57 #10 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #12 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:19:57 #13 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #15 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:19:57 #16 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #18 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:19:57 #19 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 7088@DESKTOP-8KJON6P
+
+[2018-11-06 23:19:57 #21 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:19:57 #22 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 7088@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:20:50 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:20:50 #3 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 23:20:50 #4 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #6 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:20:50 #7 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #9 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:20:50 #10 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #12 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:20:50 #13 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #15 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:20:50 #16 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 2636@DESKTOP-8KJON6P
+
+[2018-11-06 23:20:50 #18 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:20:51 #19 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 2636@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:27:19 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:27:19 #3 type.registry] 
+New type ooad.Account
+
+[2018-11-06 23:27:19 #4 type] 
+Type ooad.Account is not enhanced.
+
+[2018-11-06 23:27:19 #5 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #6 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #7 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:27:19 #8 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #9 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #10 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:27:19 #11 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #12 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #13 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:27:19 #14 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #15 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #16 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:27:19 #17 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #18 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 16184@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:19 #19 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:27:19 #20 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 16184@DESKTOP-8KJON6P
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-06 23:27:37 #1 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is opened by 13948@DESKTOP-8KJON6P
+
+[2018-11-06 23:27:37 #2 store] 
+Configuration path: C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\objectdb.conf
+
+[2018-11-06 23:31:13 #3 store] 
+Database 'C:\Users\COP100PER\IdeaProjects\test_ooad\objectdb\db\AccountDB.odb' is closed by 13948@DESKTOP-8KJON6P
+
