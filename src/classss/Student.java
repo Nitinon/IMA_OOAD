@@ -6,17 +6,19 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.io.Serializable;
+
 @Entity
 public class Student extends Account {
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id_student;
+    private long id;
+    private int year_of_study;
+    private String faculty;
 
     public long getId_student() {
         return id_student;
     }
-
-    private long id;
 
     public long getId() {
         return id;
@@ -27,7 +29,14 @@ public class Student extends Account {
     }
 
     //private static final long serialVersionUID = 1L;
-      private List<Subject> subject = new ArrayList<Subject>();
+    private List<Subject> subject = new ArrayList<Subject>();
+
+    public Student(String password, String name, String surname, String birthday, String email, String phonenumber, int year_of_study, String faculty) {
+        super(password, name, surname, birthday, email, phonenumber);
+        this.year_of_study = year_of_study;
+        this.faculty = faculty;
+    }
+
 
     public List<Subject> getSubject() {
         return subject;
@@ -37,15 +46,8 @@ public class Student extends Account {
         this.subject = subject;
     }
 
-    private int year_of_study;
 
-
-    public Student(String password, String name, String surname, String birthday, String email, String phonenumber, int year_of_study){
-        super(password,name,surname,birthday,email,phonenumber);
-        this.year_of_study = year_of_study;
-    }
-
-    public void addSubject(Subject subject){
+    public void addSubject(Subject subject) {
         subject.addStudent(this);
         this.subject.add(subject);
     }
@@ -58,8 +60,12 @@ public class Student extends Account {
         this.year_of_study = year_of_study;
     }
 
+    public String getFaculty() {
+        return faculty;
+    }
 
-
-
-
+    public void setFaculty(String faculty) {
+        this.faculty = faculty;
+    }
 }
+

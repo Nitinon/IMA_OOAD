@@ -39,11 +39,11 @@ public class Main extends Application {
         em.close();
         emf.close();
     }
-    public static void createStudent(String password, String name, String surname, String birthday, String email, String phonenumber, int year_of_study) {
+    public static void createStudent(String password, String name, String surname, String birthday, String email, String phonenumber, int year_of_study,String faculty) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        classss.Student a = new classss.Student(password,name,surname,birthday,email,phonenumber,year_of_study);
+        classss.Student a = new classss.Student(password,name,surname,birthday,email,phonenumber,year_of_study, faculty);
 
         em.persist(a);
         em.getTransaction().commit();
