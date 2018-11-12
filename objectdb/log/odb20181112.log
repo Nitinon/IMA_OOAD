@@ -4367,3 +4367,608 @@ Type classss.Student is not enhanced.
 [2018-11-12 16:59:04 #6 type] 
 Type classss.Teacher is not enhanced.
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 17:09:26 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 18932@DESKTOP-CBH5LMM
+
+[2018-11-12 17:09:26 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:09:26 #3 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 17:09:26 #4 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 17:09:26 #5 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 17:09:26 #6 type] 
+Type classss.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 17:10:51 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 31008@DESKTOP-CBH5LMM
+
+[2018-11-12 17:10:51 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:10:51 #3 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 17:10:51 #4 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 17:10:51 #5 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 17:10:51 #6 type] 
+Type classss.Teacher is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 17:40:52 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 53500@DESKTOP-CBH5LMM
+
+[2018-11-12 17:40:52 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:40:52 #3 type.registry] 
+New type classss.Account
+
+[2018-11-12 17:40:52 #4 type.registry] 
+New type classss.Teacher
+
+[2018-11-12 17:40:52 #5 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 17:40:52 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 17:40:52 #7 type.registry] 
+New type classss.Subject
+
+[2018-11-12 17:40:52 #8 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 17:40:52 #9 type.registry] 
+New type classss.Student
+
+[2018-11-12 17:40:52 #10 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 17:40:52 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 17:40:52 #12 type.registry] 
+New type java.util.ArrayList<classss.Subject>
+
+[2018-11-12 17:40:52 #13 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 53500@DESKTOP-CBH5LMM
+
+[2018-11-12 17:41:29 #14 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 53500@DESKTOP-CBH5LMM
+
+[2018-11-12 17:41:29 #15 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:41:29 #16 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 53500@DESKTOP-CBH5LMM
+
+[2018-11-12 17:41:35 #17 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 53500@DESKTOP-CBH5LMM
+
+[2018-11-12 17:41:35 #18 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 17:51:55 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 51880@DESKTOP-CBH5LMM
+
+[2018-11-12 17:51:55 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:51:55 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 17:51:55 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 17:51:55 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 17:51:55 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 17:51:55 #7 type.registry] 
+New type java.util.ArrayList<classss.Student>
+
+[2018-11-12 17:51:55 #8 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 51880@DESKTOP-CBH5LMM
+
+[2018-11-12 17:51:55 #9 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 51880@DESKTOP-CBH5LMM
+
+[2018-11-12 17:51:55 #10 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:51:55 #11 type.registry] 
+New type com.objectdb.o.LMT
+
+[2018-11-12 17:51:55 #12 type.registry] 
+New type com.objectdb.o.VAL
+
+[2018-11-12 17:51:55 #13 type.registry] 
+New type com.objectdb.o.RFV
+
+[2018-11-12 17:51:55 #14 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 51880@DESKTOP-CBH5LMM
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 17:52:10 #1 store.file] 
+readTextFile error.
+
+[2018-11-12 17:52:10 #2 store.file] 
+java.io.FileNotFoundException: C:\Users\59010734\.objectdb\exolorer.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.<clinit>(CNF.java:32)
+	at com.objectdb.o.MainFrame.init(MainFrame.java:132)
+	at com.objectdb.o.EXA.<init>(EXA.java:77)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-11-12 17:52:11 #3 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 20516@DESKTOP-CBH5LMM
+
+[2018-11-12 17:52:11 #4 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:52:12 #5 store.file] 
+readTextFile error.
+
+[2018-11-12 17:52:12 #6 store.file] 
+java.io.FileNotFoundException: C:\Users\59010734\.objectdb\exolorer.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.f(CNF.java:130)
+	at com.objectdb.o.CNC.s(CNC.java:119)
+	at com.objectdb.o.EXA.<init>(EXA.java:87)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-11-12 17:52:36 #7 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 20516@DESKTOP-CBH5LMM
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 17:58:36 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 40148@DESKTOP-CBH5LMM
+
+[2018-11-12 17:58:36 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:58:36 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 17:58:36 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 17:58:36 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 17:58:36 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 17:59:48 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 30844@DESKTOP-CBH5LMM
+
+[2018-11-12 17:59:48 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 17:59:48 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 17:59:48 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 17:59:48 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 17:59:48 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:00:44 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 18428@DESKTOP-CBH5LMM
+
+[2018-11-12 18:00:44 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:00:44 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:00:44 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:00:44 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:00:44 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:01:14 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 10560@DESKTOP-CBH5LMM
+
+[2018-11-12 18:01:14 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:01:14 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:01:14 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:01:14 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:01:14 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 18:01:14 #7 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 10560@DESKTOP-CBH5LMM
+
+[2018-11-12 18:01:14 #8 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 10560@DESKTOP-CBH5LMM
+
+[2018-11-12 18:01:14 #9 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:01:14 #10 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 10560@DESKTOP-CBH5LMM
+
+[2018-11-12 18:01:30 #11 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 10560@DESKTOP-CBH5LMM
+
+[2018-11-12 18:01:30 #12 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:05:28 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 17660@DESKTOP-CBH5LMM
+
+[2018-11-12 18:05:28 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:05:28 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:05:28 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:05:28 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:05:28 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 18:05:28 #7 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 17660@DESKTOP-CBH5LMM
+
+[2018-11-12 18:05:28 #8 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 17660@DESKTOP-CBH5LMM
+
+[2018-11-12 18:05:28 #9 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:05:28 #10 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 17660@DESKTOP-CBH5LMM
+
+[2018-11-12 18:05:37 #11 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 17660@DESKTOP-CBH5LMM
+
+[2018-11-12 18:05:37 #12 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:07:18 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 12760@DESKTOP-CBH5LMM
+
+[2018-11-12 18:07:18 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:07:18 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:07:18 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:07:18 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:07:18 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 18:07:18 #7 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 12760@DESKTOP-CBH5LMM
+
+[2018-11-12 18:07:18 #8 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 12760@DESKTOP-CBH5LMM
+
+[2018-11-12 18:07:18 #9 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:07:18 #10 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 12760@DESKTOP-CBH5LMM
+
+[2018-11-12 18:07:23 #11 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 12760@DESKTOP-CBH5LMM
+
+[2018-11-12 18:07:23 #12 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:08:29 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 33812@DESKTOP-CBH5LMM
+
+[2018-11-12 18:08:29 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:08:30 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:08:30 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:08:30 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:08:30 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 18:08:30 #7 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 33812@DESKTOP-CBH5LMM
+
+[2018-11-12 18:08:30 #8 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 33812@DESKTOP-CBH5LMM
+
+[2018-11-12 18:08:30 #9 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:08:30 #10 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 33812@DESKTOP-CBH5LMM
+
+[2018-11-12 18:08:41 #11 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 33812@DESKTOP-CBH5LMM
+
+[2018-11-12 18:08:41 #12 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:09:04 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 21052@DESKTOP-CBH5LMM
+
+[2018-11-12 18:09:04 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:09:04 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:09:04 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:09:04 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:09:04 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:09:50 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 30024@DESKTOP-CBH5LMM
+
+[2018-11-12 18:09:50 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:09:50 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:09:50 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:09:50 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:09:50 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:31:35 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 25300@DESKTOP-CBH5LMM
+
+[2018-11-12 18:31:35 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:31:36 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:31:36 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:31:36 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:31:36 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:31:59 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 26872@DESKTOP-CBH5LMM
+
+[2018-11-12 18:31:59 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:32:58 #3 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 26872@DESKTOP-CBH5LMM
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:33:00 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 19276@DESKTOP-CBH5LMM
+
+[2018-11-12 18:33:00 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:33:00 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:33:00 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:33:00 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:33:00 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:33:09 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 26372@DESKTOP-CBH5LMM
+
+[2018-11-12 18:33:09 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:33:22 #3 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 26372@DESKTOP-CBH5LMM
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:33:37 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 4440@DESKTOP-CBH5LMM
+
+[2018-11-12 18:33:37 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:33:37 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:33:37 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:33:37 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:33:37 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:34:48 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 9120@DESKTOP-CBH5LMM
+
+[2018-11-12 18:34:48 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:34:48 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:34:48 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:34:48 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:34:48 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:39:25 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11868@DESKTOP-CBH5LMM
+
+[2018-11-12 18:39:25 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:39:25 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:39:25 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:39:25 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:39:25 #6 type] 
+Type classss.Student is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 18:40:25 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 7300@DESKTOP-CBH5LMM
+
+[2018-11-12 18:40:25 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 18:40:25 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 18:40:25 #4 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 18:40:25 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 18:40:25 #6 type] 
+Type classss.Student is not enhanced.
+

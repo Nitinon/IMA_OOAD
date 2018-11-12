@@ -137,9 +137,15 @@ public class enrollController implements Initializable {
         double wLable = wScore / 4;
 
         pane.setMinSize(100, 25);
+
         Label topic_text = createLable(subject.getId()+"", 25, wLable, 0);
+        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+
         Label score_text = createLable(subject.getName(), 25, wLable, wLable);
-        Label maxscore_text = createLable("topic", 25, wLable, wLable * 2);
+        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+
+        Label maxscore_text = createLable(subject.getTeacher().getName()+" "+subject.getTeacher().getSurname(), 25, wLable, wLable * 2);
+        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
 
 
 

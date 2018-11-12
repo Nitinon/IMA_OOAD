@@ -16,6 +16,9 @@ import classss.Subject;
 
 public class Main extends Application {
     public static void main (String[] args){
+
+//        openCourse(100001,createSubject("SE",40,"Afternoon",2,"Kuaykauy"));
+
         launch(args);
     }
     @Override
@@ -28,7 +31,7 @@ public class Main extends Application {
         userPreferences.put("aa","eieieieiei");
     }
 
-    public static void createSubject(String name,int no_student,String time,int section,String description){
+    public static int createSubject(String name,int no_student,String time,int section,String description){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
 
@@ -41,6 +44,7 @@ public class Main extends Application {
         em.getTransaction().commit();
         em.close();
         emf.close();
+        return (int)a.getId_sub();
     }
     public static void createStudent(String password, String name, String surname, String birthday, String email, String phonenumber, int year_of_study,String faculty) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
