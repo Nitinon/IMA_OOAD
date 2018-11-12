@@ -8,6 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.prefs.Preferences;
 import classss.Subject;
@@ -15,7 +16,7 @@ import classss.Subject;
 
 public class Main extends Application {
     public static void main (String[] args){
-
+        createSubject("ENG",40,"12.30",1);
         launch(args);
     }
     @Override
@@ -28,13 +29,16 @@ public class Main extends Application {
         userPreferences.put("aa","eieieieiei");
     }
 
-    public static void createSubject(long id,String name,int no_student,String time,int section){
+    public static void createSubject(String name,int no_student,String time,int section){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
 
-        classss.Subject a = new classss.Subject(id,name,no_student,time,section);
+        classss.Subject a = new classss.Subject(name,no_student,time,section);
         em.getTransaction().begin();
         em.persist(a);
+        em.getTransaction().commit();
+        em.getTransaction().begin();
+        a.setId_sub(a.getId()+1000);
         em.getTransaction().commit();
         em.close();
         emf.close();
@@ -144,6 +148,14 @@ public class Main extends Application {
         em.getTransaction().commit();
         em.close();
         emf.close();
+    }
+    public static List<Subject> getAllSubject(){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Subject c ";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        return results2;
     }
     public static void delCourse(int id_tea,int id_sub){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");

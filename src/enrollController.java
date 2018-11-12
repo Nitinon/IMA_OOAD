@@ -1,4 +1,5 @@
 import classss.Student;
+import classss.Subject;
 import component.passwordDialog;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -46,14 +47,15 @@ public class enrollController implements Initializable {
     private ScrollPane scrollPane1;
     @FXML
     private ScrollPane scrollPane2;
-
+//    get list of all subject
+//    get current id-------------------------------------------------
+    Preferences userPreferences = Preferences.userRoot();
+    long id=userPreferences.getLong("currentUser",0);
+    Student currentStudent =getObjStudent(id);
+    List<Subject> listAllSubject=getAllSubject();
 
     public void initialize(URL url, ResourceBundle rb) {
-//        get current id
-        Preferences userPreferences = Preferences.userRoot();
-        long id=userPreferences.getLong("currentUser",0);
-        Student currentStudent =getObjStudent(id);
-//        show info of current user
+//    show info of current user---------------------------------------
         nameLB.setText(currentStudent.getName());
         surnameLB.setText(currentStudent.getSurname());
         contactLB.setText(currentStudent.getPhonenumber());
@@ -62,6 +64,10 @@ public class enrollController implements Initializable {
         telLB.setText(currentStudent.getPhonenumber());
         yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
         facultyLB.setText(currentStudent.getFaculty());
+
+        for (Subject a:listAllSubject){
+            System.out.println(a.getName());
+        }
 
         GridPane gridpane = new GridPane();
         gridpane.setMinSize(scrollPane1.getMinWidth(), 0);
@@ -246,5 +252,12 @@ public class enrollController implements Initializable {
             return results1.get(0);
         }
     }
-
+    public static List<Subject> getAllSubject(){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Subject c ";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        return results2;
+    }
 }

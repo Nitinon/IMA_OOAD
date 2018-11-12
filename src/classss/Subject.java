@@ -9,7 +9,9 @@ import java.util.List;
 @Entity
 public class Subject implements Serializable{
    // private static final long serialVersionUID = 1L;
-
+   @Id
+   @GeneratedValue(strategy = GenerationType.IDENTITY)
+   private long id;
     private long id_sub;
     private String name;
     private int no_student;
@@ -28,12 +30,19 @@ public class Subject implements Serializable{
 
     private List<Student> student = new ArrayList<Student>();
 
-    public Subject(long id_sub, String name, int no_student, String time, int section){
+    public Subject(String name, int no_student, String time, int section){
         this.id_sub = id_sub;
         this.name = name;
         this.no_student = no_student;
         this.time = time;
         this.section = section;
+    }
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public void addStudent(Student student){
