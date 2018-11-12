@@ -17,9 +17,6 @@ public class Main extends Application {
     public static void main (String[] args){
 
         launch(args);
-        createStudent("123","pha","ani","30.12","1061","083",3);
-        createStudent("456","kao","ass","28.03","1511","077",2);
-        createStudent("555","kao1156","a11ss","2546548.03","145454511","077",2);
     }
     @Override
     public void start (Stage primaryStage) throws Exception{
