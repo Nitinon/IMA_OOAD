@@ -65,34 +65,30 @@ public class enrollController implements Initializable {
         yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
         facultyLB.setText(currentStudent.getFaculty());
 
-        for (Subject a:listAllSubject){
-            System.out.println(a.getName());
-        }
+
 
         GridPane gridpane = new GridPane();
         gridpane.setMinSize(scrollPane1.getMinWidth(), 0);
         gridpane.setStyle("-fx-border-color:black; -fx-alignment:center;");
         scrollPane1.setContent(gridpane);
         gridpane.add(createHeader(), 1, 1);
-
-        for (int i = 0; i < 5; i++) {
-
+        int i=0;
+        for (Subject a:listAllSubject){
+            i++;
+            System.out.println(a.getName());
             double wScore = scrollPane1.getPrefWidth();
             double wLable = wScore / 4;
-            Pane panebtn = createPanebutton("eieiei",123);
-            gridpane.add(createPane( i, "Zaa"), 1, i+2);
-            gridpane.add(panebtn, 2, i+2);
-
+            gridpane.add(createPane( i, a), 1, i+2);
         }
 
 
-        gridpane = new GridPane();
-        gridpane.setMinSize(scrollPane2.getMinWidth(), 0);
-        scrollPane2.setContent(gridpane);
-        gridpane.add(createHeader(), 1, 1);
-        for (int i = 0; i < 100; i++) {
-            gridpane.add(createPane( i, "Zaa"), 1, i+2);
-        }
+//        gridpane = new GridPane();
+//        gridpane.setMinSize(scrollPane2.getMinWidth(), 0);
+//        scrollPane2.setContent(gridpane);
+//        gridpane.add(createHeader(), 1, 1);
+//        for (int i = 0; i < 100; i++) {
+//            gridpane.add(createPane( i, "Zaa"), 1, i+2);
+//        }
 
     }
     public Pane createHeader() {
@@ -135,14 +131,14 @@ public class enrollController implements Initializable {
         return pane;
     }
 
-    public Pane createPane(int id, String teacher) {
+    public Pane createPane(int id, Subject subject) {
         Pane pane = new Pane();
         double wScore = scrollPane1.getPrefWidth();
         double wLable = wScore / 4;
 
         pane.setMinSize(100, 25);
-        Label topic_text = createLable("topic", 25, wLable, 0);
-        Label score_text = createLable("topic", 25, wLable, wLable);
+        Label topic_text = createLable(subject.getId()+"", 25, wLable, 0);
+        Label score_text = createLable(subject.getName(), 25, wLable, wLable);
         Label maxscore_text = createLable("topic", 25, wLable, wLable * 2);
 
 
