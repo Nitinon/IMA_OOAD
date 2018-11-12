@@ -3469,3 +3469,161 @@ New type java.util.ArrayList<classss.Subject>
 [2018-11-12 14:12:00 #13 store] 
 Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 12776@DESKTOP-T3JNAP7
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 14:25:38 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11644@VOID-PORT
+
+[2018-11-12 14:25:38 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 14:25:38 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 14:25:38 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 14:25:38 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 14:25:38 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 14:25:38 #7 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 11644@VOID-PORT
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 14:26:13 #1 store.file] 
+readTextFile error.
+
+[2018-11-12 14:26:13 #2 store.file] 
+java.io.FileNotFoundException: C:\Users\nutth\.objectdb\exolorer.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.<clinit>(CNF.java:32)
+	at com.objectdb.o.MainFrame.init(MainFrame.java:132)
+	at com.objectdb.o.EXA.<init>(EXA.java:77)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-11-12 14:26:14 #3 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 7000@VOID-PORT
+
+[2018-11-12 14:26:14 #4 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 14:26:14 #5 store.file] 
+readTextFile error.
+
+[2018-11-12 14:26:14 #6 store.file] 
+java.io.FileNotFoundException: C:\Users\nutth\.objectdb\exolorer.xml (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.f(CNF.java:130)
+	at com.objectdb.o.CNC.s(CNC.java:119)
+	at com.objectdb.o.EXA.<init>(EXA.java:87)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+[2018-11-12 14:26:35 #7 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 7000@VOID-PORT
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 14:27:15 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 6572@VOID-PORT
+
+[2018-11-12 14:27:15 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 14:27:16 #3 type.registry] 
+New type classss.Account
+
+[2018-11-12 14:27:16 #4 type.registry] 
+New type classss.Student
+
+[2018-11-12 14:27:16 #5 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 14:27:16 #6 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 14:27:16 #7 type.registry] 
+New type classss.Subject
+
+[2018-11-12 14:27:16 #8 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 14:27:16 #9 type.registry] 
+New type classss.Teacher
+
+[2018-11-12 14:27:16 #10 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 14:27:16 #11 type.registry] 
+New type java.util.ArrayList<java.lang.Object>
+
+[2018-11-12 14:27:16 #12 type.registry] 
+New type java.util.ArrayList<classss.Subject>
+
+[2018-11-12 14:27:16 #13 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 6572@VOID-PORT
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-12 16:40:16 #1 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 10432@VOID-PORT
+
+[2018-11-12 16:40:16 #2 store] 
+Configuration path: D:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-12 16:40:17 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-12 16:40:17 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-12 16:40:17 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-12 16:40:17 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-12 16:40:17 #7 store] 
+Database 'D:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 10432@VOID-PORT
+
