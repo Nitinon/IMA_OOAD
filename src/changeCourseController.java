@@ -153,7 +153,8 @@ public class changeCourseController implements Initializable {
         btn1.setLayoutX(wLable * 3 + 20);
         btn1.setMinSize(50, 10);
 
-        Button btn2 = createChangeBT("Change", subject.getId_sub());
+        Button btn2 = createChangeBT("Change" +
+                "", subject.getId_sub());
         btn2.setStyle("-fx-alignment:center; -fx-font-size: 10");
         btn2.setLayoutX(wLable * 4 + 25);
         btn2.setMinSize(50, 10);
