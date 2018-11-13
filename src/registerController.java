@@ -45,35 +45,8 @@ public class registerController implements Initializable {
         faculty.getItems().addAll("Computer Engineering");
         year.getSelectionModel().selectFirst();
         faculty.getSelectionModel().selectFirst();
-
     }
 
-    public static long createStudent(String password, String name, String surname, LocalDate birthday, String email, String phonenumber, int year_of_study) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
-        EntityManager em = emf.createEntityManager();
-        em.getTransaction().begin();
-        classss.Student a = new classss.Student(password, name, surname, "asdsadsa", email, phonenumber, year_of_study);
-
-        em.persist(a);
-        em.getTransaction().commit();
-        em.getTransaction().begin();
-        a.setId(a.getId_student() + 200000);
-        em.getTransaction().commit();
-//        String sql1 = "SELECT c FROM Student c Where c.name = " + name + " AND c.IdSubject = "+idSubject;
-//        TypedQuery<Score> query1 = em.createQuery(sql1, classss.Score.class);
-//        List<Score> results = query1.getResultList();
-//        em.getTransaction().begin();
-//        for(classss.Score c : results){
-//            if(c.getTopic().equals(topic)){
-//                c.setPoint(point);
-//            }
-//        }
-//        em.getTransaction().commit();
-        em.close();
-        emf.close();
-        return a.getId();
-
-    }
 
     public void register() throws IOException {
         String nameIn = name.getText();
@@ -100,17 +73,14 @@ public class registerController implements Initializable {
                 alert.setContentText("Empty!!!!");
                 alert.showAndWait();
             } else {
-                long id=createStudent(pass, nameIn, surnameIn, date, emailIn, telIn, yearIn);
-
+//                register in DB
+                long id = createStudent(pass, nameIn, surnameIn, date, emailIn, telIn, yearIn,facultyIn);
+//                show pop-up alert
                 Alert alert = new Alert(AlertType.INFORMATION);
                 alert.setTitle("Success");
                 alert.setHeaderText(null);
-
-                long UserID = id;
-                alert.setContentText("register success\n your ID: " + UserID);
+                alert.setContentText("register success\n your ID: " + id);
                 alert.showAndWait();
-                System.out.println(nameIn + "\n" + surnameIn + "\n" + emailIn + "\n" + telIn + "\n" + facultyIn + "\n" + yearIn + "\n" + date);
-
                 jumpBack();
             }
         }
@@ -124,4 +94,33 @@ public class registerController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+
+    //    ==================================DB==============================================
+    public static long createStudent(String password, String name, String surname, LocalDate birthday, String email, String phonenumber, int year_of_study,String faculty) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        em.getTransaction().begin();
+        classss.Student a = new classss.Student(password, name, surname, "asdsadsa", email, phonenumber, year_of_study,faculty);
+
+        em.persist(a);
+        em.getTransaction().commit();
+        em.getTransaction().begin();
+        a.setId(a.getId_student() + 200000);
+        em.getTransaction().commit();
+//        String sql1 = "SELECT c FROM Student c Where c.name = " + name + " AND c.IdSubject = "+idSubject;
+//        TypedQuery<Score> query1 = em.createQuery(sql1, classss.Score.class);
+//        List<Score> results = query1.getResultList();
+//        em.getTransaction().begin();
+//        for(classss.Score c : results){
+//            if(c.getTopic().equals(topic)){
+//                c.setPoint(point);
+//            }
+//        }
+//        em.getTransaction().commit();
+        em.close();
+        emf.close();
+        return a.getId();
+
+    }
+
 }

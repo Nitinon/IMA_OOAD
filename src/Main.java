@@ -8,6 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.prefs.Preferences;
 import classss.Subject;
@@ -15,7 +16,7 @@ import classss.Subject;
 
 public class Main extends Application {
     public static void main (String[] args){
-
+        //createSubject("ENG",40,"12.30",1);
         launch(args);
     }
     @Override
@@ -28,22 +29,25 @@ public class Main extends Application {
         userPreferences.put("aa","eieieieiei");
     }
 
-    public static void createSubject(long id,String name,int no_student,String time,int section){
+    public static void createSubject(String name,int no_student,String time,int section,String description){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
 
-        classss.Subject a = new classss.Subject(id,name,no_student,time,section);
+        classss.Subject a = new classss.Subject(name,no_student,time,section,description);
         em.getTransaction().begin();
         em.persist(a);
+        em.getTransaction().commit();
+        em.getTransaction().begin();
+        a.setId_sub(a.getId()+1000);
         em.getTransaction().commit();
         em.close();
         emf.close();
     }
-    public static void createStudent(String password, String name, String surname, String birthday, String email, String phonenumber, int year_of_study) {
+    public static void createStudent(String password, String name, String surname, String birthday, String email, String phonenumber, int year_of_study,String faculty) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        classss.Student a = new classss.Student(password,name,surname,birthday,email,phonenumber,year_of_study);
+        classss.Student a = new classss.Student(password,name,surname,birthday,email,phonenumber,year_of_study, faculty);
 
         em.persist(a);
         em.getTransaction().commit();
@@ -144,6 +148,14 @@ public class Main extends Application {
         em.getTransaction().commit();
         em.close();
         emf.close();
+    }
+    public static List<Subject> getAllSubject(){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Subject c ";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        return results2;
     }
     public static void delCourse(int id_tea,int id_sub){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
@@ -249,5 +261,72 @@ public class Main extends Application {
             return results1.get(0);
         }
     }
-
+    public static void editPassword(long id, String password){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        if(id%200000 == 1){
+            String sql1 = "SELECT c FROM Student c Where c.id_student = " + id+"" ;
+            TypedQuery<classss.Student> query1 = em.createQuery(sql1, classss.Student.class);
+            List<classss.Student> results = query1.getResultList();
+            em.getTransaction().begin();
+            results.get(0).setPassword(password);
+        }
+        else{
+            String sql1 = "SELECT c FROM Teacher c Where c.id_teacher = " + id+"" ;
+            TypedQuery<classss.Teacher> query1 = em.createQuery(sql1, classss.Teacher.class);
+            List<classss.Teacher> results = query1.getResultList();
+            em.getTransaction().begin();
+            results.get(0).setPassword(password);
+        }
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
+    public static void editProfileStudent(long id,String name, String surname, String birthday, String email, String phonenumber, int year_of_study){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Student c Where c.id_student = " + id+"" ;
+        TypedQuery<classss.Student> query1 = em.createQuery(sql1, classss.Student.class);
+        List<classss.Student> results = query1.getResultList();
+        em.getTransaction().begin();
+        results.get(0).setName(name);
+        results.get(0).setSurname(surname);
+        results.get(0).setBirthday(birthday);
+        results.get(0).setEmail(email);
+        results.get(0).setPhonenumber(phonenumber);
+        results.get(0).setYear_of_study(year_of_study);
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
+    public static void editProfileTeacher(long id,String name, String surname, String birthday, String email, String phonenumber, String post){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Teacher c Where c.id_teacher = " + id+"" ;
+        TypedQuery<classss.Teacher> query1 = em.createQuery(sql1, classss.Teacher.class);
+        List<classss.Teacher> results = query1.getResultList();
+        em.getTransaction().begin();
+        results.get(0).setName(name);
+        results.get(0).setSurname(surname);
+        results.get(0).setBirthday(birthday);
+        results.get(0).setEmail(email);
+        results.get(0).setPhonenumber(phonenumber);
+        results.get(0).setPost(post);
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
+    public static void editCourse(long id, String name,String discription){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Subject c Where c.id_sub = " + id+"" ;
+        TypedQuery<classss.Subject> query1 = em.createQuery(sql1, classss.Subject.class);
+        List<classss.Subject> results = query1.getResultList();
+        em.getTransaction().begin();
+        results.get(0).setName(name);
+        results.get(0).setDiscription(discription);
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
 }

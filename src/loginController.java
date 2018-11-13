@@ -1,3 +1,4 @@
+import classss.Student;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -7,8 +8,13 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 import java.io.IOException;
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 import java.util.prefs.Preferences;
 
@@ -21,20 +27,33 @@ public class loginController implements Initializable {
     private PasswordField password;
 
     public void initialize(URL url, ResourceBundle rb) {
-        System.out.println("connect");
 
     }
 
     public void jumpSignIn() throws IOException {
-        Preferences userPreferences = Preferences.userRoot();
+        int userID = Integer.parseInt(username.getText());
+        Student foundedStudent=getObjStudent(userID);
 
-        userPreferences.put("currentUser", "student");
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
-        Parent root = (Parent) fxmlLoader.load();
+        if (foundedStudent == null) {
+            popUp(false,"User not found","User not found please try again!!");
 
-        enrollController controller = fxmlLoader.<enrollController>getController();
-        fxmlLoader.setController(controller);
-        backpane.getChildren().setAll(root);
+        } else {
+            if(foundedStudent.getPassword().equals(password.getText())){
+                popUp(true,"Welcome","Welcome"+" "+foundedStudent.getName()+" "+foundedStudent.getSurname());
+
+                Preferences userPreferences = Preferences.userRoot();
+                userPreferences.putLong("currentUser",foundedStudent.getId());
+
+                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
+                Parent root = (Parent) fxmlLoader.load();
+                enrollController controller = fxmlLoader.<enrollController>getController();
+                fxmlLoader.setController(controller);
+                backpane.getChildren().setAll(root);
+            }else{
+                popUp(false,"Wrong Password","Please Enter Password Again");
+            }
+
+        }
 
 //        if (username.getText().equals("student")) {
 //            popUp(true);
@@ -56,26 +75,20 @@ public class loginController implements Initializable {
 //        }else{
 //            popUp(false);
 //        }
-
-
     }
-
-    public void popUp(Boolean success) {
-
+    public void popUp(Boolean success,String header,String txt) {
         if (success == true) {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Welcome");
+            alert.setTitle(header);
             alert.setHeaderText(null);
-            alert.setContentText("Welcome");
+            alert.setContentText(txt);
             alert.showAndWait();
-
-        }else{
+        } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("Error");
+            alert.setTitle(header);
             alert.setHeaderText(null);
-            alert.setContentText("Please Try Again");
+            alert.setContentText(txt);
             alert.showAndWait();
-
         }
     }
 
@@ -93,5 +106,17 @@ public class loginController implements Initializable {
 //        backpane.getChildren().setAll(root);
     }
 
-
+    //    ======================================DB==============================================================
+    public static classss.Student getObjStudent(long id_stu) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Student c Where c.id =" + id_stu + "";
+        TypedQuery<Student> query1 = em.createQuery(sql1, classss.Student.class);
+        List<Student> results1 = query1.getResultList();
+        if (results1.size() == 0) {
+            return null;
+        } else {
+            return results1.get(0);
+        }
+    }
 }

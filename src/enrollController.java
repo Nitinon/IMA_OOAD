@@ -1,3 +1,5 @@
+import classss.Student;
+import classss.Subject;
 import component.passwordDialog;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,10 +12,16 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 import java.io.IOException;
 import java.net.URL;
+import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import java.util.prefs.Preferences;
 
 public class enrollController implements Initializable {
     @FXML
@@ -29,17 +37,37 @@ public class enrollController implements Initializable {
     @FXML
     private Label emailLB;
     @FXML
+    private Label telLB;
+    @FXML
+    private Label yearLB;
+    @FXML
+    private Label facultyLB;
+//------------------------------------------------------------------------
+    @FXML
     private ScrollPane scrollPane1;
     @FXML
     private ScrollPane scrollPane2;
-
+//    get list of all subject
+//    get current id-------------------------------------------------
+    Preferences userPreferences = Preferences.userRoot();
+    long id=userPreferences.getLong("currentUser",0);
+    Student currentStudent =getObjStudent(id);
+    List<Subject> listAllSubject=getAllSubject();
 
     public void initialize(URL url, ResourceBundle rb) {
-        nameLB.setText("Nitinon");
-        surnameLB.setText("Penglao");
-        contactLB.setText("0848841659");
-        ageLB.setText("21");
-        emailLB.setText("nitinon556@hotmail.com");
+//    show info of current user---------------------------------------
+        nameLB.setText(currentStudent.getName());
+        surnameLB.setText(currentStudent.getSurname());
+        contactLB.setText(currentStudent.getPhonenumber());
+        ageLB.setText(currentStudent.getBirthday());
+        emailLB.setText(currentStudent.getEmail());
+        telLB.setText(currentStudent.getPhonenumber());
+        yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
+        facultyLB.setText(currentStudent.getFaculty());
+
+        for (Subject a:listAllSubject){
+            System.out.println(a.getName());
+        }
 
         GridPane gridpane = new GridPane();
         gridpane.setMinSize(scrollPane1.getMinWidth(), 0);
@@ -67,8 +95,6 @@ public class enrollController implements Initializable {
         }
 
     }
-
-
     public Pane createHeader() {
         Pane pane = new Pane();
         double wScore = scrollPane2.getPrefWidth();
@@ -213,6 +239,25 @@ public class enrollController implements Initializable {
         backpane.getChildren().setAll(root);
     }
 
-
-
+    //    ======================================DB==============================================================
+    public static classss.Student getObjStudent(long id_stu) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Student c Where c.id =" + id_stu + "";
+        TypedQuery<Student> query1 = em.createQuery(sql1, classss.Student.class);
+        List<Student> results1 = query1.getResultList();
+        if (results1.size() == 0) {
+            return null;
+        } else {
+            return results1.get(0);
+        }
+    }
+    public static List<Subject> getAllSubject(){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Subject c ";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        return results2;
+    }
 }
