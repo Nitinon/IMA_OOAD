@@ -53,14 +53,13 @@ public class viewscoreController implements Initializable {
 
     Preferences userPreferences = Preferences.userRoot();
     long id = userPreferences.getLong("currentUser", 0);
-    Student currentStudent;
+    Student currentStudent = getObjStudent(id);
     List<Score> listScore = new ArrayList<>();
 
     Subject subjectSelected;
 
     public void initialize(URL url, ResourceBundle rb) {
         for (Subject temp : currentStudent.getSubject()) {
-            System.out.println(temp.getName());
             subjectSelector.getItems().add(temp.getId_sub() + " " + temp.getName());
         }
         updateScreen();
@@ -79,7 +78,6 @@ public class viewscoreController implements Initializable {
         yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
         facultyLB.setText(currentStudent.getFaculty());
 
-        subjectSelector.getItems().clear();
         listScore = viewScoreIDnTopic((int) currentStudent.getId(), (String) subjectSelector.getValue());
 
 
