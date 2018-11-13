@@ -180,9 +180,9 @@
       <Button fx:id="announceBT1" layoutX="350.0" layoutY="328.0" mnemonicParsing="false" onMouseClicked="#jumpAnnounce" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
        <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
-         <image>
-            <Image url="/logo2.png" />
-         </image>
-      </ImageView>
+           <image>
+               <Image url="@logo2.png" />
+           </image>
+       </ImageView>
    </children>
 </AnchorPane>

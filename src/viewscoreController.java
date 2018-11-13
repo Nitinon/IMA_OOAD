@@ -136,20 +136,18 @@ public class viewscoreController implements Initializable {
     public Pane createHeader() {
         Pane pane = new Pane();
         double wScore = scrollPane.getPrefWidth();
-        double wLable = wScore / 5;
+        double wLable = wScore / 3;
         pane.setMinSize(100, 25);
-        Label topic_header = createLable("ID", 25, wLable, 0);
-        Label score_header = createLable("Subject", 25, wLable, wLable);
-        Label maxscore_header = createLable("eiei", 25, wLable, wLable * 2);
-        Label empty = createLable("description", 25, wLable, wLable * 3);
-        Label empty2 = createLable("change", 25, wLable, wLable * 4);
-        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        Label topic_header = createLable("Topic", 25, wLable, 0);
+        Label score_header = createLable("Score", 25, wLable, wLable);
+        Label maxscore_header = createLable("Max Score", 25, wLable, wLable * 2);
 
-        pane.getChildren().addAll(topic_header, score_header, maxscore_header, empty, empty2);
+        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: blue;");
+        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: blue;");
+        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: blue;");
+
+
+        pane.getChildren().addAll(topic_header, score_header, maxscore_header);
         return pane;
     }
 
@@ -157,24 +155,20 @@ public class viewscoreController implements Initializable {
     public Pane createPane(int id, Score score) {
         Pane pane = new Pane();
         double wScore = scrollPane.getPrefWidth();
-        double wLable = wScore / 5;
+        double wLable = wScore / 3;
 
         pane.setMinSize(100, 25);
-
         Label topic_text = createLable(score.getTopic() + "", 25, wLable, 0);
         Label score_text = createLable(score.getPoint() + "", 25, wLable, wLable);
         Label maxscore_text = createLable(score.getMax() + "", 25, wLable, wLable * 2);
-        Label empty1 = createLable("", 25, wLable, wLable * 3);
-        Label empty2 = createLable("", 25, wLable, wLable * 4);
 //      set style
-        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;");
+        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;");
+        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;");
 
 
-        pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1, empty2);
+
+        pane.getChildren().addAll(topic_text, score_text, maxscore_text);
 
         return pane;
     }

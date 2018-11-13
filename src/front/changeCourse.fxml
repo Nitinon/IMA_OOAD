@@ -183,7 +183,7 @@
       <ScrollPane fx:id="scrollPane" layoutX="589.0" layoutY="144.0" prefHeight="537.0" prefWidth="665.0" />
         <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
             <image>
-                <Image url="/logo2.png" />
+                <Image url="@logo2.png" />
             </image>
         </ImageView>
     </children>

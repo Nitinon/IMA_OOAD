@@ -91,9 +91,9 @@ public class dropController implements Initializable {
         pane.setMinSize(100, 25);
         Label topic_header = createLable("ID", 25, wLable, 0);
         Label score_header = createLable("Subject", 25, wLable, wLable);
-        Label maxscore_header = createLable("eiei", 25, wLable, wLable * 2);
-        Label empty = createLable("description", 25, wLable, wLable * 3);
-        Label empty2 = createLable("enroll", 25, wLable, wLable * 4);
+        Label maxscore_header = createLable("Teacher", 25, wLable, wLable * 2);
+        Label empty = createLable("Description", 25, wLable, wLable * 3);
+        Label empty2 = createLable("Drop", 25, wLable, wLable * 4);
         topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
