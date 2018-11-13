@@ -16,7 +16,7 @@ public class Subject implements Serializable{
     private String name;
     private int no_student;
     private String time;
-    private int section;
+    private String day;
     private String description;
 
     public List<Student> getStudent() {
@@ -39,11 +39,11 @@ public class Subject implements Serializable{
         this.id = id;
     }
 
-    public Subject(String name, int no_student, String time, int section, String description) {
+    public Subject(String name, int no_student, String time, String day, String description) {
         this.name = name;
         this.no_student = no_student;
         this.time = time;
-        this.section = section;
+        this.day = day;
         this.description = description;
     }
 
@@ -99,13 +99,11 @@ public class Subject implements Serializable{
         this.time = time;
     }
 
-    public int getSection() {
-        return section;
+    public String getDay() {
+        return day;
     }
 
-    public void setSection(int section) {
-        this.section = section;
+    public void setDay(String day) {
+        this.day = day;
     }
-
-
 }

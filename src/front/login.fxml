@@ -37,5 +37,6 @@
             <Font size="18.0" />
          </font>
       </Button>
+      <Button fx:id="register_teacherBT" layoutX="606.0" layoutY="397.0" mnemonicParsing="false" onMouseClicked="#jumpRegister_teacher" text="register teacher" />
    </children>
 </AnchorPane>

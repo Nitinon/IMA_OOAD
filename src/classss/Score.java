@@ -12,12 +12,14 @@ public class Score implements Serializable{
     private int IdSubject;
     private String Topic;
     private int point;
+    private int max;
 
-    public Score(int idStudent, int idSubject, String topic, int point) {
+    public Score(int idStudent, int idSubject, String topic, int point,int max) {
         IdStudent = idStudent;
         IdSubject = idSubject;
         Topic = topic;
         this.point = point;
+        this.max=max;
     }
 
     public int getIdStudent() {
@@ -50,6 +52,14 @@ public class Score implements Serializable{
 
     public void setPoint(int point) {
         this.point = point;
+    }
+
+    public int getMax() {
+        return max;
+    }
+
+    public void setMax(int max) {
+        this.max = max;
     }
 
     @Override

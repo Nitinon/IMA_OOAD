@@ -16,7 +16,7 @@ import classss.Subject;
 
 public class Main extends Application {
     public static void main (String[] args){
-        //createSubject("ENG",40,"12.30",1);
+//        openCourse(100001,createSubject("SE",40,"Afternoon","Monday","Kuaykauy")createSubject("SE",40,"Afternoon","Monday","Kuaykauy"));
         launch(args);
     }
     @Override
@@ -29,11 +29,11 @@ public class Main extends Application {
         userPreferences.put("aa","eieieieiei");
     }
 
-    public static void createSubject(String name,int no_student,String time,int section,String description){
+    public static int createSubject(String name,int no_student,String time,String day,String description){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
 
-        classss.Subject a = new classss.Subject(name,no_student,time,section,description);
+        classss.Subject a = new classss.Subject(name,no_student,time,day,description);
         em.getTransaction().begin();
         em.persist(a);
         em.getTransaction().commit();
@@ -42,6 +42,7 @@ public class Main extends Application {
         em.getTransaction().commit();
         em.close();
         emf.close();
+        return (int)a.getId_sub();
     }
     public static void createStudent(String password, String name, String surname, String birthday, String email, String phonenumber, int year_of_study,String faculty) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
@@ -185,16 +186,15 @@ public class Main extends Application {
         emf.close();
     }
 
-    public static void createScore(int idStudent, int idSubject, String topic, int point) {
+    public static void createScore(int idStudent, int idSubject, String topic, int point,int max) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        classss.Score a = new classss.Score(idStudent,idSubject,topic,point);
+        classss.Score a = new classss.Score(idStudent,idSubject,topic,point,max);
         em.persist(a);
         em.getTransaction().commit();
         em.close();
         emf.close();
-
     }
 
     public static int viewScore(int idStudent, int idSubject, String topic){

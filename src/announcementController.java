@@ -10,11 +10,13 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 
+import javax.xml.soap.Text;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
 import java.util.Date;
+import java.time.YearMonth;
 
 public class announcementController implements Initializable {
     @FXML
@@ -31,20 +33,27 @@ public class announcementController implements Initializable {
     private Label contactLB;
     @FXML
     private Label emailLB;
+    @FXML
+    private Label announcetitle;
 
     Date date = new Date();
+
     int month = date.getMonth();
     int year = date.getYear();
 
     Button[][] aa = new Button[10][10];
     String[] dayy = {"sunday","monday","tuesday","wednesday","thursday","friday","saturday"};
+    String[] monthh = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
     public void initialize(URL url, ResourceBundle rb) {
+        date.setYear(2018);
+        year = date.getYear();
         nameLB.setText("Nitinon");
         surnameLB.setText("Penglao");
         contactLB.setText("0848841659");
         ageLB.setText("21");
         emailLB.setText("nitinon556@hotmail.com");
         initCalendar(month,year);
+
 
     }
     private void initCalendar(int month,int year){
@@ -55,6 +64,9 @@ public class announcementController implements Initializable {
         date.setYear(year);
         int day = date.getDay();
         int check = 0;
+        YearMonth yearMonthObject = YearMonth.of(year,month+1);
+        int limit = yearMonthObject.lengthOfMonth();
+        announcetitle.setText("Annoucement "+monthh[month]+" "+year);
         for(int k = 0;k<7;k++){
             announcepane.add(new Label(dayy[k]),k,0);
         }
@@ -67,7 +79,13 @@ public class announcementController implements Initializable {
                     announcepane.add(createButton(0,0,j,i), j, i);
                 }
                 else{
-                    announcepane.add(createButton(firstday,month+1,j,i), j, i);
+                    if(firstday<limit+1){
+                        announcepane.add(createButton(firstday,month+1,j,i), j, i);
+
+                    }
+                    else{
+                        announcepane.add(createButton(0,0,j,i), j, i);
+                    }
                     firstday++;
                 }
             }
@@ -78,7 +96,7 @@ public class announcementController implements Initializable {
         aa[j][i].setMinHeight(60.0);
         aa[j][i].setMinWidth(80.0);
         if (day ==0) aa[j][i].setText(" ");
-        else aa[j][i].setText(day+" "+month+" "+year);
+        else aa[j][i].setText(day+"");
         aa[j][i].setOnAction(e ->{
             dayBtnAction(day,month);
         });
@@ -97,7 +115,7 @@ public class announcementController implements Initializable {
         initCalendar(month,year);
     }
     public void preMonth(){
-        if(month==-1){
+        if(month==0){
             month = 11;
             year--;
         }else{

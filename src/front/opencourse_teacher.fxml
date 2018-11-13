@@ -73,7 +73,7 @@
         <items>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="306.0" prefWidth="737.0">
                <children>
-                  <TextField layoutX="294.0" layoutY="169.0" />
+                  <TextField fx:id="subjectName" layoutX="294.0" layoutY="169.0" />
                   <Label layoutX="208.0" layoutY="173.0" text="Subject Name" />
                   <Label layoutX="208.0" layoutY="214.0" text="Department" />
                   <ComboBox fx:id="teachingDate" layoutX="294.0" layoutY="255.0" prefWidth="150.0" />
@@ -87,10 +87,9 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Button layoutX="296.0" layoutY="459.0" mnemonicParsing="false" text="Submit" />
-                  <Button layoutX="371.0" layoutY="459.0" mnemonicParsing="false" text="Cancel" />
+                  <Button onMouseClicked="#openSubject" layoutX="296.0" layoutY="459.0" mnemonicParsing="false" text="Submit" />
                   <ComboBox fx:id="department" layoutX="296.0" layoutY="210.0" prefWidth="150.0" />
-                  <TextArea layoutX="294.0" layoutY="334.0" prefHeight="117.0" prefWidth="200.0" />
+                  <TextArea fx:id="description" layoutX="294.0" layoutY="334.0" prefHeight="117.0" prefWidth="200.0" />
                   <Label layoutX="215.0" layoutY="334.0" text="Description" />
                </children>
             </AnchorPane>

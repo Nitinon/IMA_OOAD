@@ -1,20 +1,27 @@
+import classss.Student;
+import classss.Subject;
 import component.passwordDialog;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 import java.io.IOException;
 import java.net.URL;
+import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
-public class changeCourseController implements Initializable{
+import java.util.prefs.Preferences;
+
+public class changeCourseController implements Initializable {
     @FXML
     private AnchorPane backpane;
     @FXML
@@ -28,69 +35,131 @@ public class changeCourseController implements Initializable{
     @FXML
     private Label emailLB;
     @FXML
+    private Label telLB;
+    @FXML
+    private Label yearLB;
+    @FXML
+    private Label facultyLB;
+    //------------------------------------------------------------------------
+    @FXML
+    private ComboBox subjectSelector;
+    @FXML
     private ScrollPane scrollPane;
 
+    Preferences userPreferences = Preferences.userRoot();
+    long id = userPreferences.getLong("currentUser", 0);
+    Student currentStudent = getObjStudent(id);
+    List<Subject> listAllSubject = getAllSubject();
+
+    Subject oldSubjectSelected;
+
     public void initialize(URL url, ResourceBundle rb) {
-        nameLB.setText("Nitinon");
-        surnameLB.setText("Penglao");
-        contactLB.setText("0848841659");
-        ageLB.setText("21");
-        emailLB.setText("nitinon556@hotmail.com");
+        updateScreen();
+    }
+
+    public void updateScreen() {
+        currentStudent = getObjStudent(id);
+        System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
+        //    show info of current user---------------------------------------
+        nameLB.setText(currentStudent.getName());
+        surnameLB.setText(currentStudent.getSurname());
+        contactLB.setText(currentStudent.getPhonenumber());
+        ageLB.setText(currentStudent.getBirthday());
+        emailLB.setText(currentStudent.getEmail());
+        telLB.setText(currentStudent.getPhonenumber());
+        yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
+        facultyLB.setText(currentStudent.getFaculty());
+        subjectSelector.getItems().clear();
+        for (Subject temp : currentStudent.getSubject()) {
+            subjectSelector.getItems().add(temp.getId_sub() + " " + temp.getName());
+        }
 
         GridPane gridpane = new GridPane();
-        gridpane.setMinSize(scrollPane.getMinWidth(), scrollPane.getMinHeight());
+        gridpane.setMinSize(scrollPane.getMinWidth(), 0);
+        gridpane.setStyle("-fx-border-color:black; -fx-alignment:center;");
         scrollPane.setContent(gridpane);
-
         gridpane.add(createHeader(), 1, 1);
-        for (int i = 2; i < 20; i++) {
-            gridpane.add(createPane("eiei", "Zaa"), 1, i);
+        int i = 0;
+        for (Subject a : listAllSubject) {
+            i++;
+            if (!findSubject(a)) {
+                System.out.println(a.getId_sub());
+                double wScore = scrollPane.getPrefWidth();
+                double wLable = wScore / 4;
+                gridpane.add(createPane(i, a), 1, i + 2);
+            }
+        }
+    }
+
+    public Boolean findSubject(Subject sub) {
+        for (Subject a : currentStudent.getSubject()) {
+            if (a.getId_sub() == sub.getId_sub())
+                return true;
+        }
+        return false;
+    }
+
+    public void enterOldSub() {
+        if (subjectSelector.getValue() != null) {
+            String id = (String) subjectSelector.getValue();
+            id = id.substring(0, 4);
+            long idSub = Long.parseLong(id);
+            oldSubjectSelected = getSubject(idSub);
         }
     }
 
     public Pane createHeader() {
         Pane pane = new Pane();
         double wScore = scrollPane.getPrefWidth();
-        double wLable = wScore / 4;
+        double wLable = wScore / 5;
         pane.setMinSize(100, 25);
-
         Label topic_header = createLable("ID", 25, wLable, 0);
         Label score_header = createLable("Subject", 25, wLable, wLable);
         Label maxscore_header = createLable("eiei", 25, wLable, wLable * 2);
-        Label enroll_header = createLable("enroll", 25, wLable-1, wLable * 3);
+        Label empty = createLable("description", 25, wLable, wLable * 3);
+        Label empty2 = createLable("change", 25, wLable, wLable * 4);
+        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        empty.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
 
-        pane.getChildren().addAll(topic_header, score_header, maxscore_header, enroll_header);
-
+        pane.getChildren().addAll(topic_header, score_header, maxscore_header, empty, empty2);
         return pane;
     }
 
-    public Button createButton(int txt) {
-        String txtbtn = Integer.toString(txt);
-        Button btn = new Button();
-        btn.setOnAction(event -> {
-            createDialog();
-        });
-        btn.setText("click");
-        btn.setUserData(txtbtn);
-        return btn;
-    }
 
-    public Pane createPane(String subject, String teacher) {
+    public Pane createPane(int id, Subject subject) {
         Pane pane = new Pane();
         double wScore = scrollPane.getPrefWidth();
-        double wLable = wScore / 4;
+        double wLable = wScore / 5;
 
         pane.setMinSize(100, 25);
-        Label topic_text = createLable("topic", 25, wLable, 0);
-        Label score_text = createLable("topic", 25, wLable, wLable);
-        Label maxscore_text = createLable("topic", 25, wLable, wLable * 2);
-        Label btn_text = createLable("topic", 25, wLable-1 , wLable * 3);
 
-        Button btn1 = createButton(1);
-        btn1.setStyle("-fx-border-color:black; -fx-alignment:center;");
-        btn1.setLayoutX(wLable * 3);
-        btn1.setMinSize(wLable-1, 25);
+        Label topic_text = createLable(subject.getId_sub() + "", 25, wLable, 0);
+        Label score_text = createLable(subject.getName(), 25, wLable, wLable);
+        Label maxscore_text = createLable(subject.getTeacher().getName() + " " + subject.getTeacher().getSurname(), 25, wLable, wLable * 2);
+        Label empty1 = createLable("", 25, wLable, wLable * 3);
+        Label empty2 = createLable("", 25, wLable, wLable * 4);
+//      set style
+        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
 
-        pane.getChildren().addAll(topic_text, score_text, maxscore_text, btn_text, btn1);
+        Button btn1 = createDesBT("description", subject.getId_sub());
+        btn1.setStyle("-fx-alignment:center; -fx-font-size: 10");
+        btn1.setLayoutX(wLable * 3 + 20);
+        btn1.setMinSize(50, 10);
+
+        Button btn2 = createChangeBT("Change" +
+                "", subject.getId_sub());
+        btn2.setStyle("-fx-alignment:center; -fx-font-size: 10");
+        btn2.setLayoutX(wLable * 4 + 25);
+        btn2.setMinSize(50, 10);
+
+        pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1, empty2, btn1, btn2);
 
         return pane;
     }
@@ -105,14 +174,140 @@ public class changeCourseController implements Initializable{
         return label;
     }
 
-    public void createDialog() {
-        passwordDialog pd = new passwordDialog();
-        Optional<String> result = pd.showAndWait();
-        result.ifPresent(password -> System.out.println(password));
+    public Button createDesBT(String txt, long subject) {
+        Button btn = new Button(txt);
+        btn.setOnAction(event -> {
+            createDialog(subject);
+        });
+        return btn;
     }
 
+    public Button createChangeBT(String txt, long subject) {
+        Button btn = new Button(txt);
+        btn.setOnAction(event -> {
+            createChangeDialog(subject);
+        });
+        return btn;
+    }
 
-    public void jumpEnroll()throws IOException{
+    public void createDialog(long id) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Course Info");
+
+        Subject foundedSubject = getSubject(id);
+        alert.setHeaderText("Info of " + foundedSubject.getName());
+        String info = "Name: " + foundedSubject.getName() + "\n" +
+                "Teacher: " + foundedSubject.getTeacher() + "\n" +
+                "Description: " + foundedSubject.getDiscription() + "\n" +
+                "Time: " + foundedSubject.getTime() + "\n" +
+                "Teaching day: " + foundedSubject.getDay();
+        alert.setContentText(info);
+        alert.showAndWait();
+
+    }
+
+    public void createChangeDialog(long id) {
+        passwordDialog pd = new passwordDialog();
+        Optional<String> result = pd.showAndWait();
+        result.ifPresent(password -> {
+            if (password.equals(currentStudent.getPassword())) {
+                dropSubject((int) currentStudent.getId(), (int) oldSubjectSelected.getId_sub());
+                enrollCourse((int) currentStudent.getId(), (int) id);
+                updateScreen();
+            } else {
+                System.out.println("Error");
+            }
+        });
+    }
+
+    //    ======================================DB==============================================================
+    public static classss.Student getObjStudent(long id_stu) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Student c Where c.id =" + id_stu + "";
+        TypedQuery<Student> query1 = em.createQuery(sql1, classss.Student.class);
+        List<Student> results1 = query1.getResultList();
+        if (results1.size() == 0) {
+            return null;
+        } else {
+            return results1.get(0);
+        }
+    }
+
+    public static List<Subject> getAllSubject() {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Subject c ";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        return results2;
+    }
+
+    public static Subject getSubject(long id) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Subject c Where c.id_sub =" + id + "";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        return results2.get(0);
+    }
+
+    public static void enrollCourse(int id_stu, long id_sub) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+
+        String sql1 = "SELECT c FROM Student c Where c.id =" + id_stu + "";
+        TypedQuery<classss.Student> query1 = em.createQuery(sql1, classss.Student.class);
+        List<classss.Student> results1 = query1.getResultList();
+
+        String sql2 = "SELECT c FROM Subject c Where c.id_sub =" + id_sub + "";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+
+        em.getTransaction().begin();
+        results1.get(0).addSubject(results2.get(0));
+        //em.persist(results1.get(0));
+        //em.persist(results2.get(0));
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
+
+    public static void dropSubject(int id_stu, int id_sub) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+
+        String sql1 = "SELECT c FROM Student c Where c.id =" + id_stu + "";
+        TypedQuery<classss.Student> query1 = em.createQuery(sql1, classss.Student.class);
+        List<classss.Student> results1 = query1.getResultList();
+
+        String sql2 = "SELECT c FROM Subject c Where c.id_sub =" + id_sub + "";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+
+        em.getTransaction().begin();
+
+        for (classss.Subject a : results1.get(0).getSubject()) {
+            if (a.getId_sub() == id_sub) {
+                results1.get(0).getSubject().remove(a);
+                break;
+            }
+
+        }
+        for (classss.Student b : results2.get(0).getStudent()) {
+            if (b.getId() == id_stu) {
+                results2.get(0).getStudent().remove(b);
+                break;
+            }
+
+        }
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
+
+    //    ===========================Jump===============================================
+    public void jumpEnroll() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
@@ -120,7 +315,8 @@ public class changeCourseController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
-    public void jumpChange()throws IOException{
+
+    public void jumpChange() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/changeCourse.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
@@ -128,7 +324,8 @@ public class changeCourseController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
-    public void jumpDrop()throws IOException{
+
+    public void jumpDrop() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/drop.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
@@ -136,7 +333,8 @@ public class changeCourseController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
-    public void jumpView()throws IOException{
+
+    public void jumpView() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/viewscore.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
@@ -144,7 +342,8 @@ public class changeCourseController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
-    public void jumpChangePass() throws  IOException{
+
+    public void jumpChangePass() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/changePass.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
@@ -152,7 +351,8 @@ public class changeCourseController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
-    public void jumpEditProfile() throws IOException{
+
+    public void jumpEditProfile() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/editProfile.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
@@ -160,6 +360,7 @@ public class changeCourseController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+
     public void jumpAnnounce() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/announcement.fxml"));
         Parent root = (Parent) fxmlLoader.load();
@@ -168,7 +369,8 @@ public class changeCourseController implements Initializable{
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
-    public void jumpLogout() throws IOException{
+
+    public void jumpLogout() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
