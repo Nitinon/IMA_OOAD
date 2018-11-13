@@ -19,6 +19,21 @@ public class Subject implements Serializable{
     private String day;
     private String description;
 
+    @OneToMany(mappedBy = "subjectsss",cascade = CascadeType.ALL,orphanRemoval = true)
+    private List<Announcement> announcements = new ArrayList<Announcement>();
+
+    public Subject(String name, int no_student, String time, String day, String description) {
+        this.name = name;
+        this.no_student = no_student;
+        this.time = time;
+        this.day = day;
+        this.description = description;
+    }
+    public void addAnnouncement(Announcement announcement){
+        announcement.setSubjectsss(this);
+        announcements.add(announcement);
+    }
+
     public List<Student> getStudent() {
         return student;
     }
@@ -39,13 +54,7 @@ public class Subject implements Serializable{
         this.id = id;
     }
 
-    public Subject(String name, int no_student, String time, String day, String description) {
-        this.name = name;
-        this.no_student = no_student;
-        this.time = time;
-        this.day = day;
-        this.description = description;
-    }
+
 
     public String getDiscription() {
         return description;
@@ -105,5 +114,16 @@ public class Subject implements Serializable{
 
     public void setDay(String day) {
         this.day = day;
+    }
+
+    public List<Announcement> getAnnouncements() {
+        return announcements;
+    }
+
+    public boolean equals(Subject obj) {
+        if(this.getName().equals(obj.getName())&&this.getDay().equals(obj.getDay())&&this.getTime().equals(obj.getTime())){
+            return true;
+        }
+        return false;
     }
 }

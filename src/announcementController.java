@@ -1,3 +1,4 @@
+import classss.Student;
 import component.passwordDialog;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -10,19 +11,23 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 import javax.xml.soap.Text;
 import java.io.IOException;
 import java.net.URL;
+import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
 import java.util.Date;
 import java.time.YearMonth;
+import java.util.prefs.Preferences;
 
 public class announcementController implements Initializable {
     @FXML
     private AnchorPane backpane;
-    @FXML
-    private GridPane announcepane;
     @FXML
     private Label nameLB;
     @FXML
@@ -34,6 +39,15 @@ public class announcementController implements Initializable {
     @FXML
     private Label emailLB;
     @FXML
+    private Label telLB;
+    @FXML
+    private Label yearLB;
+    @FXML
+    private Label facultyLB;
+    //------------------------------------------------------------------------
+    @FXML
+    private GridPane announcepane;
+    @FXML
     private Label announcetitle;
 
     Date date = new Date();
@@ -44,14 +58,25 @@ public class announcementController implements Initializable {
     Button[][] aa = new Button[10][10];
     String[] dayy = {"sunday","monday","tuesday","wednesday","thursday","friday","saturday"};
     String[] monthh = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
+
+    //    get current id-------------------------------------------------
+    Preferences userPreferences = Preferences.userRoot();
+    long id = userPreferences.getLong("currentUser", 0);
+    Student currentStudent = getObjStudent(id);
+
     public void initialize(URL url, ResourceBundle rb) {
         date.setYear(2018);
         year = date.getYear();
-        nameLB.setText("Nitinon");
-        surnameLB.setText("Penglao");
-        contactLB.setText("0848841659");
-        ageLB.setText("21");
-        emailLB.setText("nitinon556@hotmail.com");
+        //    show info of current user---------------------------------------
+        nameLB.setText(currentStudent.getName());
+        surnameLB.setText(currentStudent.getSurname());
+        contactLB.setText(currentStudent.getPhonenumber());
+        ageLB.setText(currentStudent.getBirthday());
+        emailLB.setText(currentStudent.getEmail());
+        telLB.setText(currentStudent.getPhonenumber());
+        yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
+        facultyLB.setText(currentStudent.getFaculty());
+
         initCalendar(month,year);
 
 
@@ -130,7 +155,19 @@ public class announcementController implements Initializable {
         Optional<String> result = pd.showAndWait();
         result.ifPresent(password -> System.out.println(password));
     }
-
+    //    ======================================DB==============================================================
+    public static classss.Student getObjStudent(long id_stu) {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Student c Where c.id =" + id_stu + "";
+        TypedQuery<Student> query1 = em.createQuery(sql1, classss.Student.class);
+        List<Student> results1 = query1.getResultList();
+        if (results1.size() == 0) {
+            return null;
+        } else {
+            return results1.get(0);
+        }
+    }
     //    jump=======================================================================================
     public void jumpEnroll() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));

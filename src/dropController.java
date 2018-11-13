@@ -187,13 +187,28 @@ public class dropController implements Initializable {
         result.ifPresent(password -> {
             if (password.equals(currentStudent.getPassword())) {
                 dropSubject((int)currentStudent.getId(),(int)id);
+                popUp(true,"Drop Subject","Drop Subject Success");
                 updateScreen();
             } else {
                 System.out.println("Error");
             }
         });
     }
-
+    public void popUp(Boolean success, String header, String txt) {
+        if (success == true) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        }
+    }
     //    ======================================DB==============================================================
     public static classss.Student getObjStudent(long id_stu) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");

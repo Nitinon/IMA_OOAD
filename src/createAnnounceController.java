@@ -1,12 +1,12 @@
-import classss.Student;
+import classss.Announcement;
 import classss.Subject;
 import classss.Teacher;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.Alert;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
@@ -15,71 +15,57 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
+import javax.xml.soap.Text;
 import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.ResourceBundle;
 import java.util.prefs.Preferences;
 
-public class opencourse_teacherController implements Initializable {
+public class createAnnounceController implements Initializable {
     @FXML
     private AnchorPane backpane;
     @FXML
-    private TextField subjectName;
+    private ComboBox subjectSelector;
     @FXML
-    private ComboBox sessionTime;
+    private TextField titleIn;
     @FXML
-    private ComboBox teachingDate;
+    private ComboBox typeIn;
     @FXML
-    private ComboBox department;
+    private DatePicker dateIn;
     @FXML
-    private TextArea description;
+    private TextArea infoIn;
 
     Preferences userPreferences = Preferences.userRoot();
     long id = userPreferences.getLong("currentUser", 0);
     Teacher currentTeacher = getObjTeacher(id);
 
     public void initialize(URL url, ResourceBundle rb) {
-        department.getItems().addAll("Computer Engineering");
-        department.getSelectionModel().selectFirst();
-        sessionTime.getItems().addAll("Morning", "Afternoon", "Evening");
-        sessionTime.getSelectionModel().selectFirst();
-        teachingDate.getItems().addAll("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
-        teachingDate.getSelectionModel().selectFirst();
-    }
-    public void update(){
-        currentTeacher = getObjTeacher(id);
-    }
-    public void openSubject() {
-        String name = subjectName.getText();
-        String time = (String) sessionTime.getValue();
-        String date = (String) teachingDate.getValue();
-        String des = description.getText();
-        Boolean dup=false;
-        for(Subject temp:currentTeacher.getSubjects()){
-            if(temp.getName().equals(name)&&temp.getDay().equals(date)&&temp.getTime().equals(time)){
-                dup=true;
-            }
+        typeIn.getItems().addAll("Important", "class", "general");
+        subjectSelector.getItems().clear();
+        for (Subject temp : currentTeacher.getSubjects()) {
+            subjectSelector.getItems().add(temp.getId_sub() + " " + temp.getName());
         }
-        if(dup==true)popUp(false,"Subject Duplicated","Already Subject");
-        else openSbuject((int)currentTeacher.getId(),createSubject(name,40,time,date,des));
-        update();
 
     }
-    public void popUp(Boolean success, String header, String txt) {
-        if (success == true) {
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle(header);
-            alert.setHeaderText(null);
-            alert.setContentText(txt);
-            alert.showAndWait();
-        } else {
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle(header);
-            alert.setHeaderText(null);
-            alert.setContentText(txt);
-            alert.showAndWait();
-        }
+
+
+    public void createAnnounce() {
+        long subjectID;
+        String title = titleIn.getText();
+        String type = (String) typeIn.getValue();
+        LocalDate date = dateIn.getValue();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/LLLL/yyyy");
+        String day = date.format(formatter);
+        String info = infoIn.getText();
+
+        String id = (String) subjectSelector.getValue();
+        id = id.substring(0, 4);
+        subjectID = Long.parseLong(id);
+
+        addAnnouncement(subjectID, type, info, title, day);
     }
 
     //    ==================DB====================
@@ -95,43 +81,35 @@ public class opencourse_teacherController implements Initializable {
             return results1.get(0);
         }
     }
-    public static void openSbuject(int id_tea,int id_sub){
+
+    public static void addAnnouncement(long id_sub, String type, String info, String title, String date) {
+        long id;
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Subject c Where c.id_sub = " + id_sub + "";
+        TypedQuery<classss.Subject> query1 = em.createQuery(sql1, classss.Subject.class);
+        List<classss.Subject> results1 = query1.getResultList();
 
-        String sql1 = "SELECT c FROM Teacher c Where c.id =" + id_tea + "";
-        TypedQuery<classss.Teacher> query1 = em.createQuery(sql1, classss.Teacher.class);
-        List<classss.Teacher> results1 = query1.getResultList();
-
-        String sql2 = "SELECT c FROM Subject c Where c.id_sub =" + id_sub + "";
-        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
-        List<classss.Subject> results2 = query2.getResultList();
 
         em.getTransaction().begin();
-        results1.get(0).addSubjects(results2.get(0));
-        //em.persist(results1.get(0));
-        //em.persist(results2.get(0));
-        // System.out.println(results1);
-        em.getTransaction().commit();
-        em.close();
-        emf.close();
-    }
-    public static int createSubject(String name, int no_student, String time, String day, String description) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
-        EntityManager em = emf.createEntityManager();
-
-        classss.Subject a = new classss.Subject(name, no_student, time, day, description);
-        em.getTransaction().begin();
+        Announcement a = new Announcement(type, info, title, date);
         em.persist(a);
         em.getTransaction().commit();
+        id = a.getId();
+
+        String sql2 = "SELECT c FROM Announcement c Where c.id = " + id + "";
+        TypedQuery<classss.Announcement> query2 = em.createQuery(sql2, classss.Announcement.class);
+        List<classss.Announcement> results2 = query2.getResultList();
+
         em.getTransaction().begin();
-        a.setId_sub(a.getId() + 1000);
+        results1.get(0).addAnnouncement(results2.get(0));
         em.getTransaction().commit();
         em.close();
         emf.close();
-        return (int) a.getId_sub();
     }
 
+
+    //    jump=======================================================================================
     public void jumpEnroll() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/opencourse_teacher.fxml"));
         Parent root = (Parent) fxmlLoader.load();
@@ -167,6 +145,7 @@ public class opencourse_teacherController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+
     public void jumpCreateAnnounce() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/createAnnounce_teacher.fxml"));
         Parent root = (Parent) fxmlLoader.load();
@@ -175,6 +154,8 @@ public class opencourse_teacherController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+
+
     public void jumpLogout() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();

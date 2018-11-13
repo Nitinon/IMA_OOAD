@@ -1,3 +1,4 @@
+import classss.Announcement;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -328,5 +329,45 @@ public class Main extends Application {
         em.getTransaction().commit();
         em.close();
         emf.close();
+    }
+    public static void addAnnouncement(long id_sub,String type,String info,String title,String date){
+        long id;
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql1 = "SELECT c FROM Subject c Where c.id_sub = " + id_sub+"" ;
+        TypedQuery<classss.Subject> query1 = em.createQuery(sql1, classss.Subject.class);
+        List<classss.Subject> results1 = query1.getResultList();
+
+
+        em.getTransaction().begin();
+        Announcement a = new Announcement(type,info,title,date);
+        em.persist(a);
+        em.getTransaction().commit();
+        id = a.getId();
+
+        String sql2 = "SELECT c FROM Announcement c Where c.id = " + id+"" ;
+        TypedQuery<classss.Announcement> query2 = em.createQuery(sql2, classss.Announcement.class);
+        List<classss.Announcement> results2 = query2.getResultList();
+
+        em.getTransaction().begin();
+        results1.get(0).addAnnouncement(results2.get(0));
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
+    public static void editAnnouncement(long id_an,String info,String title){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Announcement c Where c.id = " + id_an+"" ;
+        TypedQuery<classss.Announcement> query2 = em.createQuery(sql2, classss.Announcement.class);
+        List<classss.Announcement> results2 = query2.getResultList();
+
+        em.getTransaction().begin();
+        results2.get(0).setInfo(info);
+        results2.get(0).setTitle(title);
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+
     }
 }

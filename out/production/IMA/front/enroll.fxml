@@ -50,7 +50,7 @@
                                <Font size="18.0" />
                            </font>
                        </Label>
-                       <Label alignment="TOP_LEFT" text="Age" textAlignment="CENTER">
+                       <Label alignment="TOP_LEFT" text="Birthday" textAlignment="CENTER">
                            <font>
                                <Font size="18.0" />
                            </font>
@@ -121,7 +121,7 @@
                        </Label>
                        <Label fx:id="facultyLB" text="....................................">
                            <font>
-                               <Font size="18.0" />
+                               <Font size="15.0" />
                            </font>
                        </Label>
                    </children>
