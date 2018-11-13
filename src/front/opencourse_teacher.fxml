@@ -11,6 +11,8 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 
 <AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="opencourse_teacherController">
    <children>
@@ -121,6 +123,11 @@
       <Button layoutX="840.0" layoutY="446.0" mnemonicParsing="false" onMouseClicked="#openSubject" text="Submit" />
       <ComboBox fx:id="department" layoutX="840.0" layoutY="197.0" prefWidth="150.0" />
       <TextArea fx:id="description" layoutX="838.0" layoutY="321.0" prefHeight="117.0" prefWidth="200.0" />
+      <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
+         <image>
+            <Image url="/logo2.png" />
+         </image>
+      </ImageView>
       <Label layoutX="759.0" layoutY="321.0" text="Description" />
    </children>
 </AnchorPane>

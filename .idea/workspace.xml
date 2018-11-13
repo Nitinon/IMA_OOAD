@@ -247,6 +247,9 @@
               </folding>
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -256,6 +259,9 @@
               <caret line="2440" selection-start-line="2440" selection-end-line="2440" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -264,6 +270,9 @@
             <state relative-caret-position="275">
               <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>

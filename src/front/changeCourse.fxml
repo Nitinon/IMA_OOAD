@@ -15,9 +15,11 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="changeCourseController">
     <children>
+
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35569e" height="727.0" layoutX="347.0" layoutY="-3.0" stroke="#35569e" strokeType="INSIDE" width="198.0" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8eeff" height="506.0" layoutY="215.0" stroke="#e8eeff" strokeType="INSIDE" width="350.0" />
         <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3859c4" height="218.0" layoutX="-2.0" layoutY="-3.0" stroke="#3859c4" strokeMiterLimit="0.0" strokeType="INSIDE" width="350.0" />
@@ -179,5 +181,11 @@
          </font>
       </Text>
       <ScrollPane fx:id="scrollPane" layoutX="589.0" layoutY="144.0" prefHeight="537.0" prefWidth="665.0" />
+        <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
+            <image>
+                <Image url="/logo2.png" />
+            </image>
+        </ImageView>
     </children>
+
 </AnchorPane>

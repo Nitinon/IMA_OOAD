@@ -15,6 +15,8 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 
 <AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewscoreController">
    <children>
@@ -180,5 +182,10 @@
       </Text>
       <Button fx:id="viewEnterBT" layoutX="1048.0" layoutY="95.0" mnemonicParsing="false" text="View" />
       <ScrollPane fx:id="scrollPane" layoutX="583.0" layoutY="148.0" prefHeight="537.0" prefWidth="665.0" />
+      <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
+         <image>
+            <Image url="/logo2.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
