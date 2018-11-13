@@ -51,7 +51,7 @@ public class opencourse_teacherController implements Initializable {
         String time = (String) sessionTime.getValue();
         String date = (String) teachingDate.getValue();
         String des = description.getText();
-        openCourse((int)currentTeacher.getId(),createSubject(name,40,time,date,des));
+        openSbuject((int)currentTeacher.getId(),createSubject(name,40,time,date,des));
         System.out.println("eieieieiei");
     }
 
@@ -68,7 +68,7 @@ public class opencourse_teacherController implements Initializable {
             return results1.get(0);
         }
     }
-    public static void openCourse(int id_tea,int id_sub){
+    public static void openSbuject(int id_tea,int id_sub){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
 
