@@ -67,5 +67,15 @@ public class Announcement {
         this.date = date;
     }
 
-
+    @Override
+    public String toString() {
+        return "Announcement{" +
+                "id=" + id +
+                ", type='" + type + '\'' +
+                ", info='" + info + '\'' +
+                ", title='" + title + '\'' +
+                ", date='" + date + '\'' +
+                ", subjectsss=" + subjectsss +
+                '}';
+    }
 }

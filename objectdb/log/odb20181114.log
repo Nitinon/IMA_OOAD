@@ -185,3 +185,179 @@ Server on port 6136 has started by 25700@DESKTOP-CBH5LMM
 [2018-11-14 01:31:47 #4 store] 
 Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 26044@DESKTOP-CBH5LMM
 
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:43:07 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 21608@DESKTOP-CBH5LMM
+
+[2018-11-14 01:43:07 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:43:07 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:43:07 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:43:07 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:43:07 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:43:07 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 01:43:07 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:43:43 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 25904@DESKTOP-CBH5LMM
+
+[2018-11-14 01:43:43 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:43:43 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:43:43 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:43:43 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:43:43 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:43:43 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 01:43:43 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:44:05 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' has been recovered (tr. 201-202)
+
+[2018-11-14 01:44:05 #2 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 54408@DESKTOP-CBH5LMM
+
+[2018-11-14 01:44:05 #3 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:44:17 #4 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is closed by 54408@DESKTOP-CBH5LMM
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:44:34 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 40192@DESKTOP-CBH5LMM
+
+[2018-11-14 01:44:34 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:44:34 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:44:34 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:44:34 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:44:34 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:44:34 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 01:44:34 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:47:25 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13280@DESKTOP-CBH5LMM
+
+[2018-11-14 01:47:25 #2 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:47:25 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:47:25 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:47:25 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:47:25 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:47:25 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 01:47:25 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:49:25 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' has been recovered (tr. 203-206)
+
+[2018-11-14 01:49:25 #2 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 47172@DESKTOP-CBH5LMM
+
+[2018-11-14 01:49:25 #3 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:49:25 #4 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:49:25 #5 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:49:25 #6 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:49:25 #7 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:49:25 #8 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 01:49:25 #9 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:50:59 #1 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' has been recovered (tr. 207-212)
+
+[2018-11-14 01:50:59 #2 store] 
+Database 'E:\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 15436@DESKTOP-CBH5LMM
+
+[2018-11-14 01:50:59 #3 store] 
+Configuration path: E:\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:50:59 #4 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:50:59 #5 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:50:59 #6 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:50:59 #7 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:50:59 #8 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 01:50:59 #9 type] 
+Type classss.Announcement is not enhanced.
+

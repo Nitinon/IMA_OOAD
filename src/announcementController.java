@@ -1,4 +1,6 @@
+import classss.Announcement;
 import classss.Student;
+import classss.Subject;
 import component.passwordDialog;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -18,10 +20,7 @@ import javax.persistence.TypedQuery;
 import javax.xml.soap.Text;
 import java.io.IOException;
 import java.net.URL;
-import java.util.List;
-import java.util.Optional;
-import java.util.ResourceBundle;
-import java.util.Date;
+import java.util.*;
 import java.time.YearMonth;
 import java.util.prefs.Preferences;
 
@@ -123,13 +122,31 @@ public class announcementController implements Initializable {
         if (day ==0) aa[j][i].setText(" ");
         else aa[j][i].setText(day+"");
         aa[j][i].setOnAction(e ->{
-            dayBtnAction(day,month);
+//            dayBtnAction(day,month);
+            findAnnounce(day,month,year);
         });
+
         return aa[j][i];
     }
-    public void dayBtnAction(int day,int month){
-        System.out.println(day+" "+month+" "+year);
+    public void findAnnounce(int day,int month,int year){
+        String date=day+"/"+month+"/"+year;
+        System.out.println(date);
+        ArrayList<Announcement> listAnnounce=new ArrayList<>();
+
+        for(Subject temp:currentStudent.getSubject()){
+            for(Announcement a:temp.getAnnouncements()){
+                if(a.getDate().equals(date)){
+                    listAnnounce.add(a);
+                }
+            }
+        }
+        if(listAnnounce.size()!=0){
+            for (Announcement aa:listAnnounce){
+                System.out.println(aa);
+            }
+        }
     }
+
     public void nxtMonth(){
         if(month==11){
             month = 0;
