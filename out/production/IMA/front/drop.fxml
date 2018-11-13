@@ -92,17 +92,17 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label fx:id="emailLB1" text="....................................">
+                  <Label fx:id="telLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label text="....................................">
+                  <Label fx:id="yearLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label text="....................................">
+                  <Label fx:id="facultyLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>

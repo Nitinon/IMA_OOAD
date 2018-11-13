@@ -2,10 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291f37bd-5811-4630-8272-030227240e05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/objectdb/log/odb20181113.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objectdb/db/AccountDB.odb" beforeDir="false" afterPath="$PROJECT_DIR$/objectdb/db/AccountDB.odb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objectdb/db/AccountDB.odb$" beforeDir="false" afterPath="$PROJECT_DIR$/objectdb/db/AccountDB.odb$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objectdb/log/odb20181113.log" beforeDir="false" afterPath="$PROJECT_DIR$/objectdb/log/odb20181113.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/announcementController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/announcementController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/changeCourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/changeCourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/dropController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/dropController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/editscore_teacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/editscore_teacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/editsubject_teacherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/editsubject_teacherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/front/announcement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/front/announcement.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/front/changeCourse.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/front/changeCourse.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/front/drop.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/front/drop.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/front/editscore_teacher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/front/editscore_teacher.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IMA/front/editsubject_teacher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IMA/front/editsubject_teacher.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/announcementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/announcementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/changeCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/changeCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classss/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classss/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dropController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dropController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/editscore_teacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/editscore_teacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/editsubject_teacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/editsubject_teacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enrollController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/announcement.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/announcement.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/changeCourse.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/changeCourse.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/drop.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/drop.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/editscore_teacher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/editscore_teacher.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/editsubject_teacher.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/editsubject_teacher.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewscoreController.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,35 +77,36 @@
     <session id="-1159475618">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="fxml" value="277" />
-          <entry key="java" value="5198" />
+          <entry key="fxml" value="440" />
+          <entry key="java" value="8813" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5198" />
-          <entry key="XML" value="277" />
+          <entry key="JAVA" value="8813" />
+          <entry key="XML" value="440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="11" />
-          <entry key="java" value="30" />
+          <entry key="fxml" value="22" />
+          <entry key="java" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
-          <entry key="XML" value="11" />
+          <entry key="JAVA" value="59" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
     </session>
@@ -224,85 +250,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="82" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2380">
+              <caret line="140" selection-start-line="140" selection-end-line="140" />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classss/Subject.java">
+        <entry file="file://$PROJECT_DIR$/src/editscore_teacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#2141#2142#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
-                <element signature="e#2205#2206#0" expanded="true" />
-                <element signature="e#2235#2236#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="191">
+              <caret line="195" selection-start-line="195" selection-end-line="195" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/enrollController.java">
+        <entry file="file://$PROJECT_DIR$/src/changeCourseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+            <state relative-caret-position="-38">
+              <caret line="155" column="44" selection-start-line="155" selection-start-column="44" selection-end-line="155" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classss/Score.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1235#1236#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classss/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opencourse_teacherController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classss/Teacher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="71" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/registerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="114" selection-start-line="114" selection-end-line="115" />
+            <state relative-caret-position="191">
+              <caret line="219" selection-start-line="219" selection-end-line="234" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -311,13 +304,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/front/opencourse_teacher.fxml">
+        <entry file="file://$PROJECT_DIR$/src/editsubject_teacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="89" column="43" selection-start-line="89" selection-start-column="43" selection-end-line="89" selection-end-column="43" />
+            <state relative-caret-position="-17">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dropController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="149" column="5" selection-start-line="86" selection-start-column="3" selection-end-line="149" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -331,20 +336,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>enroll</find>
-      <find>Butto</find>
-      <find>scr</find>
-      <find>Mouse</find>
-      <find>submi</find>
-      <find>anno</find>
-      <find>an</find>
-      <find>ooad</find>
-      <find>log</find>
-      <find>user</find>
-      <find>del</find>
-      <find>crea</find>
-      <find>createTe</find>
-      <find>getSubje</find>
       <find>getSubj</find>
       <find>getSu</find>
       <find>enrol</find>
@@ -353,9 +344,28 @@
       <find>open</find>
       <find>cre</find>
       <find>createSu</find>
-      <find>getOb</find>
-      <find>openc</find>
       <find>butt</find>
+      <find>openc</find>
+      <find>del</find>
+      <find>textAr</find>
+      <find>description</find>
+      <find>box</find>
+      <find>topi</find>
+      <find>topic</find>
+      <find>Score</find>
+      <find>newT</find>
+      <find>new</find>
+      <find>score</find>
+      <find>com</find>
+      <find>view</find>
+      <find>subjectSelected</find>
+      <find>student</find>
+      <find>getStude</find>
+      <find>getOb</find>
+      <find>create</find>
+      <find>edit</find>
+      <find>editScore</find>
+      <find>listScoreSelected</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -372,39 +382,42 @@
         <option value="$PROJECT_DIR$/src/drop.fxml" />
         <option value="$PROJECT_DIR$/src/viewscore.fxml" />
         <option value="$PROJECT_DIR$/src/opencourse_teacher.fxml" />
-        <option value="$PROJECT_DIR$/src/editscore_teacherController.java" />
-        <option value="$PROJECT_DIR$/src/editsubject_teacherController.java" />
         <option value="$PROJECT_DIR$/src/deletesubject_teacherController.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/announcementController.java" />
-        <option value="$PROJECT_DIR$/src/front/editscore_teacher.fxml" />
-        <option value="$PROJECT_DIR$/src/editscore_teacherController.java" />
         <option value="$PROJECT_DIR$/src/viewscoreController.java" />
         <option value="$PROJECT_DIR$/src/viewscoreController.java" />
-        <option value="$PROJECT_DIR$/src/dropController.java" />
-        <option value="$PROJECT_DIR$/src/changeCourseController.java" />
-        <option value="$PROJECT_DIR$/src/front/changeCourse.fxml" />
-        <option value="$PROJECT_DIR$/src/front/drop.fxml" />
         <option value="$PROJECT_DIR$/src/front/viewscore.fxml" />
         <option value="$PROJECT_DIR$/src/announcement.fxml" />
-        <option value="$PROJECT_DIR$/src/front/announcement.fxml" />
         <option value="$PROJECT_DIR$/src/classs/Account.java" />
         <option value="$PROJECT_DIR$/src/classss/Account.java" />
         <option value="$PROJECT_DIR$/src/classss/Teacher.java" />
         <option value="$PROJECT_DIR$/src/front/login.fxml" />
         <option value="$PROJECT_DIR$/src/front/enroll.fxml" />
-        <option value="$PROJECT_DIR$/src/classss/Student.java" />
         <option value="$PROJECT_DIR$/src/front/register_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/registerController.java" />
         <option value="$PROJECT_DIR$/src/register_teacherController.java" />
         <option value="$PROJECT_DIR$/src/loginController.java" />
         <option value="$PROJECT_DIR$/src/loginController.java" />
         <option value="$PROJECT_DIR$/src/classss/Subject.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/opencourse_teacherController.java" />
         <option value="$PROJECT_DIR$/src/front/opencourse_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/enrollController.java" />
         <option value="$PROJECT_DIR$/src/enrollController.java" />
+        <option value="$PROJECT_DIR$/src/announcementController.java" />
+        <option value="$PROJECT_DIR$/src/front/announcement.fxml" />
+        <option value="$PROJECT_DIR$/src/front/drop.fxml" />
+        <option value="$PROJECT_DIR$/src/dropController.java" />
+        <option value="$PROJECT_DIR$/src/front/changeCourse.fxml" />
+        <option value="$PROJECT_DIR$/src/front/editsubject_teacher.fxml" />
+        <option value="$PROJECT_DIR$/src/studentController/changeCourseController.java" />
+        <option value="$PROJECT_DIR$/src/classss/Student.java" />
+        <option value="$PROJECT_DIR$/src/front/editscore_teacher.fxml" />
+        <option value="$PROJECT_DIR$/src/classss/Score.java" />
+        <option value="$PROJECT_DIR$/src/editsubject_teacherController.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/editscore_teacherController.java" />
+        <option value="$PROJECT_DIR$/src/editscore_teacherController.java" />
+        <option value="$PROJECT_DIR$/src/changeCourseController.java" />
       </list>
     </option>
   </component>
@@ -564,6 +577,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -586,12 +600,6 @@
               <item name="IMA_OOAD" type="b2602c69:ProjectViewProjectNode" />
               <item name="IMA_OOAD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IMA_OOAD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IMA_OOAD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -599,13 +607,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542045427477" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542091509227" />
     <property name="last_opened_file_path" value="H:/My Drive/3D_1/OOAD/MovieBooking-develope" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -746,16 +753,18 @@
       <workItem from="1541916431021" duration="2120000" />
       <workItem from="1541918603215" duration="7853000" />
       <workItem from="1541996191599" duration="1205000" />
+      <workItem from="1542074967349" duration="11738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90508000" />
+    <option name="totallyTimeSpent" value="114869000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19215938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19189766" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -766,15 +775,15 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.21428572" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39914164" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4989339" visible="true" weight="0.29284164" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.29284164" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32614556" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49840087" weight="0.3253796" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Mongo Explorer" order="1" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
@@ -843,25 +852,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/editsubject_teacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/viewscore.fxml" />
     <entry file="file://$PROJECT_DIR$/IMA.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/register.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/editscore_teacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -869,48 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/announcementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/changeCourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="87" column="38" selection-start-line="87" selection-start-column="8" selection-end-line="90" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/announcement.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/editsubject_teacher.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/announcement.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="120" selection-end-column="13" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -924,13 +881,6 @@
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classs/Account.java" />
-    <entry file="file://$PROJECT_DIR$/src/classss/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="73" lean-forward="true" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classss/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -954,29 +904,6 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/drop.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/changeCourse.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3432">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/register_teacherController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -994,16 +921,6 @@
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/viewscoreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="75" selection-start-line="75" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/scene/Node.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1023,44 +940,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dropController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="76" column="31" lean-forward="true" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classss/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-            <element signature="e#2205#2206#0" expanded="true" />
-            <element signature="e#2235#2236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/registerController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
           <caret line="114" selection-start-line="114" selection-end-line="115" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="82" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1074,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/opencourse_teacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/front/opencourse_teacher.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
@@ -1089,25 +965,177 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classss/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/loginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="98">
+          <caret line="43" column="123" lean-forward="true" selection-start-line="43" selection-start-column="123" selection-end-line="43" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/announcement.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="190" column="13" selection-start-line="190" selection-start-column="13" selection-end-line="190" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/drop.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="104" column="42" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ediProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/opencourse_teacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="69" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/changeCourse.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="193" column="19" lean-forward="true" selection-start-line="193" selection-start-column="19" selection-end-line="193" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/enrollController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        <state relative-caret-position="158">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/viewscoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/announcementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="184" column="5" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/editsubject_teacher.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classss/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classss/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2167#2168#0" expanded="true" />
+            <element signature="e#2205#2206#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dropController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="149" column="5" selection-start-line="86" selection-start-column="3" selection-end-line="149" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classss/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+          <folding>
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/editsubject_teacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="219" selection-start-line="219" selection-end-line="234" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/editscore_teacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/changeCourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="155" column="44" selection-start-line="155" selection-start-column="44" selection-end-line="155" selection-end-column="44" />
         </state>
       </provider>
     </entry>

@@ -120,14 +120,14 @@
       <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
       <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
       <SplitPane layoutX="547.0" layoutY="-9.0" orientation="VERTICAL" prefHeight="735.0" prefWidth="739.0">
-        <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="306.0" prefWidth="737.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="306.0" prefWidth="737.0">
                <children>
-                  <Text layoutX="295.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Announcement">
+                  <Label fx:id="announcetitle" layoutX="295.0" layoutY="50.0" text="Announcement">
                      <font>
                         <Font size="24.0" />
                      </font>
-                  </Text>
+                  </Label>
                   <GridPane fx:id="announcepane" layoutX="95.0" layoutY="107.0" prefHeight="425.0" prefWidth="586.0" />
                   <Button layoutX="116.0" layoutY="544.0" mnemonicParsing="false" onMouseClicked="#preMonth" text="Previous Month">
                      <font>
@@ -141,7 +141,7 @@
                   </Button>
                </children>
             </AnchorPane>
-        </items>
+         </items>
       </SplitPane>
       <Line endX="-17.0" endY="520.0" layoutX="562.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />

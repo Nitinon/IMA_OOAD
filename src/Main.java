@@ -16,7 +16,7 @@ import classss.Subject;
 
 public class Main extends Application {
     public static void main (String[] args){
-//        openCourse(100001,createSubject("SE",40,"Afternoon","Monday","Kuaykauy"));
+//        openCourse(100001,createSubject("SE",40,"Afternoon","Monday","Kuaykauy")createSubject("SE",40,"Afternoon","Monday","Kuaykauy"));
         launch(args);
     }
     @Override
@@ -186,16 +186,15 @@ public class Main extends Application {
         emf.close();
     }
 
-    public static void createScore(int idStudent, int idSubject, String topic, int point) {
+    public static void createScore(int idStudent, int idSubject, String topic, int point,int max) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        classss.Score a = new classss.Score(idStudent,idSubject,topic,point);
+        classss.Score a = new classss.Score(idStudent,idSubject,topic,point,max);
         em.persist(a);
         em.getTransaction().commit();
         em.close();
         emf.close();
-
     }
 
     public static int viewScore(int idStudent, int idSubject, String topic){
