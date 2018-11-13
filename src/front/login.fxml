@@ -4,39 +4,48 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginController">
+<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginController">
    <children>
-      <TextField fx:id="username" layoutX="569.0" layoutY="157.0" prefHeight="25.0" prefWidth="173.0" />
-      <PasswordField fx:id="password" layoutX="569.0" layoutY="201.0" prefHeight="25.0" prefWidth="173.0" />
-      <Text layoutX="480.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3859c4" height="175.0" stroke="#3859c4" strokeMiterLimit="0.0" strokeType="INSIDE" width="1280.0" />
+      <TextField fx:id="username" layoutX="612.0" layoutY="395.0" prefHeight="25.0" prefWidth="173.0" />
+      <PasswordField fx:id="password" layoutX="612.0" layoutY="439.0" prefHeight="25.0" prefWidth="173.0" />
+      <Text layoutX="523.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User ID">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="480.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+      <Text layoutX="523.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Label layoutX="483.0" layoutY="51.0" text="Welcome">
+      <Label layoutX="524.0" layoutY="287.0" text="Welcome">
          <font>
             <Font size="63.0" />
          </font>
       </Label>
-      <Button fx:id="signinBT" layoutX="509.0" layoutY="272.0" mnemonicParsing="false" onMouseClicked="#jumpSignIn" text="Sign-in">
+      <Button fx:id="signinBT" layoutX="561.0" layoutY="505.0" mnemonicParsing="false" onMouseClicked="#jumpSignIn" text="Sign-in">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="registerBT" layoutX="602.0" layoutY="272.0" mnemonicParsing="false" onMouseClicked="#jumpRegister" text="Register">
+      <Button fx:id="registerBT" layoutX="654.0" layoutY="505.0" mnemonicParsing="false" onMouseClicked="#jumpRegister" text="Register">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="register_teacherBT" layoutX="606.0" layoutY="397.0" mnemonicParsing="false" onMouseClicked="#jumpRegister_teacher" text="register teacher" />
+      <Button fx:id="register_teacherBT" layoutX="663.0" layoutY="602.0" mnemonicParsing="false" onMouseClicked="#jumpRegister_teacher" text="register teacher" />
+      <ImageView fitHeight="220.0" fitWidth="220.0" layoutX="544.0" layoutY="67.0">
+         <image>
+            <Image url="@logo2.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

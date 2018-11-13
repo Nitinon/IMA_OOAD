@@ -4,17 +4,16 @@
     <list default="true" id="291f37bd-5811-4630-8272-030227240e05" name="Default Changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectdb/db/AccountDB.odb" afterPath="$PROJECT_DIR$/objectdb/db/AccountDB.odb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectdb/db/AccountDB.odb$" afterPath="$PROJECT_DIR$/objectdb/db/AccountDB.odb$" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IMA/viewscoreController.class" afterPath="$PROJECT_DIR$/out/production/IMA/viewscoreController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/objectdb/log/odb20181113.log" afterPath="$PROJECT_DIR$/objectdb/log/odb20181113.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/announcement.fxml" afterPath="$PROJECT_DIR$/src/front/announcement.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/changeCourse.fxml" afterPath="$PROJECT_DIR$/src/front/changeCourse.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/changePass.fxml" afterPath="$PROJECT_DIR$/src/front/changePass.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/deletesubject_teacher.fxml" afterPath="$PROJECT_DIR$/src/front/deletesubject_teacher.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/drop.fxml" afterPath="$PROJECT_DIR$/src/front/drop.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/editscore_teacher.fxml" afterPath="$PROJECT_DIR$/src/front/editscore_teacher.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/editsubject_teacher.fxml" afterPath="$PROJECT_DIR$/src/front/editsubject_teacher.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/enroll.fxml" afterPath="$PROJECT_DIR$/src/front/enroll.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/login.fxml" afterPath="$PROJECT_DIR$/src/front/login.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/opencourse_teacher.fxml" afterPath="$PROJECT_DIR$/src/front/opencourse_teacher.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/front/viewscore.fxml" afterPath="$PROJECT_DIR$/src/front/viewscore.fxml" />
     </list>
@@ -205,129 +204,131 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="changeCourse.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front/changeCourse.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="377">
+              <caret line="183" column="84" lean-forward="false" selection-start-line="183" selection-start-column="84" selection-end-line="183" selection-end-column="84" />
               <folding>
-                <marker date="1542104188000" expanded="true" signature="10844:10845" ph="..." />
+                <marker date="1542116252000" expanded="true" signature="10920:10921" ph="..." />
               </folding>
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="deletesubject_teacher.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front/deletesubject_teacher.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="191" lean-forward="false" selection-start-line="14" selection-start-column="191" selection-end-line="14" selection-end-column="191" />
+            <state relative-caret-position="401">
+              <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="drop.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front/drop.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="191" lean-forward="false" selection-start-line="17" selection-start-column="191" selection-end-line="17" selection-end-column="191" />
+            <state relative-caret-position="401">
+              <caret line="178" column="24" lean-forward="true" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="editscore_teacher.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="191" lean-forward="false" selection-start-line="19" selection-start-column="191" selection-end-line="19" selection-end-column="191" />
+            <state relative-caret-position="401">
+              <caret line="196" column="24" lean-forward="false" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="editsubject_teacher.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front/editsubject_teacher.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="191" lean-forward="false" selection-start-line="16" selection-start-column="191" selection-end-line="16" selection-end-column="191" />
+            <state relative-caret-position="401">
+              <caret line="150" column="24" lean-forward="true" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="opencourse_teacher.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="opencourse_teacher.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front/opencourse_teacher.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="191" lean-forward="false" selection-start-line="14" selection-start-column="191" selection-end-line="14" selection-end-column="191" />
+            <state relative-caret-position="384">
+              <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="viewscore.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/front/viewscore.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="191" lean-forward="false" selection-start-line="18" selection-start-column="191" selection-end-line="18" selection-end-column="191" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="announcement.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front/announcement.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="184" column="82" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="announcementController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/announcementController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="enroll.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/front/enroll.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2771">
+              <caret line="163" column="16" lean-forward="true" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/front/login.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="158" lean-forward="true" selection-start-line="16" selection-start-column="158" selection-end-line="16" selection-end-column="158" />
+            <state relative-caret-position="102">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/loginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding>
+                <marker date="1542100796000" expanded="true" signature="5635:5801" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -400,15 +401,16 @@
         <option value="$PROJECT_DIR$/src/registerController.java" />
         <option value="$PROJECT_DIR$/src/front/changePass.fxml" />
         <option value="$PROJECT_DIR$/src/front/editProfile.fxml" />
-        <option value="$PROJECT_DIR$/src/front/enroll.fxml" />
         <option value="$PROJECT_DIR$/src/front/announcement.fxml" />
         <option value="$PROJECT_DIR$/src/front/viewscore.fxml" />
+        <option value="$PROJECT_DIR$/src/front/opencourse_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/front/editsubject_teacher.fxml" />
+        <option value="$PROJECT_DIR$/src/front/editscore_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/front/drop.fxml" />
         <option value="$PROJECT_DIR$/src/front/deletesubject_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/front/changeCourse.fxml" />
-        <option value="$PROJECT_DIR$/src/front/editscore_teacher.fxml" />
-        <option value="$PROJECT_DIR$/src/front/opencourse_teacher.fxml" />
+        <option value="$PROJECT_DIR$/src/front/enroll.fxml" />
+        <option value="$PROJECT_DIR$/src/front/login.fxml" />
       </list>
     </option>
   </component>
@@ -419,9 +421,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="57" />
     <option name="y" value="-8" />
-    <option name="width" value="2002" />
+    <option name="width" value="1999" />
     <option name="height" value="1168" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -579,6 +581,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -639,9 +644,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -911,8 +913,7 @@
     <option name="totallyTimeSpent" value="63969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="2002" height="1168" extended-state="0" />
-    <editor active="true" />
+    <frame x="57" y="-8" width="1999" height="1168" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -923,13 +924,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13997985" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14019163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -959,18 +960,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/registerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="64" column="38" lean-forward="true" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1542100796000" expanded="true" signature="4262:4299" ph="//..." />
-            <marker date="1542100796000" expanded="true" signature="4262:4373" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3519">
@@ -1003,9 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,9 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1087,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,23 +1166,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/loginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <marker date="1542100796000" expanded="true" signature="5635:5801" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classss/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,7 +1177,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,7 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,44 +1216,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21930">
           <caret line="1290" column="17" lean-forward="false" selection-start-line="1290" selection-start-column="17" selection-end-line="1290" selection-end-column="17" />
-          <folding>
-            <marker date="1542104770000" expanded="true" signature="203:225" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73187:73204" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73187:73222" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73187:73235" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73285:75392" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73298:75377" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73352:73647" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73371:73632" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73434:73612" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73474:73578" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73495:73556" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73697:74024" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73716:74009" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73811:73989" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73851:73955" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="73872:73933" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74075:74340" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74094:74325" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74127:74305" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74167:74271" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74188:74249" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74383:74689" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74402:74674" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74476:74654" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74516:74620" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74537:74598" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74740:75046" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74759:75031" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74833:75011" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74873:74977" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="74894:74955" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="75098:75363" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="75117:75348" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="75150:75328" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="75190:75294" ph="..." />
-            <marker date="1542104770000" expanded="true" signature="75211:75272" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,133 +1233,154 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/front/changePass.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/editProfile.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/editProfile.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/viewscore.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="191" lean-forward="false" selection-start-line="18" selection-start-column="191" selection-end-line="18" selection-end-column="191" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/editsubject_teacher.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="191" lean-forward="false" selection-start-line="16" selection-start-column="191" selection-end-line="16" selection-end-column="191" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/drop.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="191" lean-forward="false" selection-start-line="17" selection-start-column="191" selection-end-line="17" selection-end-column="191" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/deletesubject_teacher.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="191" lean-forward="false" selection-start-line="14" selection-start-column="191" selection-end-line="14" selection-end-column="191" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/changeCourse.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <marker date="1542104188000" expanded="true" signature="10844:10845" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/enroll.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="158" lean-forward="true" selection-start-line="16" selection-start-column="158" selection-end-line="16" selection-end-column="158" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/announcement.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/announcementController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-2113">
           <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/front/viewscore.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="191" lean-forward="false" selection-start-line="19" selection-start-column="191" selection-end-line="19" selection-end-column="191" />
+        <state relative-caret-position="401">
+          <caret line="186" column="24" lean-forward="false" selection-start-line="186" selection-start-column="24" selection-end-line="186" selection-end-column="24" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/front/opencourse_teacher.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/opencourse_teacher.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="191" lean-forward="false" selection-start-line="14" selection-start-column="191" selection-end-line="14" selection-end-column="191" />
+        <state relative-caret-position="384">
+          <caret line="127" column="24" lean-forward="false" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/editsubject_teacher.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="150" column="24" lean-forward="true" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/editscore_teacher.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="196" column="24" lean-forward="false" selection-start-line="196" selection-start-column="24" selection-end-line="196" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/drop.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="178" column="24" lean-forward="true" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/deletesubject_teacher.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="126" column="24" lean-forward="true" selection-start-line="126" selection-start-column="24" selection-end-line="126" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/announcement.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="184" column="82" lean-forward="true" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/changeCourse.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="183" column="84" lean-forward="false" selection-start-line="183" selection-start-column="84" selection-end-line="183" selection-end-column="84" />
+          <folding>
+            <marker date="1542116252000" expanded="true" signature="10920:10921" ph="..." />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/enroll.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2771">
+          <caret line="163" column="16" lean-forward="true" selection-start-line="163" selection-start-column="16" selection-end-line="163" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/login.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/loginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <marker date="1542100796000" expanded="true" signature="5635:5801" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
