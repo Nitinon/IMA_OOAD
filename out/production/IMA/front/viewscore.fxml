@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.effect.InnerShadow?>
-<?import javafx.geometry.Insets?>
 
-<?import javafx.scene.control.ComboBox?>
-<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-image: url('file:C:/Users/Farong/Pictures/pic.png');" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewscoreController">
+<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewscoreController">
    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35569e" height="727.0" layoutX="347.0" layoutY="-3.0" stroke="#35569e" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8eeff" height="506.0" layoutY="215.0" stroke="#e8eeff" strokeType="INSIDE" width="350.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3859c4" height="218.0" layoutX="-2.0" layoutY="-3.0" stroke="#3859c4" strokeMiterLimit="0.0" strokeType="INSIDE" width="350.0" />
       <ImageView fitHeight="117.0" fitWidth="133.0" layoutX="50.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-radius: -fx-border-radius: 10 10 10 10;-fx-background-radius: 10 10 10 10;" />
       <HBox layoutX="72.0" layoutY="240.0" spacing="10.0">
          <children>
@@ -120,41 +121,20 @@
          </children>
       </HBox>
       <Line endX="-17.0" endY="520.0" layoutX="366.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
-      <Button fx:id="editProfileBT" onMouseClicked="#jumpEditProfile" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
-      <Button fx:id="changePassBT" onMouseClicked="#jumpChangePass" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
-      <SplitPane layoutX="547.0" layoutY="-9.0" orientation="VERTICAL" prefHeight="735.0" prefWidth="739.0">
-        <items>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="306.0" prefWidth="737.0">
-               <children>
-                  <ComboBox fx:id="subjectSelector" onAction="#enterSubject" layoutX="276.0" layoutY="102.0" prefHeight="35.0" prefWidth="187.0" />
-                  <Text layoutX="201.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                  </Text>
-                  <Text layoutX="295.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Subject">
-                     <font>
-                        <Font size="24.0" />
-                     </font>
-                  </Text>
-                  <Button fx:id="viewEnterBT" layoutX="502.0" layoutY="107.0" mnemonicParsing="false" text="View" />
-                  <ScrollPane fx:id="scrollPane" layoutX="37.0" layoutY="160.0" prefHeight="537.0" prefWidth="665.0" />
-               </children>
-            </AnchorPane>
-        </items>
-      </SplitPane>
+      <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#jumpEditProfile" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
+      <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" onMouseClicked="#jumpChangePass" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
       <Line endX="-17.0" endY="520.0" layoutX="562.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
 
-      <Circle fill="WHITE" layoutX="540.0" layoutY="90.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="159.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="227.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="291.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="356.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="90.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="159.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="227.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="291.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="356.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
 
       <Label layoutX="388.0" layoutY="277.0" text="View Corse">
          <font>
@@ -187,5 +167,18 @@
       <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onMouseClicked="#jumpView" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="announceBT1" layoutX="350.0" layoutY="328.0" mnemonicParsing="false" onMouseClicked="#jumpAnnounce" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
+      <ComboBox fx:id="subjectSelector" layoutX="822.0" layoutY="90.0" onAction="#enterSubject" prefHeight="35.0" prefWidth="187.0" />
+      <Text layoutX="747.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="841.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Subject">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="viewEnterBT" layoutX="1048.0" layoutY="95.0" mnemonicParsing="false" text="View" />
+      <ScrollPane fx:id="scrollPane" layoutX="583.0" layoutY="148.0" prefHeight="537.0" prefWidth="665.0" />
    </children>
 </AnchorPane>

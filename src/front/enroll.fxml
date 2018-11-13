@@ -14,10 +14,12 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-image: url('file:C:/Users/Farong/Pictures/pic.png');" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="enrollController">
+<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"  prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="enrollController">
    <children>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="450.0" prefWidth="733.0" />
-    <AnchorPane layoutX="546.0" layoutY="-3.0" minHeight="0.0" minWidth="0.0" prefHeight="727.0" prefWidth="733.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35569e" height="727.0" layoutX="347.0" layoutY="-3.0" stroke="#35569e" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8eeff" height="506.0" layoutY="215.0" stroke="#e8eeff" strokeType="INSIDE" width="350.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3859c4" height="218.0" layoutX="-2.0" layoutY="-3.0" stroke="#3859c4" strokeMiterLimit="0.0" strokeType="INSIDE" width="350.0" />
+    <AnchorPane layoutX="546.0" layoutY="-3.0" minHeight="0.0" minWidth="0.0" prefHeight="727.0" prefWidth="739.0" >
          <children>
             <ScrollPane fx:id="scrollPane1" layoutX="114.0" layoutY="71.0" prefHeight="293.0" prefWidth="505.0" />
             <ScrollPane fx:id="scrollPane2" layoutX="114.0" layoutY="409.0" prefHeight="293.0" prefWidth="505.0" />
@@ -135,16 +137,16 @@
       <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" onMouseClicked="#jumpEditProfile" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
       <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" onMouseClicked="#jumpChangePass" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
       <Line endX="-17.0" endY="520.0" layoutX="562.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="48.0" layoutX="349.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="90.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="159.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="227.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="291.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="WHITE" layoutX="540.0" layoutY="356.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="331.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="90.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="159.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="227.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="291.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="356.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Label layoutX="388.0" layoutY="277.0" text="View Corse">
          <font>
             <Font name="System Bold" size="18.0" />
