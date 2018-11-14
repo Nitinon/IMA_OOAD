@@ -229,6 +229,8 @@ public class editscore_teacherController implements Initializable {
             createScore((int) temp.getId(), (int) subjectSelected.getId_sub(), topicIn.getText(), 0,Integer.parseInt(maxIn.getText()));
         }
         System.out.println("created");
+        topicSelector.getItems().add(topicIn.getText());
+        updateScreen();
     }
     public void submitScore() {
         for (int i = 0; i < listScoreIn.size(); i++) {
@@ -301,7 +303,6 @@ public class editscore_teacherController implements Initializable {
             return results1.get(0);
         }
     }
-
     public static void editScore(int idStudent, int idSubject, String topic,int point){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();

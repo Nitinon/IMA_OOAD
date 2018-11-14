@@ -186,6 +186,7 @@ public class deletesubject_teacherController implements Initializable {
             if (password.equals(currentTeacher.getPassword())) {
 //              delete Subject
                 delSubject((int) currentTeacher.getId(),(int)id);
+                deleteScore((int)id);
                 popUp(true,"Delete Subject","Delete Subject Success");
                 updateScreen();
             } else {
@@ -257,23 +258,18 @@ public class deletesubject_teacherController implements Initializable {
         em.close();
         emf.close();
     }
-    public static void openSbuject(int id_tea, int id_sub) {
+    public static void deleteScore(int id_sub){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
-
-        String sql1 = "SELECT c FROM Teacher c Where c.id =" + id_tea + "";
-        TypedQuery<classss.Teacher> query1 = em.createQuery(sql1, classss.Teacher.class);
-        List<classss.Teacher> results1 = query1.getResultList();
-
-        String sql2 = "SELECT c FROM Subject c Where c.id_sub =" + id_sub + "";
+        String sql2 = "SELECT c FROM Score c Where c.IdSubject =" + id_sub;
         TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
         List<classss.Subject> results2 = query2.getResultList();
-
         em.getTransaction().begin();
-        results1.get(0).addSubjects(results2.get(0));
-        //em.persist(results1.get(0));
-        //em.persist(results2.get(0));
-        // System.out.println(results1);
+        int size=results2.size();
+        for (int i=0;i<size;i++){
+            em.remove(results2.get(0));
+            results2.remove(0);
+        }
         em.getTransaction().commit();
         em.close();
         emf.close();
