@@ -200,9 +200,9 @@ public class enrollController implements Initializable {
         empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;");
 
         Button btn1 = createDesBT("description", subject.getId_sub());
-        btn1.setStyle("-fx-alignment:center; -fx-font-size: 10 ; -fx-pref-height: 10px; -fx-pref-width: 125px;\n" +
-                "\t-fx-background-color: rgb(250, 250, 250);-fx-border-color: black;-fx-hand");
-        btn1.setLayoutX(wLable * 3);
+//        btn1.setStyle("-fx-alignment:center; -fx-font-size: 10 ; -fx-pref-height: 10px; -fx-pref-width: 125px;\n" +
+//                "\t-fx-background-color: rgb(250, 250, 250);-fx-border-color: black;-fx-hand");
+        btn1.setLayoutX(wLable * 3+ 20);
         //btn1.setMinSize(50, 10);
 
         pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1,  btn1);

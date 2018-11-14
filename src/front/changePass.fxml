@@ -15,9 +15,9 @@
             <Font size="63.0" />
          </font>
       </Text>
-      <PasswordField layoutX="612.0" layoutY="217.0" prefHeight="39.0" prefWidth="298.0" />
-      <PasswordField layoutX="612.0" layoutY="271.0" prefHeight="39.0" prefWidth="298.0" />
-      <PasswordField layoutX="612.0" layoutY="326.0" prefHeight="39.0" prefWidth="298.0" />
+      <PasswordField fx:id="oldPass" layoutX="612.0" layoutY="217.0" prefHeight="39.0" prefWidth="298.0" />
+      <PasswordField fx:id="newPass" layoutX="612.0" layoutY="271.0" prefHeight="39.0" prefWidth="298.0" />
+      <PasswordField fx:id="newPassCon" layoutX="612.0" layoutY="326.0" prefHeight="39.0" prefWidth="298.0" />
       <Label layoutX="437.0" layoutY="217.0" prefHeight="35.0" prefWidth="156.0" text="Old Password">
          <font>
             <Font size="24.0" />
@@ -33,12 +33,12 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Button fx:id="enterBT" layoutX="531.0" layoutY="430.0" mnemonicParsing="false"  prefHeight="39.0" prefWidth="112.0" text="Enter">
+      <Button fx:id="enterBT" layoutX="531.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#editPass" prefHeight="39.0" prefWidth="112.0" text="Enter">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="cancelBT" layoutX="649.0" layoutY="430.0" mnemonicParsing="false"  prefHeight="39.0" prefWidth="112.0" text="Cancel">
+      <Button fx:id="cancelBT" layoutX="649.0" layoutY="430.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="112.0" text="Cancel">
          <font>
             <Font size="18.0" />
          </font>

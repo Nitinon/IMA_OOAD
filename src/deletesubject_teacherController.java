@@ -60,6 +60,7 @@ public class deletesubject_teacherController implements Initializable {
         surnameLB.setText(currentTeacher.getSurname());
         contactLB.setText(currentTeacher.getPhonenumber());
         ageLB.setText(currentTeacher.getBirthday());
+        ageLB.setText(currentTeacher.getBirthday());
         emailLB.setText(currentTeacher.getEmail());
         telLB.setText(currentTeacher.getPhonenumber());
         posLB.setText(currentTeacher.getPost());
