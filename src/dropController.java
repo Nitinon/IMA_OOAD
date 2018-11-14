@@ -188,6 +188,7 @@ public class dropController implements Initializable {
             if (password.equals(currentStudent.getPassword())) {
                 dropSubject((int)currentStudent.getId(),(int)id);
                 popUp(true,"Drop Subject","Drop Subject Success");
+                deleteScore((int)currentStudent.getId(),(int)id);
                 updateScreen();
             } else {
                 System.out.println("Error");
@@ -221,6 +222,27 @@ public class dropController implements Initializable {
         } else {
             return results1.get(0);
         }
+    }
+    public static void deleteScore(int id_stu,int id_sub){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Score c Where c.IdSubject =" + id_sub + " AND c.IdStudent = "+id_stu ;
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        System.out.println("result "+results2.size());
+
+        em.getTransaction().begin();
+
+//        int size=results2.size();
+//        for (int i=0;i<size;i++){
+//            System.out.println(i+" count");
+//            results2.remove(0);
+//        }
+        results2.remove(0);
+        System.out.println(results2.size()+" size");
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
     }
 
     public static List<Subject> getAllSubject() {

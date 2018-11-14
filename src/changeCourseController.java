@@ -58,6 +58,7 @@ public class changeCourseController implements Initializable {
     }
 
     public void updateScreen() {
+        listAllSubject = getAllSubject();
         currentStudent = getObjStudent(id);
         System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
         //    show info of current user---------------------------------------
@@ -90,7 +91,6 @@ public class changeCourseController implements Initializable {
             }
         }
     }
-
     public Boolean findSubject(Subject sub) {
         for (Subject a : currentStudent.getSubject()) {
             if (a.getId_sub() == sub.getId_sub())
@@ -222,6 +222,10 @@ public class changeCourseController implements Initializable {
                         popUp(false,"Dupilcated","You have subject in this time");
                         return;
                     }
+                }
+                if(subjectSeleted.subjectIsFull()){
+                    popUp(false,"Full","course full");
+                    return;
                 }
                 dropSubject((int) currentStudent.getId(), (int) oldSubjectSelected.getId_sub());
                 enrollCourse((int) currentStudent.getId(), (int) id);

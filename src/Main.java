@@ -163,9 +163,6 @@ public class Main extends Application {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
 
-       /* String sql1 = "SELECT c FROM Teacher c Where c.id =" + id_tea + "";
-        TypedQuery<Student> query1 = em.createQuery(sql1,Student.class);
-        List<Student> results1 = query1.getResultList(); */
 
         String sql2 = "SELECT c FROM Subject c Where c.id_sub =" + id_sub + "";
         TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
