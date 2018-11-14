@@ -4,10 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 
@@ -38,11 +35,14 @@ public class editsubject_teacherController implements Initializable {
     private Label telLB;
     @FXML
     private Label posLB;
+
     //------------------------------------------------------------------------
     @FXML
     private ComboBox subjectSelector;
     @FXML
     private TextField nameIn;
+    @FXML
+    private TextField limitStudentIn;
     @FXML
     private TextArea description;
 
@@ -72,10 +72,7 @@ public class editsubject_teacherController implements Initializable {
         for (Subject temp : currentTeacher.getSubjects()) {
             subjectSelector.getItems().add(temp.getId_sub() + " " + temp.getName());
         }
-
-
     }
-
     public void selected() {
         if (subjectSelector.getValue() != null) {
             String id = (String) subjectSelector.getValue();
@@ -84,17 +81,33 @@ public class editsubject_teacherController implements Initializable {
             subjectSelected = getSubject(idSub);
             nameIn.setText(subjectSelected.getName());
             description.setText(subjectSelected.getDiscription());
+            limitStudentIn.setText(subjectSelected.getNo_student()+"");
         }
     }
-
-
-
-
     public void editSubject() {
-        editCourse(subjectSelected.getId_sub(), nameIn.getText(), description.getText());
+        if(Integer.parseInt(limitStudentIn.getText())<subjectSelected.getStudentNum()){
+            popUp(false,"Error","Please enter limit student again");
+            return;
+        }
+        editCourse(subjectSelected.getId_sub(), nameIn.getText(),Integer.parseInt(limitStudentIn.getText()), description.getText());
+        popUp(true,"Success","edit subject complete");
         updateScreen();
     }
-
+    public void popUp(Boolean success, String header, String txt) {
+        if (success == true) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        }
+    }
     //    =================================DB=========================================================
     public static classss.Teacher getObjTeacher(long id_tea) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
@@ -118,7 +131,7 @@ public class editsubject_teacherController implements Initializable {
         return results2.get(0);
     }
 
-    public static void editCourse(long id, String name, String discription) {
+    public static void editCourse(long id, String name,int limit, String discription) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
         String sql1 = "SELECT c FROM Subject c Where c.id_sub = " + id + "";
@@ -127,21 +140,12 @@ public class editsubject_teacherController implements Initializable {
         em.getTransaction().begin();
         results.get(0).setName(name);
         results.get(0).setDiscription(discription);
+        results.get(0).setNo_student(limit);
         em.getTransaction().commit();
         em.close();
         emf.close();
     }
 
-    public static void createScore(int idStudent, int idSubject, String topic, int point,int max) {
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
-        EntityManager em = emf.createEntityManager();
-        em.getTransaction().begin();
-        classss.Score a = new classss.Score(idStudent, idSubject, topic, point,max);
-        em.persist(a);
-        em.getTransaction().commit();
-        em.close();
-        emf.close();
-    }
 
     //    =====================jump=============================
     public void jumpEnroll() throws IOException {

@@ -85,9 +85,8 @@ public class editscore_teacherController implements Initializable {
         telLB.setText(currentTeacher.getPhonenumber());
         posLB.setText(currentTeacher.getPost());
 
-        System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
-
-
+        topicIn.clear();
+        maxIn.clear();
 
         GridPane gridpane = new GridPane();
         gridpane.getChildren().clear();
@@ -201,7 +200,6 @@ public class editscore_teacherController implements Initializable {
                 for(Score b:listAll){
                     if(topic.equals(b.getTopic())&&a.getId()==b.getIdStudent()){
                         already=true;
-                        System.out.println(b);
                     }
                 }
                 if(already==false){
@@ -218,31 +216,50 @@ public class editscore_teacherController implements Initializable {
         }
         updateScreen();
     }
+    public void deleteTopic(){
+        if (topicSelector.getValue()==null){
+            popUp(false,"Error","Please select topic to delete");
+        }
+        else {
+            Object temp=topicSelector.getValue();
+            deleteScore((int)subjectSelected.getId_sub(),topicSelector.getValue()+"");
+            popUp(true,"Success","Delete topic complete");
+            try {
+                jumpEditScore();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
     public void createNewTopic() {
         for(Score a:viewScoreBySubject((int)subjectSelected.getId_sub())){
             if(topicIn.getText().equals(a.getTopic())){
-                System.out.println("Already this topic");
+                popUp(false,"Error","Already this topic");
                 return;
             }
         }
         for (Student temp : subjectSelected.getStudent()) {
             createScore((int) temp.getId(), (int) subjectSelected.getId_sub(), topicIn.getText(), 0,Integer.parseInt(maxIn.getText()));
         }
-        System.out.println("created");
-        topicSelector.getItems().add(topicIn.getText());
-        updateScreen();
-    }
-    public void submitScore() {
-        for (int i = 0; i < listScoreIn.size(); i++) {
-            Score current=listScoreSelected.get(i);
-//            System.out.println(listScoreIn.get(i).getText());
-//            System.out.println(listScoreSelected.get(i).getIdStudent());
-            editScore(current.getIdStudent(),current.getIdSubject(),current.getTopic(),Integer.parseInt(listScoreIn.get(i).getText()));
-            System.out.println("edited");
+        popUp(true,"Success","Create new topic complete");
+        try {
+            jumpEditScore();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
+    public void submitScore() {
+        if(subjectSelector.getValue()==null||topicSelector.getValue()==null){
+            popUp(false,"Error","Please select subject and topic");
+            return;
+        }
+        for (int i = 0; i < listScoreIn.size(); i++) {
+            Score current=listScoreSelected.get(i);
+            editScore(current.getIdStudent(),current.getIdSubject(),current.getTopic(),Integer.parseInt(listScoreIn.get(i).getText()));
+        }
+        popUp(true,"Success","Edit score complete");
 
-
+    }
 
     //    =================================DB=========================================================
     public static classss.Teacher getObjTeacher(long id_tea) {
@@ -265,20 +282,31 @@ public class editscore_teacherController implements Initializable {
         List<classss.Subject> results2 = query2.getResultList();
         return results2.get(0);
     }
-
-    public static void editCourse(long id, String name, String discription) {
+    public static void deleteScore(int id_sub,String topic){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
-        String sql1 = "SELECT c FROM Subject c Where c.id_sub = " + id + "";
-        TypedQuery<classss.Subject> query1 = em.createQuery(sql1, classss.Subject.class);
-        List<classss.Subject> results = query1.getResultList();
+        String sql2 = "SELECT c FROM Score c Where c.IdSubject =" + id_sub;
+        TypedQuery<classss.Score> query2 = em.createQuery(sql2, classss.Score.class);
+        List<classss.Score> results2 = query2.getResultList();
         em.getTransaction().begin();
-        results.get(0).setName(name);
-        results.get(0).setDiscription(discription);
+        int size=results2.size();
+        int i=0;
+        while (i<size){
+            System.out.println("size: "+size);
+            if(results2.get(i).getTopic().equals(topic)){
+                System.out.println(results2.get(i));
+                em.remove(results2.get(i));
+                results2.remove(i);
+                i=-1;
+                size=results2.size();
+            }
+            i++;
+        }
         em.getTransaction().commit();
         em.close();
         emf.close();
     }
+
 
     public static void createScore(int idStudent, int idSubject, String topic, int point,int max) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
@@ -346,6 +374,21 @@ public class editscore_teacherController implements Initializable {
         em.close();
         emf.close();
         return results;
+    }
+    public void popUp(Boolean success, String header, String txt) {
+        if (success == true) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        }
     }
     //    =====================jump=============================
 

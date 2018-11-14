@@ -262,8 +262,8 @@ public class deletesubject_teacherController implements Initializable {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
         String sql2 = "SELECT c FROM Score c Where c.IdSubject =" + id_sub;
-        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
-        List<classss.Subject> results2 = query2.getResultList();
+        TypedQuery<classss.Score> query2 = em.createQuery(sql2, classss.Score.class);
+        List<classss.Score> results2 = query2.getResultList();
         em.getTransaction().begin();
         int size=results2.size();
         for (int i=0;i<size;i++){

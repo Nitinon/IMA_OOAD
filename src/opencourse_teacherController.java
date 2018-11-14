@@ -173,7 +173,8 @@ public class opencourse_teacherController implements Initializable {
                 "Teacher: " + foundedSubject.getTeacher() + "\n" +
                 "Description: " + foundedSubject.getDiscription() + "\n" +
                 "Time: " + foundedSubject.getTime() + "\n" +
-                "Teaching day: " + foundedSubject.getDay();
+                "Teaching day: " + foundedSubject.getDay()+"\n"+
+                "Student: "+foundedSubject.getStudentNum()+"/"+foundedSubject.getNo_student();
         alert.setContentText(info);
         alert.showAndWait();
 

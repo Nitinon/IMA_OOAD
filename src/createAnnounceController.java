@@ -97,8 +97,8 @@ public class createAnnounceController implements Initializable {
         String id = (String) subjectSelector.getValue();
         id = id.substring(0, 4);
         subjectID = Long.parseLong(id);
-
         addAnnouncement(subjectID, type, info, title, day);
+        popUp(true,"Success","Create new announce");
     }
 
     //    ==================DB====================
@@ -139,6 +139,21 @@ public class createAnnounceController implements Initializable {
         em.getTransaction().commit();
         em.close();
         emf.close();
+    }
+    public void popUp(Boolean success, String header, String txt) {
+        if (success == true) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        }
     }
 
 

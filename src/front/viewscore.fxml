@@ -179,7 +179,6 @@
             <Font size="24.0" />
          </font>
       </Text>
-      <Button fx:id="viewEnterBT" layoutX="1048.0" layoutY="95.0" mnemonicParsing="false" text="View" />
       <ScrollPane fx:id="scrollPane" layoutX="583.0" layoutY="148.0" prefHeight="537.0" prefWidth="665.0" />
       <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
          <image>

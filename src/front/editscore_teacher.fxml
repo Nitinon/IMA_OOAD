@@ -194,5 +194,6 @@
             <Image url="@logo2.png" />
          </image>
       </ImageView>
+      <Button layoutX="1041.0" layoutY="97.0" mnemonicParsing="false" onMouseClicked="#deleteTopic" text="Delete" />
    </children>
 </AnchorPane>

@@ -242,7 +242,8 @@ public class enrollController implements Initializable {
                 "Teacher: " + foundedSubject.getTeacher() + "\n" +
                 "Description: " + foundedSubject.getDiscription() + "\n" +
                 "Time: " + foundedSubject.getTime() + "\n" +
-                "Teaching day: " + foundedSubject.getDay();
+                "Teaching day: " + foundedSubject.getDay()+"\n"+
+                "Student: "+foundedSubject.getStudentNum()+"/"+foundedSubject.getNo_student();
         popUp(true,"Course Info",info);
     }
 
