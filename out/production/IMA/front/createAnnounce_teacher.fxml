@@ -25,7 +25,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8eeff" height="506.0" layoutY="215.0" stroke="#e8eeff" strokeType="INSIDE" width="350.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3859c4" height="218.0" layoutX="-2.0" layoutY="-3.0" stroke="#3859c4" strokeMiterLimit="0.0" strokeType="INSIDE" width="350.0" />
       <ImageView fitHeight="117.0" fitWidth="133.0" layoutX="50.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" style="-fx-border-radius: -fx-border-radius: 10 10 10 10;-fx-background-radius: 10 10 10 10;" />
-      <HBox layoutX="72.0" layoutY="260.0" spacing="10.0">
+      <HBox layoutX="72.0" layoutY="240.0" spacing="10.0">
          <children>
             <VBox spacing="15.0">
                <children>
@@ -64,31 +64,32 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
+
                </children>
             </VBox>
             <VBox prefHeight="321.0" prefWidth="177.0" spacing="15.0">
                <children>
-                  <Label fx:id="nameLB1" text="....................................">
+                  <Label fx:id="nameLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label fx:id="surnameLB1" text="....................................">
+                  <Label fx:id="surnameLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label fx:id="ageLB1" text="....................................">
+                  <Label fx:id="ageLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label fx:id="contactLB1" text="....................................">
+                  <Label fx:id="contactLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label fx:id="emailLB1" text="....................................">
+                  <Label fx:id="emailLB" text="....................................">
                      <font>
                         <Font size="15.0" />
                      </font>
@@ -103,6 +104,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
+
                </children>
                <effect>
                   <InnerShadow />

@@ -32,7 +32,7 @@ public class changePassController implements Initializable {
 
 
     public void initialize(URL url, ResourceBundle rb) {
-        if (id % 100000 == 1) {
+        if (id % 100000 == 0) {
             System.out.println("teacher");
             Teacher currentTeacher = getObjTeacher(id);
             enterBT.setOnAction(e->{
@@ -97,15 +97,6 @@ public class changePassController implements Initializable {
     }
 
     //    ======================jump===============================================
-    public void jumpEnter() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
-        Parent root = (Parent) fxmlLoader.load();
-
-        enrollController controller = fxmlLoader.<enrollController>getController();
-        fxmlLoader.setController(controller);
-        backpane.getChildren().setAll(root);
-    }
-
     public void jumpBackStudent() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
         Parent root = (Parent) fxmlLoader.load();
@@ -115,14 +106,6 @@ public class changePassController implements Initializable {
         backpane.getChildren().setAll(root);
     }
 
-    public void jumpEnterTeacher() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/opencourse_teacher.fxml"));
-        Parent root = (Parent) fxmlLoader.load();
-
-        opencourse_teacherController controller = fxmlLoader.<opencourse_teacherController>getController();
-        fxmlLoader.setController(controller);
-        backpane.getChildren().setAll(root);
-    }
     public void jumpBackTeacher() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/opencourse_teacher.fxml"));
         Parent root = (Parent) fxmlLoader.load();

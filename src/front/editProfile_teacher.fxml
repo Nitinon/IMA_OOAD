@@ -65,7 +65,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Button fx:id="registerBT" layoutX="523.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#jumpEnter" prefHeight="39.0" prefWidth="112.0" text="Edit">
+      <Button fx:id="registerBT" layoutX="523.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#edit" prefHeight="39.0" prefWidth="112.0" text="Edit">
          <font>
             <Font size="18.0" />
          </font>

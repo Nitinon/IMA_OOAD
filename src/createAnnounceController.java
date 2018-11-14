@@ -64,6 +64,7 @@ public class createAnnounceController implements Initializable {
         for (Subject temp : currentTeacher.getSubjects()) {
             subjectSelector.getItems().add(temp.getId_sub() + " " + temp.getName());
         }
+        updateScreen();
 
     }
     public void updateScreen() {

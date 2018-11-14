@@ -18,9 +18,6 @@ public class Account implements Serializable{
 
     public Account(){
     }
-
-
-
     Account(String password, String name, String surname, String birthday, String email, String phonenumber){
         this.password = password;
         this.name = name;
@@ -54,8 +51,6 @@ public class Account implements Serializable{
         this.surname = surname;
     }
 
-
-
     public String getEmail() {
         return email;
     }
@@ -72,8 +67,6 @@ public class Account implements Serializable{
         this.phonenumber = phonenumber;
     }
 
-
-
     public String getName() {
         return name;
     }
@@ -81,10 +74,6 @@ public class Account implements Serializable{
     public void setName(String name) {
         this.name = name;
     }
-
-
-
-
 
     @Override
     public String toString() {
