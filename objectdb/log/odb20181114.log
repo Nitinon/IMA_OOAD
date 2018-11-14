@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ------------------------------------------------------------------------------------------------------------------------
 
 [2018-11-14 01:12:03 #1 store] 
@@ -361,6 +362,7 @@ Type classss.Score is not enhanced.
 [2018-11-14 01:50:59 #9 type] 
 Type classss.Announcement is not enhanced.
 
+<<<<<<< Updated upstream
 ------------------------------------------------------------------------------------------------------------------------
 
 [2018-11-14 09:52:29 #1 store] 
@@ -1497,3 +1499,937 @@ Type classss.Score is not enhanced.
 [2018-11-14 13:08:19 #8 type] 
 Type classss.Announcement is not enhanced.
 
+=======
+=======
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 00:41:54 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11484@DESKTOP-2K4E863
+
+[2018-11-14 00:41:54 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 00:41:54 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 00:41:54 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 00:41:54 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 00:41:54 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 00:41:54 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 00:44:46 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 1156@DESKTOP-2K4E863
+
+[2018-11-14 00:44:46 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 00:44:46 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 00:44:46 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 00:44:46 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 00:44:46 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 00:44:46 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 00:47:49 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 10648@DESKTOP-2K4E863
+
+[2018-11-14 00:47:49 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 00:47:49 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 00:47:49 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 00:47:49 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 00:47:49 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 00:47:49 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 00:50:10 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 2396@DESKTOP-2K4E863
+
+[2018-11-14 00:50:10 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 00:50:11 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 00:50:11 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 00:50:11 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 00:50:11 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 00:50:11 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 00:58:28 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 8180@DESKTOP-2K4E863
+
+[2018-11-14 00:58:28 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 00:58:28 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 00:58:28 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 00:58:28 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 00:58:28 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 00:58:28 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 00:59:27 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 10560@DESKTOP-2K4E863
+
+[2018-11-14 00:59:27 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 00:59:27 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 00:59:27 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 00:59:27 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 00:59:27 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 00:59:27 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:00:00 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 3192@DESKTOP-2K4E863
+
+[2018-11-14 01:00:00 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:00:00 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:00:00 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:00:00 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:00:00 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:00:00 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:01:14 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 1216@DESKTOP-2K4E863
+
+[2018-11-14 01:01:14 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:01:14 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:01:14 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:01:14 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:01:14 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:01:14 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:01:45 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 6972@DESKTOP-2K4E863
+
+[2018-11-14 01:01:45 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:01:45 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:01:45 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:01:45 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:01:45 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:01:45 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:03:45 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 9168@DESKTOP-2K4E863
+
+[2018-11-14 01:03:45 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:03:45 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:03:45 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:03:45 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:03:45 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:03:45 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:05:27 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11684@DESKTOP-2K4E863
+
+[2018-11-14 01:05:27 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:05:27 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:05:27 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:05:27 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:05:27 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:05:27 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:06:33 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11748@DESKTOP-2K4E863
+
+[2018-11-14 01:06:33 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:06:33 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:06:33 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:06:33 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:06:33 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:06:34 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:07:33 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 1568@DESKTOP-2K4E863
+
+[2018-11-14 01:07:33 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:07:33 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:07:33 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:07:33 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:07:33 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:07:33 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:07:51 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11880@DESKTOP-2K4E863
+
+[2018-11-14 01:07:51 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:07:51 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:07:51 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:07:51 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:07:51 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:07:51 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:08:16 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 2192@DESKTOP-2K4E863
+
+[2018-11-14 01:08:16 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:08:16 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:08:16 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:08:16 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:08:16 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:08:16 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:08:54 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11752@DESKTOP-2K4E863
+
+[2018-11-14 01:08:54 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:08:54 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:08:54 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:08:54 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:08:54 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:08:54 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:09:23 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 3948@DESKTOP-2K4E863
+
+[2018-11-14 01:09:23 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:09:23 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:09:23 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:09:23 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:09:23 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:09:23 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:09:40 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11692@DESKTOP-2K4E863
+
+[2018-11-14 01:09:40 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:09:40 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:09:40 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:09:40 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:09:40 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:09:40 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:10:28 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 2844@DESKTOP-2K4E863
+
+[2018-11-14 01:10:28 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:10:28 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:10:28 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:10:28 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:10:28 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:10:28 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:10:46 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 9904@DESKTOP-2K4E863
+
+[2018-11-14 01:10:46 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:10:46 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:10:46 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:10:46 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:10:46 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:10:46 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:11:12 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 4680@DESKTOP-2K4E863
+
+[2018-11-14 01:11:12 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:11:12 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:11:12 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:11:12 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:11:12 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:11:12 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:11:46 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 12296@DESKTOP-2K4E863
+
+[2018-11-14 01:11:46 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:11:46 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:11:46 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:11:46 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:11:46 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:11:46 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:12:05 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 3824@DESKTOP-2K4E863
+
+[2018-11-14 01:12:05 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:12:05 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:12:05 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:12:05 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:12:05 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:12:05 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:12:37 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 14312@DESKTOP-2K4E863
+
+[2018-11-14 01:12:37 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:12:37 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:12:37 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:12:37 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:12:37 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:12:37 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:12:53 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 3580@DESKTOP-2K4E863
+
+[2018-11-14 01:12:53 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:12:53 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:12:53 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:12:53 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:12:53 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:12:53 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:13:17 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 12016@DESKTOP-2K4E863
+
+[2018-11-14 01:13:17 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:13:17 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:13:17 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:13:17 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:13:17 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:13:17 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:13:57 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13236@DESKTOP-2K4E863
+
+[2018-11-14 01:13:57 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:13:57 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:13:57 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:13:57 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:13:57 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:13:57 #7 type] 
+Type classss.Score is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 01:17:13 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 4664@DESKTOP-2K4E863
+
+[2018-11-14 01:17:13 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 01:17:13 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 01:17:13 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 01:17:13 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 01:17:13 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 01:17:13 #7 type] 
+Type classss.Score is not enhanced.
+
+>>>>>>> Stashed changes
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 13:16:13 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 220@DESKTOP-2K4E863
+
+[2018-11-14 13:16:13 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 13:16:13 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 13:16:13 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 13:16:13 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 13:16:13 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 13:16:13 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 13:16:13 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 13:22:36 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 8840@DESKTOP-2K4E863
+
+[2018-11-14 13:22:36 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 13:22:36 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 13:22:36 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 13:22:36 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 13:22:36 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 13:22:36 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 13:22:36 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 13:26:11 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 1536@DESKTOP-2K4E863
+
+[2018-11-14 13:26:11 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 13:26:11 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 13:26:11 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 13:26:11 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 13:26:11 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 13:26:11 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 13:26:11 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 13:31:37 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 2348@DESKTOP-2K4E863
+
+[2018-11-14 13:31:37 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 13:31:37 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 13:31:37 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 13:31:37 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 13:31:37 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 13:31:37 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 13:31:37 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 13:42:03 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 8028@DESKTOP-2K4E863
+
+[2018-11-14 13:42:03 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 13:42:03 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 13:42:03 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 13:42:03 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 13:42:03 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 13:42:03 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 13:42:03 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 13:52:58 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 10544@DESKTOP-2K4E863
+
+[2018-11-14 13:52:58 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 13:52:58 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 13:52:58 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 13:52:58 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 13:52:58 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 13:52:58 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 13:52:59 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 13:54:52 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 3044@DESKTOP-2K4E863
+
+[2018-11-14 13:54:52 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 13:54:52 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 13:54:52 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 13:54:52 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 13:54:52 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 13:54:52 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 13:54:52 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 13:57:32 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 11940@DESKTOP-2K4E863
+
+[2018-11-14 13:57:32 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 13:57:32 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 13:57:32 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 13:57:32 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 13:57:32 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 13:57:32 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 13:57:32 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 14:00:13 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 4240@DESKTOP-2K4E863
+
+[2018-11-14 14:00:13 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 14:00:13 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 14:00:13 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 14:00:13 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 14:00:13 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 14:00:13 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 14:00:13 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 14:02:24 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 15932@DESKTOP-2K4E863
+
+[2018-11-14 14:02:24 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 14:02:24 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 14:02:24 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 14:02:24 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 14:02:24 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 14:02:24 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 14:02:24 #8 type] 
+Type classss.Announcement is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2018-11-14 14:03:12 #1 store] 
+Database 'C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\db\AccountDB.odb' is opened by 13064@DESKTOP-2K4E863
+
+[2018-11-14 14:03:12 #2 store] 
+Configuration path: C:\Users\frong\Documents\IMA\IMA_OOAD\objectdb\objectdb.conf
+
+[2018-11-14 14:03:12 #3 type] 
+Type classss.Account is not enhanced.
+
+[2018-11-14 14:03:12 #4 type] 
+Type classss.Student is not enhanced.
+
+[2018-11-14 14:03:12 #5 type] 
+Type classss.Subject is not enhanced.
+
+[2018-11-14 14:03:12 #6 type] 
+Type classss.Teacher is not enhanced.
+
+[2018-11-14 14:03:12 #7 type] 
+Type classss.Score is not enhanced.
+
+[2018-11-14 14:03:12 #8 type] 
+Type classss.Announcement is not enhanced.
+
+>>>>>>> Stashed changes

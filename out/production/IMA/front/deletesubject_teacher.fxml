@@ -68,17 +68,19 @@
          </font>
       </Label>
       <Line endX="-17.0" endY="520.0" layoutX="366.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
-      <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
-      <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
+      <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" onAction="#jumpEditProfile" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
+      <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" onAction="#jumpChangePass" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
       <Line endX="-17.0" endY="520.0" layoutX="562.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="336.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
       <Circle fill="#ffcc23" layoutX="540.0" layoutY="90.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="#ffcc23" layoutX="540.0" layoutY="159.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="#ffcc23" layoutX="540.0" layoutY="227.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="#ffcc23" layoutX="540.0" layoutY="291.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#ffcc23" layoutX="540.0" layoutY="360.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Label layoutX="388.0" layoutY="277.0" text="Edit Score">
          <font>
             <Font name="System Bold" size="18.0" />
@@ -99,10 +101,16 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
+      <Label layoutX="368.0" layoutY="346.0" text="Create Announce">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
       <Button fx:id="changeBT" layoutX="350.0" layoutY="132.0" mnemonicParsing="false" onAction="#jumpEditCourse" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="enrollBT" layoutX="350.0" layoutY="63.0" mnemonicParsing="false" onAction="#jumpEnroll" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="dropBT" layoutX="350.0" layoutY="199.0" mnemonicParsing="false" onAction="#jumpDeleteCourse" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onAction="#jumpEditScore" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
+      <Button fx:id="jumpCreate" layoutX="350.0" layoutY="333.0" mnemonicParsing="false" onAction="#jumpCreateAnnounce" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onAction="#jumpLogout" text="log out" />
       <Label layoutX="857.0" layoutY="58.0" text="Delete Subject">
          <font>

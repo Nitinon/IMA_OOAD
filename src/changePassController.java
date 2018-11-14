@@ -114,6 +114,15 @@ public class changePassController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+
+    public void jumpEnterTeacher() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/opencourse_teacher.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        opencourse_teacherController controller = fxmlLoader.<opencourse_teacherController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
     public void jumpBackTeacher() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/opencourse_teacher.fxml"));
         Parent root = (Parent) fxmlLoader.load();

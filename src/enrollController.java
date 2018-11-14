@@ -118,7 +118,7 @@ public class enrollController implements Initializable {
         Label maxscore_header = createLable("Teacher", 25, wLable, wLable * 2);
         Label empty = createLable("Description", 25, wLable, wLable * 3);
         Label empty2 = createLable("Enroll", 25, wLable, wLable * 4);
-        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        topic_header.setStyle("-fx-border-color:black;-fx-background-color: pink; -fx-alignment:center;-fx-font-size:15 ");
         score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         empty.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
@@ -197,12 +197,13 @@ public class enrollController implements Initializable {
         topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;");
 
         Button btn1 = createDesBT("description", subject.getId_sub());
-        btn1.setStyle("-fx-alignment:center; -fx-font-size: 10");
-        btn1.setLayoutX(wLable * 3 + 20);
-        btn1.setMinSize(50, 10);
+        btn1.setStyle("-fx-alignment:center; -fx-font-size: 10 ; -fx-pref-height: 10px; -fx-pref-width: 125px;\n" +
+                "\t-fx-background-color: rgb(250, 250, 250);-fx-border-color: black;-fx-hand");
+        btn1.setLayoutX(wLable * 3);
+        //btn1.setMinSize(50, 10);
 
         pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1,  btn1);
 
@@ -222,6 +223,7 @@ public class enrollController implements Initializable {
 
     public Button createDesBT(String txt, long subject) {
         Button btn = new Button(txt);
+
         btn.setOnAction(event -> {
             createDialog(subject);
         });

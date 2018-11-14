@@ -73,12 +73,12 @@
          </font>
       </Label>
       <ComboBox fx:id="faculty" layoutX="641.0" layoutY="465.0" prefHeight="37.0" prefWidth="140.0" />
-      <Button fx:id="registerBT" layoutX="523.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#jumpEnter" prefHeight="39.0" prefWidth="112.0" text="Edit">
+      <Button fx:id="registerBT" layoutX="523.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#jumpEnterTeacher" prefHeight="39.0" prefWidth="112.0" text="Edit">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="cancelBT" layoutX="641.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#jumpBack" prefHeight="39.0" prefWidth="112.0" text="Cancel">
+      <Button fx:id="cancelBT" layoutX="641.0" layoutY="536.0" mnemonicParsing="false" onMouseClicked="#jumpBackTeacher" prefHeight="39.0" prefWidth="112.0" text="Cancel">
          <font>
             <Font size="18.0" />
          </font>

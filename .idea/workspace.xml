@@ -142,31 +142,35 @@
     <session id="-1135727345">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="fxml" value="2" />
-          <entry key="java" value="12" />
+          <entry key="fxml" value="24" />
+          <entry key="java" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="12" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="38" />
+          <entry key="XML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="452" />
+          <entry key="fxml" value="29" />
+          <entry key="java" value="669" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="452" />
+          <entry key="JAVA" value="669" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.65" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -236,7 +240,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/loginController.java">
+        <entry file="file://$PROJECT_DIR$/src/ediProfileController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
               <caret line="128" column="35" selection-start-line="128" selection-start-column="31" selection-end-line="128" selection-end-column="35" />
@@ -362,7 +366,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/login.fxml" />
         <option value="$PROJECT_DIR$/src/register.fxml" />
         <option value="$PROJECT_DIR$/src/changeController.java" />
         <option value="$PROJECT_DIR$/src/enroll.fxml" />
@@ -378,15 +381,10 @@
         <option value="$PROJECT_DIR$/src/front/register_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/loginController.java" />
         <option value="$PROJECT_DIR$/src/loginController.java" />
-        <option value="$PROJECT_DIR$/src/front/editsubject_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/studentController/changeCourseController.java" />
         <option value="$PROJECT_DIR$/src/classss/Student.java" />
         <option value="$PROJECT_DIR$/src/classss/Score.java" />
-        <option value="$PROJECT_DIR$/src/editsubject_teacherController.java" />
-        <option value="$PROJECT_DIR$/src/editscore_teacherController.java" />
-        <option value="$PROJECT_DIR$/src/editscore_teacherController.java" />
         <option value="$PROJECT_DIR$/src/changeCourseController.java" />
-        <option value="$PROJECT_DIR$/src/front/editscore_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/front/changeCourse.fxml" />
         <option value="$PROJECT_DIR$/src/front/drop.fxml" />
         <option value="$PROJECT_DIR$/src/front/enroll.fxml" />
@@ -395,7 +393,6 @@
         <option value="$PROJECT_DIR$/src/front/viewscore.fxml" />
         <option value="$PROJECT_DIR$/src/announcement.fxml" />
         <option value="$PROJECT_DIR$/src/front/announcement.fxml" />
-        <option value="$PROJECT_DIR$/src/front/deletesubject_teacher.fxml" />
         <option value="$PROJECT_DIR$/src/dropController.java" />
         <option value="$PROJECT_DIR$/src/classss/Subject.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -759,9 +756,10 @@
     <option name="totallyTimeSpent" value="147203000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19151671" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19936034" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1109,7 +1107,8 @@
         <state relative-caret-position="-238">
           <caret line="61" column="79" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1404#1422#0" expanded="true" />
+            <element signature="e#1823#1853#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1166,6 +1165,8 @@
           <caret line="16" column="5" lean-forward="true" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1430#1460#0" expanded="true" />
+            <element signature="e#1846#1876#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1193,6 +1194,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="98" lean-forward="true" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/front/createAnnounce_teacher.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="76" column="137" selection-start-line="76" selection-start-column="137" selection-end-line="76" selection-end-column="137" />
         </state>
       </provider>
     </entry>
