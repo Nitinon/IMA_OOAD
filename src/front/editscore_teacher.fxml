@@ -38,7 +38,7 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="TOP_LEFT" text="Age" textAlignment="CENTER">
+                  <Label alignment="TOP_LEFT" text="Birthday" textAlignment="CENTER">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -58,21 +58,16 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label text="Year">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label text="Faculty">
+                  <Label text="Position">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
                </children>
             </VBox>
-            <VBox prefHeight="248.0" prefWidth="141.0" spacing="15.0">
+            <VBox prefHeight="321.0" prefWidth="177.0" spacing="15.0">
                <children>
-                    <Label fx:id="nameLB" text="....................................">
+                  <Label fx:id="nameLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>
@@ -94,20 +89,15 @@
                   </Label>
                   <Label fx:id="emailLB" text="....................................">
                      <font>
-                        <Font size="18.0" />
+                        <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label fx:id="emailLB1" text="....................................">
+                  <Label fx:id="telLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>
                   </Label>
-                  <Label text="....................................">
-                     <font>
-                        <Font size="18.0" />
-                     </font>
-                  </Label>
-                  <Label text="....................................">
+                  <Label fx:id="posLB" text="....................................">
                      <font>
                         <Font size="18.0" />
                      </font>

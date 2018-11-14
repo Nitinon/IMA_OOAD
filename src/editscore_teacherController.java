@@ -39,6 +39,21 @@ public class editscore_teacherController implements Initializable {
     @FXML
     private TextField maxIn;
 
+    @FXML
+    private Label nameLB;
+    @FXML
+    private Label surnameLB;
+    @FXML
+    private Label ageLB;
+    @FXML
+    private Label contactLB;
+    @FXML
+    private Label emailLB;
+    @FXML
+    private Label telLB;
+    @FXML
+    private Label posLB;
+
 
     ArrayList<TextField> listScoreIn = new ArrayList<>();
 
@@ -61,16 +76,18 @@ public class editscore_teacherController implements Initializable {
 
     public void updateScreen() {
         currentTeacher = getObjTeacher(id);
-//        System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
-//        //    show info of current user---------------------------------------
-//        nameLB.setText(currentStudent.getName());
-//        surnameLB.setText(currentStudent.getSurname());
-//        contactLB.setText(currentStudent.getPhonenumber());
-//        ageLB.setText(currentStudent.getBirthday());
-//        emailLB.setText(currentStudent.getEmail());
-//        telLB.setText(currentStudent.getPhonenumber());
-//        yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
-//        facultyLB.setText(currentStudent.getFaculty());
+        //    show info of current user---------------------------------------
+        nameLB.setText(currentTeacher.getName());
+        surnameLB.setText(currentTeacher.getSurname());
+        contactLB.setText(currentTeacher.getPhonenumber());
+        ageLB.setText(currentTeacher.getBirthday());
+        emailLB.setText(currentTeacher.getEmail());
+        telLB.setText(currentTeacher.getPhonenumber());
+        posLB.setText(currentTeacher.getPost());
+
+        System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
+
+
 
         GridPane gridpane = new GridPane();
         gridpane.getChildren().clear();

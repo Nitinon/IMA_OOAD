@@ -34,6 +34,10 @@ public class editsubject_teacherController implements Initializable {
     private Label contactLB;
     @FXML
     private Label emailLB;
+    @FXML
+    private Label telLB;
+    @FXML
+    private Label posLB;
     //------------------------------------------------------------------------
     @FXML
     private ComboBox subjectSelector;
@@ -54,16 +58,16 @@ public class editsubject_teacherController implements Initializable {
 
     public void updateScreen() {
         currentTeacher = getObjTeacher(id);
-//        System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
-//        //    show info of current user---------------------------------------
-//        nameLB.setText(currentStudent.getName());
-//        surnameLB.setText(currentStudent.getSurname());
-//        contactLB.setText(currentStudent.getPhonenumber());
-//        ageLB.setText(currentStudent.getBirthday());
-//        emailLB.setText(currentStudent.getEmail());
-//        telLB.setText(currentStudent.getPhonenumber());
-//        yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
-//        facultyLB.setText(currentStudent.getFaculty());
+        //    show info of current user---------------------------------------
+        nameLB.setText(currentTeacher.getName());
+        surnameLB.setText(currentTeacher.getSurname());
+        contactLB.setText(currentTeacher.getPhonenumber());
+        ageLB.setText(currentTeacher.getBirthday());
+        emailLB.setText(currentTeacher.getEmail());
+        telLB.setText(currentTeacher.getPhonenumber());
+        posLB.setText(currentTeacher.getPost());
+
+        System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
         subjectSelector.getItems().clear();
         for (Subject temp : currentTeacher.getSubjects()) {
             subjectSelector.getItems().add(temp.getId_sub() + " " + temp.getName());

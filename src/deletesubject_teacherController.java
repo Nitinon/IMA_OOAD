@@ -29,6 +29,20 @@ public class deletesubject_teacherController implements Initializable {
     private AnchorPane backpane;
     @FXML
     private ScrollPane scrollPane;
+    @FXML
+    private Label nameLB;
+    @FXML
+    private Label surnameLB;
+    @FXML
+    private Label ageLB;
+    @FXML
+    private Label contactLB;
+    @FXML
+    private Label emailLB;
+    @FXML
+    private Label telLB;
+    @FXML
+    private Label posLB;
 
     Preferences userPreferences = Preferences.userRoot();
     long id = userPreferences.getLong("currentUser", 0);
@@ -41,7 +55,14 @@ public class deletesubject_teacherController implements Initializable {
 
     public void updateScreen() {
         currentTeacher = getObjTeacher(id);
-        System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
+        //    show info of current user---------------------------------------
+        nameLB.setText(currentTeacher.getName());
+        surnameLB.setText(currentTeacher.getSurname());
+        contactLB.setText(currentTeacher.getPhonenumber());
+        ageLB.setText(currentTeacher.getBirthday());
+        emailLB.setText(currentTeacher.getEmail());
+        telLB.setText(currentTeacher.getPhonenumber());
+        posLB.setText(currentTeacher.getPost());
         //    show info of current user---------------------------------------
 
         GridPane gridpane = new GridPane();

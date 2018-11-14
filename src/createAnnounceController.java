@@ -5,11 +5,9 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.DatePicker;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.GridPane;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -25,6 +23,21 @@ import java.util.ResourceBundle;
 import java.util.prefs.Preferences;
 
 public class createAnnounceController implements Initializable {
+
+    @FXML
+    private Label nameLB;
+    @FXML
+    private Label surnameLB;
+    @FXML
+    private Label ageLB;
+    @FXML
+    private Label contactLB;
+    @FXML
+    private Label emailLB;
+    @FXML
+    private Label telLB;
+    @FXML
+    private Label posLB;
     @FXML
     private AnchorPane backpane;
     @FXML
@@ -37,6 +50,9 @@ public class createAnnounceController implements Initializable {
     private DatePicker dateIn;
     @FXML
     private TextArea infoIn;
+    @FXML
+    private ScrollPane scrollPane;
+
 
     Preferences userPreferences = Preferences.userRoot();
     long id = userPreferences.getLong("currentUser", 0);
@@ -48,6 +64,22 @@ public class createAnnounceController implements Initializable {
         for (Subject temp : currentTeacher.getSubjects()) {
             subjectSelector.getItems().add(temp.getId_sub() + " " + temp.getName());
         }
+
+    }
+    public void updateScreen() {
+
+        currentTeacher = getObjTeacher(id);
+        //    show info of current user---------------------------------------
+        nameLB.setText(currentTeacher.getName());
+        surnameLB.setText(currentTeacher.getSurname());
+        contactLB.setText(currentTeacher.getPhonenumber());
+        ageLB.setText(currentTeacher.getBirthday());
+        emailLB.setText(currentTeacher.getEmail());
+        telLB.setText(currentTeacher.getPhonenumber());
+        posLB.setText(currentTeacher.getPost());
+
+        System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
+        //    show info of current user---------------------------------------
 
     }
 
