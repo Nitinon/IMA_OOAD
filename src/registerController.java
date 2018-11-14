@@ -59,7 +59,7 @@ public class registerController implements Initializable {
         String pass = password.getText();
         String passCon = passwordCon.getText();
         LocalDate date = datePicker.getValue();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/LLLL/yyyy");
         String dateIn = date.format(formatter);
 
         if (!pass.isEmpty() && !passCon.isEmpty() && (!pass.equals(passCon))) {

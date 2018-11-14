@@ -6,6 +6,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
@@ -55,8 +56,8 @@ public class announcementController implements Initializable {
     int year = date.getYear();
 
     Button[][] aa = new Button[10][10];
-    String[] dayy = {"sunday","monday","tuesday","wednesday","thursday","friday","saturday"};
-    String[] monthh = {"Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"};
+    String[] dayy = {"sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"};
+    String[] monthh = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
     //    get current id-------------------------------------------------
     Preferences userPreferences = Preferences.userRoot();
@@ -76,11 +77,12 @@ public class announcementController implements Initializable {
         yearLB.setText(Integer.toString(currentStudent.getYear_of_study()));
         facultyLB.setText(currentStudent.getFaculty());
 
-        initCalendar(month,year);
+        initCalendar(month, year);
 
 
     }
-    private void initCalendar(int month,int year){
+
+    private void initCalendar(int month, int year) {
         Date date = new Date();
         int firstday = 1;
         date.setDate(1);
@@ -88,89 +90,120 @@ public class announcementController implements Initializable {
         date.setYear(year);
         int day = date.getDay();
         int check = 0;
-        YearMonth yearMonthObject = YearMonth.of(year,month+1);
+        YearMonth yearMonthObject = YearMonth.of(year, month + 1);
         int limit = yearMonthObject.lengthOfMonth();
-        announcetitle.setText("Annoucement "+monthh[month]+" "+year);
-        for(int k = 0;k<7;k++){
-            announcepane.add(new Label(dayy[k]),k,0);
+        announcetitle.setText("Annoucement " + monthh[month] + " " + year);
+        for (int k = 0; k < 7; k++) {
+            announcepane.add(new Label(dayy[k]), k, 0);
         }
-        for (int i = 1;i<7;i++) {
-            for (int j = 0;j<7;j++) {
-                if(j == day){
+        for (int i = 1; i < 7; i++) {
+            for (int j = 0; j < 7; j++) {
+                if (j == day) {
                     check = 1;
                 }
-                if(check==0){
-                    announcepane.add(createButton(0,0,j,i), j, i);
-                }
-                else{
-                    if(firstday<limit+1){
-                        announcepane.add(createButton(firstday,month+1,j,i), j, i);
+                if (check == 0) {
+                    announcepane.add(createButton(0, 0, j, i), j, i);
+                } else {
+                    if (firstday < limit + 1) {
+                        announcepane.add(createButton(firstday, month + 1, j, i), j, i);
 
-                    }
-                    else{
-                        announcepane.add(createButton(0,0,j,i), j, i);
+                    } else {
+                        announcepane.add(createButton(0, 0, j, i), j, i);
                     }
                     firstday++;
                 }
             }
         }
     }
-    private Button createButton(int day,int month,int j,int i){
+
+    private Button createButton(int day, int month, int j, int i) {
         aa[j][i] = new Button();
         aa[j][i].setMinHeight(60.0);
         aa[j][i].setMinWidth(80.0);
-        if (day ==0) aa[j][i].setText(" ");
-        else aa[j][i].setText(day+"");
-        aa[j][i].setOnAction(e ->{
-//            dayBtnAction(day,month);
-            findAnnounce(day,month,year);
+        if (day == 0) aa[j][i].setText(" ");
+        else aa[j][i].setText(day + "");
+        Boolean founded = findAnnounce(day, month, year, false);
+        System.out.println(founded);
+        if (founded) {
+            aa[j][i].setStyle("-fx-background-color: #7dff69; -fx-border-color: black; ");
+            aa[j][i].setOnMouseEntered(e -> aa[j][i].setStyle("-fx-background-color: #00bc00; -fx-border-color: black;"));
+            aa[j][i].setOnMouseExited(e -> aa[j][i].setStyle("-fx-background-color: #7dff69; -fx-border-color: black; "));
+        } else {
+            aa[j][i].setStyle("-fx-background-color: white; -fx-border-color: black; ");
+            aa[j][i].setOnMouseExited(e -> aa[j][i].setStyle("-fx-background-color: white; -fx-border-color: black;"));
+        }
+        aa[j][i].setOnAction(e -> {
+            findAnnounce(day, month, year, true);
         });
-
         return aa[j][i];
     }
-    public void findAnnounce(int day,int month,int year){
-        String date=day+"/"+month+"/"+year;
-        System.out.println(date);
-        ArrayList<Announcement> listAnnounce=new ArrayList<>();
 
-        for(Subject temp:currentStudent.getSubject()){
-            for(Announcement a:temp.getAnnouncements()){
-                if(a.getDate().equals(date)){
+    public boolean findAnnounce(int day, int month, int year, boolean print) {
+        String date = day + "/" + month + "/" + year;
+        ArrayList<Announcement> listAnnounce = new ArrayList<>();
+
+        for (Subject temp : currentStudent.getSubject()) {
+            for (Announcement a : temp.getAnnouncements()) {
+                if (a.getDate().equals(date)) {
                     listAnnounce.add(a);
                 }
             }
         }
-        if(listAnnounce.size()!=0){
-            for (Announcement aa:listAnnounce){
-                System.out.println(aa);
+        String allAnnounce="";
+        if (listAnnounce.size() != 0) {
+            for (Announcement aa : listAnnounce) {
+                if (print == true){
+                    System.out.println(aa);
+                    String announce="Title: "+aa.getTitle()+" | Type: "+aa.getType()+"\n"+
+                            "Subject: "+aa.getSubjectsss().getName()+"\n"+
+                            "info: "+aa.getInfo()+"\n"+
+                            "_______________________________________";
+                    allAnnounce+=announce+"\n";
+                }
+
             }
+            if (print == true)
+            popUp(true,date,allAnnounce);
+            return true;
+        } else {
+            return false;
         }
     }
 
-    public void nxtMonth(){
-        if(month==11){
+    public void nxtMonth() {
+        if (month == 11) {
             month = 0;
             year++;
-        }else{
+        } else {
             month++;
         }
-        initCalendar(month,year);
+        initCalendar(month, year);
     }
-    public void preMonth(){
-        if(month==0){
+
+    public void preMonth() {
+        if (month == 0) {
             month = 11;
             year--;
-        }else{
+        } else {
             month--;
         }
-        initCalendar(month,year);
+        initCalendar(month, year);
     }
 
-
-    public void createDialog() {
-        passwordDialog pd = new passwordDialog();
-        Optional<String> result = pd.showAndWait();
-        result.ifPresent(password -> System.out.println(password));
+    public void popUp(Boolean success, String header, String txt) {
+        if (success == true) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        }
     }
     //    ======================================DB==============================================================
     public static classss.Student getObjStudent(long id_stu) {
@@ -185,6 +218,7 @@ public class announcementController implements Initializable {
             return results1.get(0);
         }
     }
+
     //    jump=======================================================================================
     public void jumpEnroll() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/enroll.fxml"));
@@ -220,6 +254,7 @@ public class announcementController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+
     public void jumpAnnounce() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/announcement.fxml"));
         Parent root = (Parent) fxmlLoader.load();

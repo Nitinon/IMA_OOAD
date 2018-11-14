@@ -100,12 +100,12 @@ public class deletesubject_teacherController implements Initializable {
         empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
 
-        Button btn1 = createDesBT("description", subject.getId_sub());
+        Button btn1 = createDesBT("Description", subject.getId_sub());
         btn1.setStyle("-fx-alignment:center; -fx-font-size: 10");
         btn1.setLayoutX(wLable * 3 + 20);
         btn1.setMinSize(50, 10);
 
-        Button btn2 = createDropBT("Drop", subject.getId_sub());
+        Button btn2 = createDropBT("Delete", subject.getId_sub());
         btn2.setStyle("-fx-alignment:center; -fx-font-size: 10");
         btn2.setLayoutX(wLable * 4 + 25);
         btn2.setMinSize(50, 10);

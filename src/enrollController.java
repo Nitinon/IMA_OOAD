@@ -204,8 +204,6 @@ public class enrollController implements Initializable {
         btn1.setLayoutX(wLable * 3 + 20);
         btn1.setMinSize(50, 10);
 
-
-
         pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1,  btn1);
 
         return pane;

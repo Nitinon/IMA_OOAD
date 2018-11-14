@@ -48,7 +48,7 @@ public class register_teacherController implements Initializable {
         String positionIn=position.getText();
 
         LocalDate date = datePicker.getValue();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd LLLL yyyy");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/LLLL/yyyy");
         String dateIn = date.format(formatter);
 
         if (!pass.isEmpty() && !passCon.isEmpty() && (!pass.equals(passCon))) {

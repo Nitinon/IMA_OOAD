@@ -33,12 +33,12 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Button fx:id="registerBT" layoutX="531.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#jumpEnter" prefHeight="39.0" prefWidth="112.0" text="Enter">
+      <Button fx:id="enterBT" layoutX="531.0" layoutY="430.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="112.0" text="Enter">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="cancelBT" layoutX="649.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#jumpBack" prefHeight="39.0" prefWidth="112.0" text="Cancel">
+      <Button fx:id="cancelBT" layoutX="649.0" layoutY="430.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="112.0" text="Cancel">
          <font>
             <Font size="18.0" />
          </font>
