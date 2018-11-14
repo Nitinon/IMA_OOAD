@@ -52,11 +52,12 @@ public class changeCourseController implements Initializable {
     List<Subject> listAllSubject = getAllSubject();
 
     Subject oldSubjectSelected;
+    Boolean enable;
 
     public void initialize(URL url, ResourceBundle rb) {
         updateScreen();
+        enable = userPreferences.getBoolean("Enable", true);
     }
-
     public void updateScreen() {
         listAllSubject = getAllSubject();
         currentStudent = getObjStudent(id);
@@ -185,7 +186,9 @@ public class changeCourseController implements Initializable {
     public Button createChangeBT(String txt, long subject) {
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
+            if (enable)
             createChangeDialog(subject);
+            else popUp(false,"Disble","Can not change subject this time");
         });
         return btn;
     }

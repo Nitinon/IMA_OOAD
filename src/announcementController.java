@@ -21,6 +21,8 @@ import javax.persistence.TypedQuery;
 import javax.xml.soap.Text;
 import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.time.YearMonth;
 import java.util.prefs.Preferences;
@@ -117,24 +119,34 @@ public class announcementController implements Initializable {
     }
 
     private Button createButton(int day, int month, int j, int i) {
+        String dateIn=day+"/"+month+"/"+year;
         aa[j][i] = new Button();
         aa[j][i].setMinHeight(60.0);
         aa[j][i].setMinWidth(80.0);
         if (day == 0) aa[j][i].setText(" ");
         else aa[j][i].setText(day + "");
         Boolean founded = findAnnounce(day, month, year, false);
-        System.out.println(founded);
+
+        LocalDate date = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/LLLL/yyyy");
+        String dateNow = date.format(formatter);
+        String style="";
+        if(dateNow.equals(dateIn))style="-fx-border-color: red; -fx-border-width: 4;";
         if (founded) {
-            aa[j][i].setStyle("-fx-background-color: #7dff69; -fx-border-color: black; ");
-            aa[j][i].setOnMouseEntered(e -> aa[j][i].setStyle("-fx-background-color: #00bc00; -fx-border-color: black;"));
-            aa[j][i].setOnMouseExited(e -> aa[j][i].setStyle("-fx-background-color: #7dff69; -fx-border-color: black; "));
+            aa[j][i].setStyle("-fx-background-color: #7dff69; -fx-border-color: black; "+style);
+            String finalStyle = style;
+            aa[j][i].setOnMouseEntered(e -> aa[j][i].setStyle("-fx-background-color: #00bc00; -fx-border-color: black;"+ finalStyle));
+            String finalStyle1 = style;
+            aa[j][i].setOnMouseExited(e -> aa[j][i].setStyle("-fx-background-color: #7dff69; -fx-border-color: black; "+ finalStyle1));
         } else {
-            aa[j][i].setStyle("-fx-background-color: white; -fx-border-color: black; ");
-            aa[j][i].setOnMouseExited(e -> aa[j][i].setStyle("-fx-background-color: white; -fx-border-color: black;"));
+            aa[j][i].setStyle("-fx-background-color: white; -fx-border-color: black; "+style);
+            String finalStyle2 = style;
+            aa[j][i].setOnMouseExited(e -> aa[j][i].setStyle("-fx-background-color: white; -fx-border-color: black;"+ finalStyle2));
         }
         aa[j][i].setOnAction(e -> {
             findAnnounce(day, month, year, true);
         });
+
         return aa[j][i];
     }
 

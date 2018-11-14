@@ -54,9 +54,11 @@ public class enrollController implements Initializable {
     long id = userPreferences.getLong("currentUser", 0);
     Student currentStudent = getObjStudent(id);
     List<Subject> listAllSubject = getAllSubject();
+    Boolean enable;
 
     public void initialize(URL url, ResourceBundle rb) {
         updateScreen();
+        enable = userPreferences.getBoolean("Enable", true);
     }
     public void updateScreen(){
         currentStudent = getObjStudent(id);
@@ -232,7 +234,9 @@ public class enrollController implements Initializable {
     public Button createEnrollBT(String txt, long subject) {
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
+            if(enable)
             createEnrollDialog(subject);
+            else popUp(false,"Disable","Can not enroll this time");
         });
         return btn;
     }

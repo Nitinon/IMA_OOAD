@@ -28,6 +28,7 @@ public class Main extends Application {
         primaryStage.show();
         Preferences userPreferences = Preferences.userRoot();
         userPreferences.put("aa","eieieieiei");
+        userPreferences.putBoolean("Enable", true);
     }
 
     public static int createSubject(String name,int no_student,String time,String day,String description){

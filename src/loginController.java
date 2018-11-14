@@ -33,9 +33,14 @@ public class loginController implements Initializable {
     }
 
     public void jumpSignIn() throws IOException {
+        if(username.getText().equals("Admin")&&password.getText().equals("Admin")){
+            jumpAdmin();
+            return;
+        }
         int userID = Integer.parseInt(username.getText());
         Student foundedStudent = getObjStudent(userID);
         Teacher foundedTeacher = getObjTeacher(userID);
+
         if (foundedStudent == null && foundedTeacher == null) {
             popUp(false, "User not found", "User not found please try again!!");
         } else {
@@ -91,7 +96,14 @@ public class loginController implements Initializable {
             alert.showAndWait();
         }
     }
+    public void jumpAdmin() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/AdminHome.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
 
+        AdminController controller = fxmlLoader.<AdminController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
     public void jumpRegister() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/register.fxml"));
         Parent root = (Parent) fxmlLoader.load();

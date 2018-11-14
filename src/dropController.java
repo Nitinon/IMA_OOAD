@@ -50,9 +50,12 @@ public class dropController implements Initializable {
     long id = userPreferences.getLong("currentUser", 0);
     Student currentStudent = getObjStudent(id);
     List<Subject> listAllSubject = getAllSubject();
+    Boolean enable;
 
     public void initialize(URL url, ResourceBundle rb) {
         updateScreen();
+        enable = userPreferences.getBoolean("Enable", true);
+
     }
 
     public void updateScreen() {
@@ -160,7 +163,9 @@ public class dropController implements Initializable {
     public Button createDropBT(String txt, long subject) {
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
+            if (enable)
             createDropDialog(subject);
+            else popUp(false,"Disble","Can not change subject this time");
         });
         return btn;
     }
