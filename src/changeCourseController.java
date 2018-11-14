@@ -228,6 +228,7 @@ public class changeCourseController implements Initializable {
                     return;
                 }
                 dropSubject((int) currentStudent.getId(), (int) oldSubjectSelected.getId_sub());
+                deleteScore((int) currentStudent.getId(), (int) oldSubjectSelected.getId_sub());
                 enrollCourse((int) currentStudent.getId(), (int) id);
                 popUp(true,"Success","Change Course Success");
                 updateScreen();
@@ -281,6 +282,22 @@ public class changeCourseController implements Initializable {
         TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
         List<classss.Subject> results2 = query2.getResultList();
         return results2.get(0);
+    }
+    public static void deleteScore(int id_stu,int id_sub){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Score c Where c.IdSubject =" + id_sub + " AND c.IdStudent = "+id_stu ;
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        em.getTransaction().begin();
+        int size=results2.size();
+        for (int i=0;i<size;i++){
+            em.remove(results2.get(0));
+            results2.remove(0);
+        }
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
     }
 
     public static void enrollCourse(int id_stu, long id_sub) {
