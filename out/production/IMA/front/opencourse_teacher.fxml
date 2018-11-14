@@ -21,7 +21,7 @@
 
 <AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="opencourse_teacherController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="423.0" layoutX="719.0" layoutY="68.0" stroke="WHITE" strokeMiterLimit="0.0" strokeType="INSIDE" width="390.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="423.0" layoutX="681.0" layoutY="66.0" stroke="WHITE" strokeMiterLimit="0.0" strokeType="INSIDE" width="444.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35569e" height="727.0" layoutX="347.0" layoutY="-3.0" stroke="#35569e" strokeType="INSIDE" width="198.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8eeff" height="506.0" layoutY="215.0" stroke="#e8eeff" strokeType="INSIDE" width="350.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3859c4" height="218.0" layoutX="-2.0" layoutY="-3.0" stroke="#3859c4" strokeMiterLimit="0.0" strokeType="INSIDE" width="350.0" />
@@ -118,7 +118,7 @@
       </HBox>
       <Line endX="-17.0" endY="520.0" layoutX="366.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
       <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" onAction="#jumpEditProfile" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
-      <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false"  onAction="#jumpChangePass" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
+      <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" onAction="#jumpChangePass" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
       <Line endX="-17.0" endY="520.0" layoutX="562.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
@@ -163,32 +163,66 @@
       <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onAction="#jumpEditScore" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="jumpCreate" layoutX="350.0" layoutY="333.0" mnemonicParsing="false" onAction="#jumpCreateAnnounce" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
-      <TextField fx:id="subjectName" layoutX="838.0" layoutY="156.0" />
-      <Label layoutX="752.0" layoutY="160.0" text="Subject Name" />
-      <Label layoutX="752.0" layoutY="201.0" text="Department" />
-      <ComboBox fx:id="teachingDate" layoutX="838.0" layoutY="242.0" prefWidth="150.0" />
-      <Label layoutX="752.0" layoutY="246.0" text="Teaching day" />
-      <ComboBox fx:id="sessionTime" layoutX="838.0" layoutY="282.0" prefWidth="150.0" />
-      <Label layoutX="754.0" layoutY="286.0" text="Session time" />
       <Label layoutX="849.0" layoutY="84.0" text="Open Subject">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
       <Button layoutX="840.0" layoutY="446.0" mnemonicParsing="false" onMouseClicked="#openSubject" text="Submit" />
-      <ComboBox fx:id="department" layoutX="840.0" layoutY="197.0" prefWidth="150.0" />
-      <TextArea fx:id="description" layoutX="838.0" layoutY="321.0" prefHeight="117.0" prefWidth="200.0" />
       <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
          <image>
             <Image url="@logo2.png" />
          </image>
       </ImageView>
-      <Label layoutX="759.0" layoutY="321.0" text="Description" />
       <ScrollPane fx:id="scrollPane" layoutX="587.0" layoutY="552.0" prefHeight="129.0" prefWidth="657.0" />
       <Text layoutX="587.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Subject">
          <font>
             <Font size="21.0" />
          </font>
       </Text>
+      <VBox alignment="TOP_RIGHT" layoutX="730.0" layoutY="132.0" prefHeight="200.0" prefWidth="100.0" spacing="22.0">
+         <children>
+            <Label text="Subject Name">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Department">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Teaching day">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Session time">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Limit Stident">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label text="Description">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="840.0" layoutY="126.0" prefHeight="315.0" prefWidth="177.0" spacing="20.0">
+         <children>
+            <TextField fx:id="subjectName" />
+            <ComboBox fx:id="department" prefWidth="150.0" />
+            <ComboBox fx:id="teachingDate" prefWidth="150.0" />
+            <ComboBox fx:id="sessionTime" prefWidth="150.0" />
+            <TextField fx:id="limitStudent" />
+            <TextArea fx:id="description" prefHeight="82.0" prefWidth="177.0" />
+         </children>
+      </VBox>
    </children>
 </AnchorPane>

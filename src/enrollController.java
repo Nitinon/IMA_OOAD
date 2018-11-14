@@ -115,7 +115,7 @@ public class enrollController implements Initializable {
         pane.setMinSize(100, 25);
         Label topic_header = createLable("ID", 25, wLable, 0);
         Label score_header = createLable("Subject", 25, wLable, wLable);
-        Label maxscore_header = createLable("Teacher", 25, wLable, wLable * 2);
+        Label maxscore_header = createLable("Student", 25, wLable, wLable * 2);
         Label empty = createLable("Description", 25, wLable, wLable * 3);
         Label empty2 = createLable("Enroll", 25, wLable, wLable * 4);
         topic_header.setStyle("-fx-border-color:black;-fx-background-color: pink; -fx-alignment:center;-fx-font-size:15 ");
@@ -138,7 +138,7 @@ public class enrollController implements Initializable {
 
         Label topic_text = createLable(subject.getId_sub() + "", 25, wLable, 0);
         Label score_text = createLable(subject.getName(), 25, wLable, wLable);
-        Label maxscore_text = createLable(subject.getTeacher().getName() + " " + subject.getTeacher().getSurname(), 25, wLable, wLable * 2);
+        Label maxscore_text = createLable(subject.getStudentNum()+"/"+subject.getNo_student(), 25, wLable, wLable * 2);
         Label empty1 = createLable("", 25, wLable, wLable * 3);
         Label empty2 = createLable("", 25, wLable, wLable * 4);
 //      set style
@@ -237,19 +237,13 @@ public class enrollController implements Initializable {
         return btn;
     }
     public void createDialog(long id) {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Course Info");
-
         Subject foundedSubject = getSubject(id);
-        alert.setHeaderText("Info of " + foundedSubject.getName());
         String info = "Name: " + foundedSubject.getName() + "\n" +
                 "Teacher: " + foundedSubject.getTeacher() + "\n" +
                 "Description: " + foundedSubject.getDiscription() + "\n" +
                 "Time: " + foundedSubject.getTime() + "\n" +
                 "Teaching day: " + foundedSubject.getDay();
-        alert.setContentText(info);
-        alert.showAndWait();
-
+        popUp(true,"Course Info",info);
     }
 
     public void createEnrollDialog(long id) {
@@ -265,9 +259,40 @@ public class enrollController implements Initializable {
     }
     public void enroll(long id) {
         System.out.println(id);
-        enrollCourse((int)currentStudent.getId(), id);
+        Subject subjectSeleted=getSubject(id);
+        Boolean dup=false;
+        for(Subject temp:currentStudent.getSubject()){
+            if(temp.getDay().equals(subjectSeleted.getDay())&&temp.getTime().equals(subjectSeleted.getTime())){
+                dup=true;
+            }
+        }
+        if(dup) popUp(false,"Dupilcated","You have subject in this time");
+        else {
+            if(subjectSeleted.subjectIsFull()){
+                popUp(false,"Full","course full");
+            }else {
+                enrollCourse((int)currentStudent.getId(), id);
+                popUp(true,"Success","enroll course success");
+            }
+        }
         updateScreen();
     }
+    public void popUp(Boolean success, String header, String txt) {
+        if (success == true) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        }
+    }
+
     //    ======================================DB==============================================================
     public static classss.Student getObjStudent(long id_stu) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");

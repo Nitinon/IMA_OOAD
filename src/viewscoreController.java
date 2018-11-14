@@ -142,9 +142,9 @@ public class viewscoreController implements Initializable {
         Label score_header = createLable("Score", 25, wLable, wLable);
         Label maxscore_header = createLable("Max Score", 25, wLable, wLable * 2);
 
-        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: blue;");
-        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: blue;");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: blue;");
+        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: #ffd410;");
+        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: #ffd410;");
+        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: #ffd410;");
 
 
         pane.getChildren().addAll(topic_header, score_header, maxscore_header);

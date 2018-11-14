@@ -115,7 +115,7 @@ public class changeCourseController implements Initializable {
         pane.setMinSize(100, 25);
         Label topic_header = createLable("ID", 25, wLable, 0);
         Label score_header = createLable("Subject", 25, wLable, wLable);
-        Label maxscore_header = createLable("eiei", 25, wLable, wLable * 2);
+        Label maxscore_header = createLable("Student", 25, wLable, wLable * 2);
         Label empty = createLable("description", 25, wLable, wLable * 3);
         Label empty2 = createLable("change", 25, wLable, wLable * 4);
         topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
@@ -138,7 +138,7 @@ public class changeCourseController implements Initializable {
 
         Label topic_text = createLable(subject.getId_sub() + "", 25, wLable, 0);
         Label score_text = createLable(subject.getName(), 25, wLable, wLable);
-        Label maxscore_text = createLable(subject.getTeacher().getName() + " " + subject.getTeacher().getSurname(), 25, wLable, wLable * 2);
+        Label maxscore_text = createLable(subject.getStudentNum()+"/"+subject.getNo_student(), 25, wLable, wLable * 2);
         Label empty1 = createLable("", 25, wLable, wLable * 3);
         Label empty2 = createLable("", 25, wLable, wLable * 4);
 //      set style
@@ -207,19 +207,46 @@ public class changeCourseController implements Initializable {
     }
 
     public void createChangeDialog(long id) {
+        Subject subjectSeleted=getSubject(id);
+
         passwordDialog pd = new passwordDialog();
         Optional<String> result = pd.showAndWait();
         result.ifPresent(password -> {
+            if (oldSubjectSelected==null){
+                popUp(false,"Empty","Please select subject to change");
+                return;
+            }
             if (password.equals(currentStudent.getPassword())) {
+                for(Subject temp:currentStudent.getSubject()){
+                    if(temp.getId_sub()!=oldSubjectSelected.getId_sub()&&temp.getDay().equals(subjectSeleted.getDay())&&temp.getTime().equals(subjectSeleted.getTime())){
+                        popUp(false,"Dupilcated","You have subject in this time");
+                        return;
+                    }
+                }
                 dropSubject((int) currentStudent.getId(), (int) oldSubjectSelected.getId_sub());
                 enrollCourse((int) currentStudent.getId(), (int) id);
+                popUp(true,"Success","Change Course Success");
                 updateScreen();
             } else {
                 System.out.println("Error");
             }
         });
     }
-
+    public void popUp(Boolean success, String header, String txt) {
+        if (success == true) {
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        } else {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle(header);
+            alert.setHeaderText(null);
+            alert.setContentText(txt);
+            alert.showAndWait();
+        }
+    }
     //    ======================================DB==============================================================
     public static classss.Student getObjStudent(long id_stu) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
@@ -297,6 +324,8 @@ public class changeCourseController implements Initializable {
         for (classss.Student b : results2.get(0).getStudent()) {
             if (b.getId() == id_stu) {
                 results2.get(0).getStudent().remove(b);
+                results2.get(0).decStudentNum();
+
                 break;
             }
 

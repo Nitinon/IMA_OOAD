@@ -264,6 +264,7 @@ public class dropController implements Initializable {
         for(classss.Student b:results2.get(0).getStudent()){
             if(b.getId()==id_stu){
                 results2.get(0).getStudent().remove(b);
+                results2.get(0).decStudentNum();
                 break;
             }
 

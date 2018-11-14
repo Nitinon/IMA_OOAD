@@ -18,6 +18,7 @@ public class Subject implements Serializable{
     private String time;
     private String day;
     private String description;
+    private int studentNum;
 
     @OneToMany(mappedBy = "subjectsss",cascade = CascadeType.ALL,orphanRemoval = true)
     private List<Announcement> announcements = new ArrayList<Announcement>();
@@ -28,6 +29,7 @@ public class Subject implements Serializable{
         this.time = time;
         this.day = day;
         this.description = description;
+        this.studentNum=0;
     }
     public void addAnnouncement(Announcement announcement){
         announcement.setSubjectsss(this);
@@ -66,6 +68,7 @@ public class Subject implements Serializable{
 
     public void addStudent(Student student){
         this.student.add(student);
+        studentNum++;
     }
 
     public Teacher getTeacher() {
@@ -120,6 +123,24 @@ public class Subject implements Serializable{
         return announcements;
     }
 
+    public void decStudentNum() {
+        this.studentNum--;
+    }
+
+    public int getStudentNum() {
+        return studentNum;
+    }
+
+    public void setStudentNum(int studentNum) {
+        this.studentNum = studentNum;
+    }
+
+    public Boolean subjectIsFull(){
+        if(this.studentNum==this.no_student){
+            return true;
+        }else
+            return false;
+    }
     public boolean equals(Subject obj) {
         if(this.getName().equals(obj.getName())&&this.getDay().equals(obj.getDay())&&this.getTime().equals(obj.getTime())){
             return true;

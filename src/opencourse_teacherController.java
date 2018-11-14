@@ -14,6 +14,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
+import javax.xml.soap.Text;
 import java.io.IOException;
 import java.net.URL;
 import java.util.List;
@@ -37,6 +38,8 @@ public class opencourse_teacherController implements Initializable {
     private Label telLB;
     @FXML
     private Label posLB;
+    @FXML
+    private TextField limitStudent;
     //------------------------------------------------------------------------
     @FXML
     private TextField subjectName;
@@ -182,6 +185,8 @@ public class opencourse_teacherController implements Initializable {
         String time = (String) sessionTime.getValue();
         String date = (String) teachingDate.getValue();
         String des = description.getText();
+        int limit=Integer.parseInt(limitStudent.getText());
+
         Boolean dup = false;
         if (subjectName.getText().isEmpty() || ((String) sessionTime.getValue()).isEmpty() || ((String) teachingDate.getValue()).isEmpty() || description.getText().isEmpty()) {
             popUp(false, "Empty", "please enter all field");
@@ -192,9 +197,9 @@ public class opencourse_teacherController implements Initializable {
                 dup = true;
             }
         }
-        if (dup == true) popUp(false, "Subject Duplicated", "Already Subject");
+        if (dup) popUp(false, "Subject Duplicated", "Already Subject");
         else {
-            openSbuject((int) currentTeacher.getId(), createSubject(name, 40, time, date, des));
+            openSbuject((int) currentTeacher.getId(), createSubject(name, limit, time, date, des));
             popUp(true, "Success", "Open Subject Success");
         }
         updateScreen();
@@ -216,6 +221,7 @@ public class opencourse_teacherController implements Initializable {
             alert.showAndWait();
         }
     }
+
 
     //    ==================DB====================
     public static classss.Teacher getObjTeacher(long id_tea) {
