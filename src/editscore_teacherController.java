@@ -393,10 +393,10 @@ public class editscore_teacherController implements Initializable {
         backpane.getChildren().setAll(root);
     }
     public void jumpEditProfile() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/editProfile.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/editProfile_teacher.fxml"));
         Parent root = (Parent) fxmlLoader.load();
 
-        ediProfileController controller = fxmlLoader.<ediProfileController>getController();
+        editProfile_teacherController controller = fxmlLoader.<editProfile_teacherController>getController();
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }

@@ -73,7 +73,7 @@
          </font>
       </Label>
       <Line endX="-17.0" endY="520.0" layoutX="366.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
-      <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false"  prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
+      <Button fx:id="editProfileBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="122.0" mnemonicParsing="false" onAction="#jumpEditProfile" prefHeight="25.0" prefWidth="111.0" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Edit profile" />
       <Button fx:id="changePassBT" alignment="TOP_LEFT" layoutX="223.0" layoutY="168.0" mnemonicParsing="false" onAction="#jumpChangePass" style="-fx-background-radius: 5; -fx-border-style: hidden;" text="Change password" />
       <Line endX="-17.0" endY="520.0" layoutX="562.0" layoutY="200.0" startX="-17.0" startY="-200.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffe45e" height="48.0" layoutX="349.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="198.0" />
