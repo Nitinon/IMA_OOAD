@@ -60,7 +60,8 @@ public class enrollController implements Initializable {
         updateScreen();
         enable = userPreferences.getBoolean("Enable", true);
     }
-    public void updateScreen(){
+
+    public void updateScreen() {
         currentStudent = getObjStudent(id);
         System.out.println("Updateddddddddddddddddddddddddddddddddddddddd");
         //    show info of current user---------------------------------------
@@ -95,21 +96,34 @@ public class enrollController implements Initializable {
         i = 0;
         for (Subject a : listAllSubject) {
             i++;
-            if(!findSubject(a)) {
-                System.out.println(a.getId_sub());
-                double wScore = scrollPane2.getPrefWidth();
-                double wLable = wScore / 4;
+            if (!findSubject(a) && a.getApprove()) {
                 gridpane.add(createPane(i, a), 1, i + 2);
             }
         }
     }
-    public Boolean findSubject(Subject sub){
+
+    public Boolean findSubject(Subject sub) {
         for (Subject a : currentStudent.getSubject()) {
-            if(a.getId_sub()==sub.getId_sub())
-            return true;
+            if (a.getId_sub() == sub.getId_sub())
+                return true;
+
+            Boolean midtermDup = a.getMidtermExam().equals(sub.getMidtermExam()) && a.getMidtermTime().equals(sub.getMidtermTime());
+            Boolean finalDup = a.getFinalExam().equals(sub.getFinalExam()) && a.getFinalTime().equals(sub.getFinalTime());
+            Boolean dayDup = a.getDay().equals(sub.getDay()) && a.getTime().equals(sub.getTime());
+            if (midtermDup || finalDup || dayDup)
+                return true;
         }
         return false;
     }
+
+    public Boolean duplicated(Subject sub) {
+        for (Subject a : currentStudent.getSubject()) {
+            if (a.getId_sub() == sub.getId_sub())
+                return true;
+        }
+        return false;
+    }
+
     public Pane createHeader() {
         Pane pane = new Pane();
         double wScore = scrollPane2.getPrefWidth();
@@ -140,7 +154,7 @@ public class enrollController implements Initializable {
 
         Label topic_text = createLable(subject.getId_sub() + "", 25, wLable, 0);
         Label score_text = createLable(subject.getName(), 25, wLable, wLable);
-        Label maxscore_text = createLable(subject.getStudentNum()+"/"+subject.getNo_student(), 25, wLable, wLable * 2);
+        Label maxscore_text = createLable(subject.getStudentNum() + "/" + subject.getNo_student(), 25, wLable, wLable * 2);
         Label empty1 = createLable("", 25, wLable, wLable * 3);
         Label empty2 = createLable("", 25, wLable, wLable * 4);
 //      set style
@@ -179,7 +193,7 @@ public class enrollController implements Initializable {
         maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         empty.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
 
-        pane.getChildren().addAll(topic_header, score_header, maxscore_header, empty );
+        pane.getChildren().addAll(topic_header, score_header, maxscore_header, empty);
         return pane;
     }
 
@@ -204,10 +218,10 @@ public class enrollController implements Initializable {
         Button btn1 = createDesBT("description", subject.getId_sub());
 //        btn1.setStyle("-fx-alignment:center; -fx-font-size: 10 ; -fx-pref-height: 10px; -fx-pref-width: 125px;\n" +
 //                "\t-fx-background-color: rgb(250, 250, 250);-fx-border-color: black;-fx-hand");
-        btn1.setLayoutX(wLable * 3+ 20);
+        btn1.setLayoutX(wLable * 3 + 20);
         //btn1.setMinSize(50, 10);
 
-        pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1,  btn1);
+        pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1, btn1);
 
         return pane;
     }
@@ -231,24 +245,26 @@ public class enrollController implements Initializable {
         });
         return btn;
     }
+
     public Button createEnrollBT(String txt, long subject) {
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
-            if(enable)
-            createEnrollDialog(subject);
-            else popUp(false,"Disable","Can not enroll this time");
+            if (enable)
+                createEnrollDialog(subject);
+            else popUp(false, "Disable", "Can not enroll this time");
         });
         return btn;
     }
+
     public void createDialog(long id) {
         Subject foundedSubject = getSubject(id);
         String info = "Name: " + foundedSubject.getName() + "\n" +
                 "Teacher: " + foundedSubject.getTeacher() + "\n" +
                 "Description: " + foundedSubject.getDiscription() + "\n" +
                 "Time: " + foundedSubject.getTime() + "\n" +
-                "Teaching day: " + foundedSubject.getDay()+"\n"+
-                "Student: "+foundedSubject.getStudentNum()+"/"+foundedSubject.getNo_student();
-        popUp(true,"Course Info",info);
+                "Teaching day: " + foundedSubject.getDay() + "\n" +
+                "Student: " + foundedSubject.getStudentNum() + "/" + foundedSubject.getNo_student();
+        popUp(true, "Course Info", info);
     }
 
     public void createEnrollDialog(long id) {
@@ -262,26 +278,28 @@ public class enrollController implements Initializable {
             }
         });
     }
+
     public void enroll(long id) {
         System.out.println(id);
-        Subject subjectSeleted=getSubject(id);
-        Boolean dup=false;
-        for(Subject temp:currentStudent.getSubject()){
-            if(temp.getDay().equals(subjectSeleted.getDay())&&temp.getTime().equals(subjectSeleted.getTime())){
-                dup=true;
+        Subject subjectSeleted = getSubject(id);
+        Boolean dup = false;
+        for (Subject temp : currentStudent.getSubject()) {
+            if (temp.getDay().equals(subjectSeleted.getDay()) && temp.getTime().equals(subjectSeleted.getTime())) {
+                dup = true;
             }
         }
-        if(dup) popUp(false,"Dupilcated","You have subject in this time");
+        if (dup) popUp(false, "Dupilcated", "You have subject in this time");
         else {
-            if(subjectSeleted.subjectIsFull()){
-                popUp(false,"Full","course full");
-            }else {
-                enrollCourse((int)currentStudent.getId(), id);
-                popUp(true,"Success","enroll course success");
+            if (subjectSeleted.subjectIsFull()) {
+                popUp(false, "Full", "course full");
+            } else {
+                enrollCourse((int) currentStudent.getId(), id);
+                popUp(true, "Success", "enroll course success");
             }
         }
         updateScreen();
     }
+
     public void popUp(Boolean success, String header, String txt) {
         if (success == true) {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -311,6 +329,7 @@ public class enrollController implements Initializable {
             return results1.get(0);
         }
     }
+
     public static List<Subject> getAllSubject() {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();

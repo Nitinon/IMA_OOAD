@@ -63,10 +63,13 @@ public class opencourse_teacherController implements Initializable {
     }
 
     public void updateScreen() {
+        department.getItems().clear();
         department.getItems().addAll("Computer Engineering");
         department.getSelectionModel().selectFirst();
+        sessionTime.getItems().clear();
         sessionTime.getItems().addAll("Morning", "Afternoon", "Evening");
         sessionTime.getSelectionModel().selectFirst();
+        teachingDate.getItems().clear();
         teachingDate.getItems().addAll("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday");
         teachingDate.getSelectionModel().selectFirst();
         currentTeacher = getObjTeacher(id);
@@ -88,11 +91,8 @@ public class opencourse_teacherController implements Initializable {
         gridpane.add(createHeader(), 1, 1);
         int i = 0;
         for (Subject a : currentTeacher.getSubjects()) {
-            i++;
-            System.out.println(a.getId_sub());
-            double wScore = scrollPane.getPrefWidth();
-            double wLable = wScore / 4;
             gridpane.add(createPane(i, a), 1, i + 2);
+            i++;
         }
     }
 
@@ -194,11 +194,11 @@ public class opencourse_teacherController implements Initializable {
             return;
         }
         for (Subject temp : currentTeacher.getSubjects()) {
-            if (temp.getName().equals(name) && temp.getDay().equals(date) && temp.getTime().equals(time)) {
+            if (temp.getDay().equals(date) && temp.getTime().equals(time)) {
                 dup = true;
             }
         }
-        if (dup) popUp(false, "Subject Duplicated", "Already Subject");
+        if (dup) popUp(false, "Subject Duplicated", "You have teaching this time");
         else {
             openSbuject((int) currentTeacher.getId(), createSubject(name, limit, time, date, des));
             popUp(true, "Success", "Open Subject Success");

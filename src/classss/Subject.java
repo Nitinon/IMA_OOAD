@@ -20,6 +20,10 @@ public class Subject implements Serializable{
     private String description;
     private int studentNum;
     private Boolean approve;
+    private String midtermExam;
+    private String finalExam;
+    private String midtermTime;
+    private String finalTime;
 
     @OneToMany(mappedBy = "subjectsss",cascade = CascadeType.ALL,orphanRemoval = true)
     private List<Announcement> announcements = new ArrayList<Announcement>();
@@ -145,16 +149,50 @@ public class Subject implements Serializable{
         this.approve = approve;
     }
 
+    public String getMidtermExam() {
+        return midtermExam;
+    }
+
+    public void setMidtermExam(String midtermExam) {
+        this.midtermExam = midtermExam;
+    }
+
+    public String getFinalExam() {
+        return finalExam;
+    }
+
+    public void setFinalExam(String finalExam) {
+        this.finalExam = finalExam;
+    }
+
+    public String getMidtermTime() {
+        return midtermTime;
+    }
+
+    public void setMidtermTime(String midterTime) {
+        this.midtermTime = midterTime;
+    }
+
+    public String getFinalTime() {
+        return finalTime;
+    }
+
+    public void setFinalTime(String finalTime) {
+        this.finalTime = finalTime;
+    }
+
     public Boolean subjectIsFull(){
         if(this.studentNum==this.no_student){
             return true;
         }else
             return false;
     }
+
     public boolean equals(Subject obj) {
         if(this.getName().equals(obj.getName())&&this.getDay().equals(obj.getDay())&&this.getTime().equals(obj.getTime())){
             return true;
         }
         return false;
     }
+
 }

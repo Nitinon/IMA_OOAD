@@ -17,19 +17,31 @@
             <Image url="@logo2.png" />
          </image>
       </ImageView>
-      <Label layoutX="237.0" layoutY="74.0" text="Admin System">
+      <Label layoutX="233.0" layoutY="22.0" text="Admin System">
          <font>
             <Font size="29.0" />
          </font>
       </Label>
-      <ToggleButton fx:id="enableBT" layoutX="268.0" layoutY="209.0" mnemonicParsing="false" onMouseClicked="#enable" prefHeight="25.0" prefWidth="99.0" text="Enable" />
+      <ToggleButton fx:id="enableBT" layoutX="287.0" layoutY="132.0" mnemonicParsing="false" onMouseClicked="#enable" prefHeight="25.0" prefWidth="99.0" text="Enable" />
       <Button layoutX="32.0" layoutY="669.0" mnemonicParsing="false" onMouseClicked="#jumpBack" text="Back" />
-      <ScrollPane fx:id="scrollPane" layoutX="604.0" layoutY="74.0" prefHeight="373.0" prefWidth="662.0" />
-      <Text layoutX="751.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Approve Subject">
+      <ScrollPane fx:id="scrollPane" layoutX="468.0" layoutY="87.0" prefHeight="373.0" prefWidth="792.0" />
+      <Text layoutX="790.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Approve Subject">
          <font>
             <Font size="22.0" />
          </font>
       </Text>
-      <Button fx:id="register_teacherBT" layoutX="268.0" layoutY="172.0" mnemonicParsing="false" onMouseClicked="#jumpRegister_teacher" text="register teacher" />
+      <Button fx:id="register_teacherBT" layoutX="283.0" layoutY="92.0" mnemonicParsing="false" onMouseClicked="#jumpRegister_teacher" text="register teacher" />
+      <ScrollPane fx:id="scrollPane2" layoutX="469.0" layoutY="522.0" prefHeight="172.0" prefWidth="387.0" />
+      <ScrollPane fx:id="scrollPane3" layoutX="873.0" layoutY="522.0" prefHeight="172.0" prefWidth="387.0" />
+      <Text layoutX="468.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Midterm ">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="873.0" layoutY="501.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Final">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

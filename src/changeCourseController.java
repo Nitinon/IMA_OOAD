@@ -85,17 +85,21 @@ public class changeCourseController implements Initializable {
         for (Subject a : listAllSubject) {
             i++;
             if (!findSubject(a)) {
-                System.out.println(a.getId_sub());
-                double wScore = scrollPane.getPrefWidth();
-                double wLable = wScore / 4;
                 gridpane.add(createPane(i, a), 1, i + 2);
             }
         }
     }
     public Boolean findSubject(Subject sub) {
         for (Subject a : currentStudent.getSubject()) {
-            if (a.getId_sub() == sub.getId_sub())
-                return true;
+            if(oldSubjectSelected.getId_sub()!=a.getId_sub()) {
+                if (a.getId_sub() == sub.getId_sub())
+                    return true;
+                Boolean midtermDup = a.getMidtermExam().equals(sub.getMidtermExam()) && a.getMidtermTime().equals(sub.getMidtermTime());
+                Boolean finalDup = a.getFinalExam().equals(sub.getFinalExam()) && a.getFinalTime().equals(sub.getFinalTime());
+                Boolean dayDup = a.getDay().equals(sub.getDay()) && a.getTime().equals(sub.getTime());
+                if (midtermDup || finalDup || dayDup)
+                    return true;
+            }
         }
         return false;
     }
