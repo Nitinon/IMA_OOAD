@@ -45,6 +45,10 @@ public class AdminController implements Initializable {
 
     public void update() {
         allSubject = getApprove(false);
+        midtermList.clear();
+        finalList.clear();
+        listTimeMidterm.clear();
+        listTimeFinal.clear();
 
         enable = userPreferences.getBoolean("Enable", true);
         if (enable) enableBT.setText("Enable");

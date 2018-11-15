@@ -58,6 +58,7 @@ public class changeCourseController implements Initializable {
         updateScreen();
         enable = userPreferences.getBoolean("Enable", true);
     }
+
     public void updateScreen() {
         listAllSubject = getAllSubject();
         currentStudent = getObjStudent(id);
@@ -75,7 +76,10 @@ public class changeCourseController implements Initializable {
         for (Subject temp : currentStudent.getSubject()) {
             subjectSelector.getItems().add(temp.getId_sub() + " " + temp.getName());
         }
+        updateTable();
 
+    }
+    public void updateTable(){
         GridPane gridpane = new GridPane();
         gridpane.setMinSize(scrollPane.getMinWidth(), 0);
         gridpane.setStyle("-fx-border-color:black; -fx-alignment:center;");
@@ -91,15 +95,15 @@ public class changeCourseController implements Initializable {
     }
     public Boolean findSubject(Subject sub) {
         for (Subject a : currentStudent.getSubject()) {
-            if(oldSubjectSelected.getId_sub()!=a.getId_sub()) {
-                if (a.getId_sub() == sub.getId_sub())
-                    return true;
-                Boolean midtermDup = a.getMidtermExam().equals(sub.getMidtermExam()) && a.getMidtermTime().equals(sub.getMidtermTime());
-                Boolean finalDup = a.getFinalExam().equals(sub.getFinalExam()) && a.getFinalTime().equals(sub.getFinalTime());
-                Boolean dayDup = a.getDay().equals(sub.getDay()) && a.getTime().equals(sub.getTime());
-                if (midtermDup || finalDup || dayDup)
-                    return true;
-            }
+            if (a.getId_sub() == sub.getId_sub()) //case have this subject
+                return true; //don't print
+
+            Boolean midtermDup = a.getMidtermExam().equals(sub.getMidtermExam()) && a.getMidtermTime().equals(sub.getMidtermTime());
+            Boolean finalDup = a.getFinalExam().equals(sub.getFinalExam()) && a.getFinalTime().equals(sub.getFinalTime());
+            Boolean dayDup = a.getDay().equals(sub.getDay()) && a.getTime().equals(sub.getTime());
+
+            if (oldSubjectSelected!=null&&(midtermDup || finalDup || dayDup)&&a.getId_sub()!=oldSubjectSelected.getId_sub()) //case duplicate something
+                return true;
         }
         return false;
     }
@@ -111,6 +115,7 @@ public class changeCourseController implements Initializable {
             long idSub = Long.parseLong(id);
             oldSubjectSelected = getSubject(idSub);
         }
+        updateTable();
     }
 
     public Pane createHeader() {
@@ -143,7 +148,7 @@ public class changeCourseController implements Initializable {
 
         Label topic_text = createLable(subject.getId_sub() + "", 25, wLable, 0);
         Label score_text = createLable(subject.getName(), 25, wLable, wLable);
-        Label maxscore_text = createLable(subject.getStudentNum()+"/"+subject.getNo_student(), 25, wLable, wLable * 2);
+        Label maxscore_text = createLable(subject.getStudentNum() + "/" + subject.getNo_student(), 25, wLable, wLable * 2);
         Label empty1 = createLable("", 25, wLable, wLable * 3);
         Label empty2 = createLable("", 25, wLable, wLable * 4);
 //      set style
@@ -191,8 +196,8 @@ public class changeCourseController implements Initializable {
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
             if (enable)
-            createChangeDialog(subject);
-            else popUp(false,"Disble","Can not change subject this time");
+                createChangeDialog(subject);
+            else popUp(false, "Disble", "Can not change subject this time");
         });
         return btn;
     }
@@ -207,44 +212,49 @@ public class changeCourseController implements Initializable {
                 "Teacher: " + foundedSubject.getTeacher() + "\n" +
                 "Description: " + foundedSubject.getDiscription() + "\n" +
                 "Time: " + foundedSubject.getTime() + "\n" +
-                "Teaching day: " + foundedSubject.getDay()+"\n"+
-                "Student: "+foundedSubject.getStudentNum()+"/"+foundedSubject.getNo_student();
+                "Teaching day: " + foundedSubject.getDay() + "\n" +
+                "Student: " + foundedSubject.getStudentNum() + "/" + foundedSubject.getNo_student();
         alert.setContentText(info);
         alert.showAndWait();
 
     }
 
     public void createChangeDialog(long id) {
-        Subject subjectSeleted=getSubject(id);
+        Subject subjectSeleted = getSubject(id);
 
         passwordDialog pd = new passwordDialog();
         Optional<String> result = pd.showAndWait();
         result.ifPresent(password -> {
-            if (oldSubjectSelected==null){
-                popUp(false,"Empty","Please select subject to change");
+            if (oldSubjectSelected == null) {
+                popUp(false, "Empty", "Please select subject to change");
                 return;
             }
             if (password.equals(currentStudent.getPassword())) {
-                for(Subject temp:currentStudent.getSubject()){
-                    if(temp.getId_sub()!=oldSubjectSelected.getId_sub()&&temp.getDay().equals(subjectSeleted.getDay())&&temp.getTime().equals(subjectSeleted.getTime())){
-                        popUp(false,"Dupilcated","You have subject in this time");
+                for (Subject temp : currentStudent.getSubject()) {
+                    if (temp.getId_sub() != oldSubjectSelected.getId_sub() && temp.getDay().equals(subjectSeleted.getDay()) && temp.getTime().equals(subjectSeleted.getTime())) {
+                        popUp(false, "Dupilcated", "You have subject in this time");
                         return;
                     }
                 }
-                if(subjectSeleted.subjectIsFull()){
-                    popUp(false,"Full","course full");
+                if (subjectSeleted.subjectIsFull()) {
+                    popUp(false, "Full", "course full");
                     return;
                 }
                 dropSubject((int) currentStudent.getId(), (int) oldSubjectSelected.getId_sub());
                 deleteScore((int) currentStudent.getId(), (int) oldSubjectSelected.getId_sub());
                 enrollCourse((int) currentStudent.getId(), (int) id);
-                popUp(true,"Success","Change Course Success");
-                updateScreen();
+                popUp(true, "Success", "Change Course Success");
+                try {
+                    jumpChange();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             } else {
                 System.out.println("Error");
             }
         });
     }
+
     public void popUp(Boolean success, String header, String txt) {
         if (success == true) {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -260,6 +270,7 @@ public class changeCourseController implements Initializable {
             alert.showAndWait();
         }
     }
+
     //    ======================================DB==============================================================
     public static classss.Student getObjStudent(long id_stu) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
@@ -291,15 +302,16 @@ public class changeCourseController implements Initializable {
         List<classss.Subject> results2 = query2.getResultList();
         return results2.get(0);
     }
-    public static void deleteScore(int id_stu,int id_sub){
+
+    public static void deleteScore(int id_stu, int id_sub) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
-        String sql2 = "SELECT c FROM Score c Where c.IdSubject =" + id_sub + " AND c.IdStudent = "+id_stu ;
+        String sql2 = "SELECT c FROM Score c Where c.IdSubject =" + id_sub + " AND c.IdStudent = " + id_stu;
         TypedQuery<classss.Score> query2 = em.createQuery(sql2, classss.Score.class);
         List<classss.Score> results2 = query2.getResultList();
         em.getTransaction().begin();
-        int size=results2.size();
-        for (int i=0;i<size;i++){
+        int size = results2.size();
+        for (int i = 0; i < size; i++) {
             em.remove(results2.get(0));
             results2.remove(0);
         }
