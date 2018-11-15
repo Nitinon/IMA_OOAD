@@ -37,7 +37,14 @@ public class loginController implements Initializable {
             jumpAdmin();
             return;
         }
-        int userID = Integer.parseInt(username.getText());
+        int userID=0;
+        try {
+            userID=Integer.parseInt(username.getText());
+        } catch (NumberFormatException e) {
+            popUp(false, "User not found", "User not found please try again!!");
+            return;
+        }
+
         Student foundedStudent = getObjStudent(userID);
         Teacher foundedTeacher = getObjTeacher(userID);
 
@@ -113,14 +120,7 @@ public class loginController implements Initializable {
         backpane.getChildren().setAll(root);
     }
 
-    public void jumpRegister_teacher() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/register_teacher.fxml"));
-        Parent root = (Parent) fxmlLoader.load();
 
-        register_teacherController controller = fxmlLoader.<register_teacherController>getController();
-        fxmlLoader.setController(controller);
-        backpane.getChildren().setAll(root);
-    }
 
     //    ======================================DB==============================================================
     public static classss.Student getObjStudent(long id_stu) {

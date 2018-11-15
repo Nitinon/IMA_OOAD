@@ -87,7 +87,7 @@ public class announcementController implements Initializable {
     private void initCalendar(int month, int year) {
         Date date = new Date();
         int firstday = 1;
-        date.setDate(1);
+        date.setDate(0);
         date.setMonth(month);
         date.setYear(year);
         int day = date.getDay();

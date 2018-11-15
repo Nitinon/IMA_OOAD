@@ -41,7 +41,6 @@
             <Font size="18.0" />
          </font>
       </Button>
-      <Button fx:id="register_teacherBT" layoutX="663.0" layoutY="602.0" mnemonicParsing="false" onMouseClicked="#jumpRegister_teacher" text="register teacher" />
       <ImageView fitHeight="220.0" fitWidth="220.0" layoutX="544.0" layoutY="67.0">
          <image>
             <Image url="@logo2.png" />

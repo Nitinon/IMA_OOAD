@@ -19,6 +19,7 @@ public class Subject implements Serializable{
     private String day;
     private String description;
     private int studentNum;
+    private Boolean approve;
 
     @OneToMany(mappedBy = "subjectsss",cascade = CascadeType.ALL,orphanRemoval = true)
     private List<Announcement> announcements = new ArrayList<Announcement>();
@@ -30,6 +31,7 @@ public class Subject implements Serializable{
         this.day = day;
         this.description = description;
         this.studentNum=0;
+        this.approve=false;
     }
     public void addAnnouncement(Announcement announcement){
         announcement.setSubjectsss(this);
@@ -133,6 +135,14 @@ public class Subject implements Serializable{
 
     public void setStudentNum(int studentNum) {
         this.studentNum = studentNum;
+    }
+
+    public Boolean getApprove() {
+        return approve;
+    }
+
+    public void setApprove(Boolean approve) {
+        this.approve = approve;
     }
 
     public Boolean subjectIsFull(){
