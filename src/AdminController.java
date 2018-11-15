@@ -1,5 +1,6 @@
 import classss.Announcement;
 import classss.Subject;
+import component.passwordDialog;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -31,6 +32,8 @@ public class AdminController implements Initializable {
     private ScrollPane scrollPane2;
     @FXML
     private ScrollPane scrollPane3;
+    @FXML
+    private ScrollPane scrollPane4;
     Preferences userPreferences = Preferences.userRoot();
     Boolean enable;
     List<Subject> allSubject;
@@ -86,6 +89,16 @@ public class AdminController implements Initializable {
             gridpane.add(createPane2(a, "final"), 1, i + 2);
             i++;
         }
+        gridpane = new GridPane();
+        gridpane.setMinSize(scrollPane4.getMinWidth(), 0);
+        gridpane.setStyle("-fx-border-color:black; -fx-alignment:center;");
+        gridpane.add(createHeader3(), 1, 1);
+        scrollPane4.setContent(gridpane);
+        i = 0;
+        for (Subject a : allSubject) {
+            gridpane.add(createPane3(i,a), 1, i + 2);
+            i++;
+        }
 
     }
 
@@ -111,6 +124,21 @@ public class AdminController implements Initializable {
         double wLable = wScore / numCol;
         pane.setMinSize(100, 25);
         String[] topic = {"ID", "Subject name", "Time Exam", "Date"};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+            pane.getChildren().add(topic_text);
+        }
+        return pane;
+    }
+
+    public Pane createHeader3() {
+        Pane pane = new Pane();
+        int numCol = 4;
+        double wScore = scrollPane4.getPrefWidth();
+        double wLable = wScore / numCol;
+        pane.setMinSize(100, 25);
+        String[] topic = {"ID", "Subject name", "Description", "Delete"};
         for (int i = 0; i < numCol; i++) {
             Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
             topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
@@ -190,6 +218,29 @@ public class AdminController implements Initializable {
 
         return pane;
     }
+    public Pane createPane3(int id, Subject subject) {
+        Pane pane = new Pane();
+        int numCol = 4;
+        double wScore = scrollPane4.getPrefWidth();
+        double wLable = wScore / numCol;
+
+        pane.setMinSize(100, 25);
+        String[] topic = {subject.getId_sub()+"",subject.getName(), "", "", "", ""};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+            pane.getChildren().add(topic_text);
+        }
+
+        Button btn1 = createDesBT("description", subject.getId_sub());
+        btn1.setLayoutX(wLable * 2 + 20);
+        Button btn2 = createDelBT("Delete", subject.getId_sub(),subject.getTeacher().getId());
+        btn2.setLayoutX(wLable * 3 + 20);
+
+        pane.getChildren().addAll(btn1,btn2);
+
+        return pane;
+    }
 
 
     public Label createLable(String txt, double height, double width, double pos) {
@@ -210,7 +261,13 @@ public class AdminController implements Initializable {
         });
         return btn;
     }
-
+    public Button createDelBT(String txt, long subject,long tID) {
+        Button btn = new Button(txt);
+        btn.setOnAction(event -> {
+            createDelDialog(subject,tID);
+        });
+        return btn;
+    }
     public Button createApproveBT(int id, String txt, long subject) {
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
@@ -247,6 +304,22 @@ public class AdminController implements Initializable {
                 "Student: " + foundedSubject.getStudentNum() + "/" + foundedSubject.getNo_student();
         popUp(true, "Course Info", info);
     }
+    public void createDelDialog(long id,long tID) {
+        passwordDialog pd = new passwordDialog();
+        Optional<String> result = pd.showAndWait();
+        result.ifPresent(password -> {
+            if (password.equals("Admin")) {
+//              delete Subject
+                delSubject((int) tID,(int)id);
+                deleteScore((int)id);
+                popUp(true,"Delete Subject","Delete Subject Success");
+                update();
+            } else {
+                popUp(false,"Wrong password","Please try again");
+
+            }
+        });
+    }
 
     public void popUp(Boolean success, String header, String txt) {
         if (success == true) {
@@ -275,7 +348,53 @@ public class AdminController implements Initializable {
 
         }
     }
+//    ===========================================DB==============================================================
+    public static List<Subject> getAllSubject() {
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Subject c ";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+        return results2;
+    }
+    public static void delSubject(int id_tea,int id_sub){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
 
+        String sql2 = "SELECT c FROM Subject c Where c.id_sub =" + id_sub + "";
+        TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
+        List<classss.Subject> results2 = query2.getResultList();
+
+        for(classss.Student a:results2.get(0).getStudent()){
+            for(classss.Subject b:a.getSubject()){
+                if(b.getId_sub()==id_sub){
+                    a.getSubject().remove(b);
+                    break;
+                }
+            }
+        }
+        em.getTransaction().begin();
+        em.remove(results2.get(0));
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
+    public static void deleteScore(int id_sub){
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
+        EntityManager em = emf.createEntityManager();
+        String sql2 = "SELECT c FROM Score c Where c.IdSubject =" + id_sub;
+        TypedQuery<classss.Score> query2 = em.createQuery(sql2, classss.Score.class);
+        List<classss.Score> results2 = query2.getResultList();
+        em.getTransaction().begin();
+        int size=results2.size();
+        for (int i=0;i<size;i++){
+            em.remove(results2.get(0));
+            results2.remove(0);
+        }
+        em.getTransaction().commit();
+        em.close();
+        emf.close();
+    }
     public static List<Subject> getApprove(Boolean app) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();

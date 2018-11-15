@@ -6,7 +6,8 @@
       <change beforePath="$PROJECT_DIR$/objectdb/db/AccountDB.odb$" beforeDir="false" afterPath="$PROJECT_DIR$/objectdb/db/AccountDB.odb$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/objectdb/log/odb20181116.log" beforeDir="false" afterPath="$PROJECT_DIR$/objectdb/log/odb20181116.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/changeCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/changeCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/deletesubject_teacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deletesubject_teacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/front/AdminHome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/front/AdminHome.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +54,7 @@
     <session id="-1159475618">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.32" value="1" />
@@ -68,25 +69,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="fxml" value="688" />
-          <entry key="java" value="20274" />
+          <entry key="java" value="20538" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="JAVA" value="20273" />
+          <entry key="JAVA" value="20537" />
           <entry key="XML" value="688" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="66" />
-          <entry key="java" value="188" />
+          <entry key="java" value="189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="188" />
+          <entry key="JAVA" value="189" />
           <entry key="XML" value="66" />
         </counts>
       </usages-collector>
@@ -237,7 +238,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/opencourse_teacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="139">
               <caret line="95" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
@@ -246,8 +247,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/enrollController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="104" selection-start-line="104" selection-end-line="116" selection-end-column="5" />
+            <state relative-caret-position="224">
+              <caret line="332" column="2" selection-start-line="332" selection-start-column="2" selection-end-line="339" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -258,7 +259,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/changeCourseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="641">
               <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -271,11 +272,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state relative-caret-position="-1287">
+              <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/deletesubject_teacherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="233" column="1" selection-start-line="233" selection-start-column="1" selection-end-line="271" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -291,8 +301,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getOb</find>
-      <find>choi</find>
       <find>find</find>
       <find>Combo</find>
       <find>editScore</find>
@@ -309,7 +317,6 @@
       <find>score</find>
       <find>drop</find>
       <find>AND</find>
-      <find>del</find>
       <find>delete</find>
       <find>editCourse</find>
       <find>view</find>
@@ -321,6 +328,9 @@
       <find>BT</find>
       <find>create</find>
       <find>javafx.scene.control.</find>
+      <find>all</find>
+      <find>getAll</find>
+      <find>del</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -364,7 +374,6 @@
         <option value="$PROJECT_DIR$/src/createAnnounceController.java" />
         <option value="$PROJECT_DIR$/src/editsubject_teacherController.java" />
         <option value="$PROJECT_DIR$/src/front/viewscore.fxml" />
-        <option value="$PROJECT_DIR$/src/deletesubject_teacherController.java" />
         <option value="$PROJECT_DIR$/src/editscore_teacherController.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/dropController.java" />
@@ -379,6 +388,7 @@
         <option value="$PROJECT_DIR$/src/enrollController.java" />
         <option value="$PROJECT_DIR$/src/enrollController.java" />
         <option value="$PROJECT_DIR$/src/changeCourseController.java" />
+        <option value="$PROJECT_DIR$/src/deletesubject_teacherController.java" />
         <option value="$PROJECT_DIR$/src/AdminController.java" />
       </list>
     </option>
@@ -573,7 +583,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542308754408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542310869116" />
     <property name="last_opened_file_path" value="H:/My Drive/3D_1/OOAD/MovieBooking-develope" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -722,16 +732,15 @@
       <workItem from="1542119294263" duration="13572000" />
       <workItem from="1542163799563" duration="9468000" />
       <workItem from="1542195367305" duration="23173000" />
-      <workItem from="1542248397650" duration="34621000" />
+      <workItem from="1542248397650" duration="36734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214389000" />
+    <option name="totallyTimeSpent" value="216502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -744,7 +753,7 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.6111825" visible="true" weight="0.18546638" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6111825" weight="0.18546638" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39892185" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1007,13 +1016,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/deletesubject_teacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="330" column="52" selection-start-line="330" selection-start-column="52" selection-end-line="330" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1122,15 +1124,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/opencourse_teacherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="139">
           <caret line="95" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/enrollController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="104" selection-start-line="104" selection-end-line="116" selection-end-column="5" />
+        <state relative-caret-position="224">
+          <caret line="332" column="2" selection-start-line="332" selection-start-column="2" selection-end-line="339" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1139,7 +1141,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/changeCourseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="641">
           <caret line="249" column="20" selection-start-line="249" selection-start-column="20" selection-end-line="249" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1148,10 +1150,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/deletesubject_teacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="233" column="1" selection-start-line="233" selection-start-column="1" selection-end-line="271" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="-1287">
+          <caret line="137" column="35" selection-start-line="137" selection-start-column="35" selection-end-line="137" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

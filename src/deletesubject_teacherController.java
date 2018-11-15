@@ -127,7 +127,7 @@ public class deletesubject_teacherController implements Initializable {
         btn1.setLayoutX(wLable * 3 + 20);
         btn1.setMinSize(50, 10);
 
-        Button btn2 = createDropBT("Delete", subject.getId_sub());
+        Button btn2 = createDelBT("Delete", subject.getId_sub());
         btn2.setStyle("-fx-alignment:center; -fx-font-size: 10");
         btn2.setLayoutX(wLable * 4 + 25);
         btn2.setMinSize(50, 10);
@@ -155,10 +155,10 @@ public class deletesubject_teacherController implements Initializable {
         return btn;
     }
 
-    public Button createDropBT(String txt, long subject) {
+    public Button createDelBT(String txt, long subject) {
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
-            createDropDialog(subject);
+            createDelDialog(subject);
         });
         return btn;
     }
@@ -179,7 +179,7 @@ public class deletesubject_teacherController implements Initializable {
 
     }
 
-    public void createDropDialog(long id) {
+    public void createDelDialog(long id) {
         passwordDialog pd = new passwordDialog();
         Optional<String> result = pd.showAndWait();
         result.ifPresent(password -> {
@@ -234,10 +234,6 @@ public class deletesubject_teacherController implements Initializable {
     public static void delSubject(int id_tea,int id_sub){
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();
-
-       /* String sql1 = "SELECT c FROM Teacher c Where c.id =" + id_tea + "";
-        TypedQuery<Student> query1 = em.createQuery(sql1,Student.class);
-        List<Student> results1 = query1.getResultList(); */
 
         String sql2 = "SELECT c FROM Subject c Where c.id_sub =" + id_sub + "";
         TypedQuery<classss.Subject> query2 = em.createQuery(sql2, classss.Subject.class);
