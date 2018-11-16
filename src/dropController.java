@@ -89,43 +89,34 @@ public class dropController implements Initializable {
 
     public Pane createHeader() {
         Pane pane = new Pane();
+        int numCol=5;
         double wScore = scrollPane.getPrefWidth();
         double wLable = wScore / 5;
         pane.setMinSize(100, 25);
-        Label topic_header = createLable("ID", 25, wLable, 0);
-        Label score_header = createLable("Subject", 25, wLable, wLable);
-        Label maxscore_header = createLable("Teacher", 25, wLable, wLable * 2);
-        Label empty = createLable("Description", 25, wLable, wLable * 3);
-        Label empty2 = createLable("Drop", 25, wLable, wLable * 4);
-        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-
-        pane.getChildren().addAll(topic_header, score_header, maxscore_header, empty, empty2);
+        String[] topic = {"ID","Subject","Teacher","Description","Drop"};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: #ffd410; ");
+            pane.getChildren().add(topic_text);
+        }
         return pane;
     }
 
 
     public Pane createPane(int id, Subject subject) {
         Pane pane = new Pane();
+        int numCol=5;
         double wScore = scrollPane.getPrefWidth();
         double wLable = wScore / 5;
 
         pane.setMinSize(100, 25);
 
-        Label topic_text = createLable(subject.getId_sub() + "", 25, wLable, 0);
-        Label score_text = createLable(subject.getName(), 25, wLable, wLable);
-        Label maxscore_text = createLable(subject.getTeacher().getName() + " " + subject.getTeacher().getSurname(), 25, wLable, wLable * 2);
-        Label empty1 = createLable("", 25, wLable, wLable * 3);
-        Label empty2 = createLable("", 25, wLable, wLable * 4);
-//      set style
-        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        String[] topic = {subject.getId()+"",subject.getName(),subject.getTeacher().getName() + " " + subject.getTeacher().getSurname(),"",""};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: white; ");
+            pane.getChildren().add(topic_text);
+        }
 
         Button btn1 = createDesBT("description", subject.getId_sub());
         btn1.setStyle("-fx-alignment:center; -fx-font-size: 10");
@@ -137,7 +128,7 @@ public class dropController implements Initializable {
         btn2.setLayoutX(wLable * 4 + 25);
         btn2.setMinSize(50, 10);
 
-        pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1, empty2, btn1, btn2);
+        pane.getChildren().addAll(btn1, btn2);
 
         return pane;
     }

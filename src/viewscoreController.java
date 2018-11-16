@@ -135,41 +135,35 @@ public class viewscoreController implements Initializable {
 
     public Pane createHeader() {
         Pane pane = new Pane();
+        int numCol=3;
         double wScore = scrollPane.getPrefWidth();
         double wLable = wScore / 3;
         pane.setMinSize(100, 25);
-        Label topic_header = createLable("Topic", 25, wLable, 0);
-        Label score_header = createLable("Score", 25, wLable, wLable);
-        Label maxscore_header = createLable("Max Score", 25, wLable, wLable * 2);
 
-        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: #ffd410;");
-        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: #ffd410;");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;-fx-background-color: #ffd410;");
-
-
-        pane.getChildren().addAll(topic_header, score_header, maxscore_header);
+        String[] topic = {"Topic","Score","Max Score"};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: #ffd410; ");
+            pane.getChildren().add(topic_text);
+        }
         return pane;
     }
 
 
     public Pane createPane(int id, Score score) {
         Pane pane = new Pane();
+        int numCol=3;
         double wScore = scrollPane.getPrefWidth();
         double wLable = wScore / 3;
 
         pane.setMinSize(100, 25);
-        Label topic_text = createLable(score.getTopic() + "", 25, wLable, 0);
-        Label score_text = createLable(score.getPoint() + "", 25, wLable, wLable);
-        Label maxscore_text = createLable(score.getMax() + "", 25, wLable, wLable * 2);
-//      set style
-        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;");
-        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;");
-        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size: 18;");
 
-
-
-        pane.getChildren().addAll(topic_text, score_text, maxscore_text);
-
+        String[] topic = {score.getTopic()+"",score.getPoint()+"",score.getMax()+""};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: white; ");
+            pane.getChildren().add(topic_text);
+        }
         return pane;
     }
 

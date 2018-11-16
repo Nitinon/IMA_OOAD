@@ -102,7 +102,6 @@ public class enrollController implements Initializable {
         for (Subject a : currentStudent.getSubject()) {
             if (a.getId_sub() == sub.getId_sub())
                 return true;
-
             Boolean midtermDup = a.getMidtermExam().equals(sub.getMidtermExam()) && a.getMidtermTime().equals(sub.getMidtermTime());
             Boolean finalDup = a.getFinalExam().equals(sub.getFinalExam()) && a.getFinalTime().equals(sub.getFinalTime());
             Boolean dayDup = a.getDay().equals(sub.getDay()) && a.getTime().equals(sub.getTime());
@@ -122,43 +121,33 @@ public class enrollController implements Initializable {
 
     public Pane createHeader() {
         Pane pane = new Pane();
+        int numCol=5;
         double wScore = scrollPane2.getPrefWidth();
         double wLable = wScore / 5;
         pane.setMinSize(100, 25);
-        Label topic_header = createLable("ID", 25, wLable, 0);
-        Label score_header = createLable("Subject", 25, wLable, wLable);
-        Label maxscore_header = createLable("Student", 25, wLable, wLable * 2);
-        Label empty = createLable("Description", 25, wLable, wLable * 3);
-        Label empty2 = createLable("Enroll", 25, wLable, wLable * 4);
-        topic_header.setStyle("-fx-border-color:black;-fx-background-color: pink; -fx-alignment:center;-fx-font-size:15 ");
-        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-
-        pane.getChildren().addAll(topic_header, score_header, maxscore_header, empty, empty2);
+        String[] topic = {"ID","Subject","Student","Description","Enroll"};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: #ffd410; ");
+            pane.getChildren().add(topic_text);
+        }
         return pane;
     }
 
 
     public Pane createPane(int id, Subject subject) {
         Pane pane = new Pane();
+        int numCol=5;
         double wScore = scrollPane1.getPrefWidth();
         double wLable = wScore / 5;
 
         pane.setMinSize(100, 25);
-
-        Label topic_text = createLable(subject.getId_sub() + "", 25, wLable, 0);
-        Label score_text = createLable(subject.getName(), 25, wLable, wLable);
-        Label maxscore_text = createLable(subject.getStudentNum() + "/" + subject.getNo_student(), 25, wLable, wLable * 2);
-        Label empty1 = createLable("", 25, wLable, wLable * 3);
-        Label empty2 = createLable("", 25, wLable, wLable * 4);
-//      set style
-        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        String[] topic = {subject.getId_sub() + "",subject.getName(),subject.getStudentNum() + "/" + subject.getNo_student(),"",""};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: white; ");
+            pane.getChildren().add(topic_text);
+        }
 
         Button btn1 = createDesBT("description", subject.getId_sub());
         btn1.setStyle("-fx-alignment:center; -fx-font-size: 10");
@@ -169,55 +158,45 @@ public class enrollController implements Initializable {
         btn2.setStyle("-fx-alignment:center; -fx-font-size: 10");
         btn2.setLayoutX(wLable * 4 + 25);
         btn2.setMinSize(50, 10);
-
-        pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1, empty2, btn1, btn2);
+        pane.getChildren().addAll(btn1, btn2);
 
         return pane;
     }
 
     public Pane createHeader2() {
         Pane pane = new Pane();
+        int numCol=4;
         double wScore = scrollPane2.getPrefWidth();
         double wLable = wScore / 4;
         pane.setMinSize(100, 25);
-        Label topic_header = createLable("ID", 25, wLable, 0);
-        Label score_header = createLable("Subject", 25, wLable, wLable);
-        Label maxscore_header = createLable("Teacher", 25, wLable, wLable * 2);
-        Label empty = createLable("Description", 25, wLable, wLable * 3);
-        topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-
-        pane.getChildren().addAll(topic_header, score_header, maxscore_header, empty);
+        String[] topic = {"ID","Subject","Teacher","Description"};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: #ffd410; ");
+            pane.getChildren().add(topic_text);
+        }
         return pane;
     }
 
 
     public Pane createPane2(int id, Subject subject) {
         Pane pane = new Pane();
+        int numCol=4;
         double wScore = scrollPane1.getPrefWidth();
         double wLable = wScore / 4;
 
         pane.setMinSize(100, 25);
-
-        Label topic_text = createLable(subject.getId_sub() + "", 25, wLable, 0);
-        Label score_text = createLable(subject.getName(), 25, wLable, wLable);
-        Label maxscore_text = createLable(subject.getTeacher().getName() + " " + subject.getTeacher().getSurname(), 25, wLable, wLable * 2);
-        Label empty1 = createLable("", 25, wLable, wLable * 3);
-//      set style
-        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        empty1.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;");
+        String[] topic = {subject.getId_sub() + "",subject.getName(),subject.getTeacher().getName() + " " + subject.getTeacher().getSurname(),""};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: white; ");
+            pane.getChildren().add(topic_text);
+        }
 
         Button btn1 = createDesBT("description", subject.getId_sub());
-//        btn1.setStyle("-fx-alignment:center; -fx-font-size: 10 ; -fx-pref-height: 10px; -fx-pref-width: 125px;\n" +
-//                "\t-fx-background-color: rgb(250, 250, 250);-fx-border-color: black;-fx-hand");
         btn1.setLayoutX(wLable * 3 + 20);
-        //btn1.setMinSize(50, 10);
 
-        pane.getChildren().addAll(topic_text, score_text, maxscore_text, empty1, btn1);
+        pane.getChildren().addAll(btn1);
 
         return pane;
     }

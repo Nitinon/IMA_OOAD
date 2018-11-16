@@ -101,52 +101,36 @@ public class editscore_teacherController implements Initializable {
             double wLable = wScore / 4;
             gridpane.add(createPane(i, a), 1, i + 2);
         }
-
-
-
     }
     public Pane createHeader() {
         Pane pane = new Pane();
+        int numCol=4;
         double wScore = scrollPane.getPrefWidth();
         double wLable = wScore / 4;
         pane.setMinSize(100, 25);
-        Label ID_header = createLable("ID", 25, wLable, 0);
-        Label student_header = createLable("student", 25, wLable, wLable);
-        Label score_header = createLable("score", 25, wLable, wLable * 2);
-        Label maxscore_header = createLable("max", 25, wLable, wLable * 3);
-        ID_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        student_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-
-        pane.getChildren().addAll(ID_header, student_header, score_header, maxscore_header);
+        String[] topic = {"ID","Student","Score","Max"};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: #ffd410; ");
+            pane.getChildren().add(topic_text);
+        }
         return pane;
     }
 
-
     public Pane createPane(int id, Score score) {
         Pane pane = new Pane();
+        int numCol=4;
         double wScore = scrollPane.getPrefWidth();
         double wLable = wScore / 4;
         Student foundedStudent=getObjStudent(score.getIdStudent());
         pane.setMinSize(100, 25);
 
-        Label topic_text = createLable(foundedStudent.getId() + "", 25, wLable, 0);
-        Label student_text = createLable(foundedStudent.getName()+" "+foundedStudent.getSurname(), 25, wLable, wLable);
-
-        Label score_text = createLable(score.getPoint()+"", 25, wLable, wLable*2);
-//        fake max score
-        Label maxscore_text = createLable(score.getMax()+"", 25, wLable, wLable * 3);
-//      set style
-        TextField scoreIn=createTextField(score.getPoint()+"",25,wLable,wLable*2);
-        listScoreIn.add(scoreIn);
-
-        topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        student_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        score_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-
-        pane.getChildren().addAll(topic_text,student_text,score_text, maxscore_text,scoreIn);
+        String[] topic = {foundedStudent.getId() + "",foundedStudent.getName()+" "+foundedStudent.getSurname(),score.getPoint()+"",score.getMax()+"",score.getPoint()+""};
+        for (int i = 0; i < numCol; i++) {
+            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
+            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: white; ");
+            pane.getChildren().add(topic_text);
+        }
 
         return pane;
     }

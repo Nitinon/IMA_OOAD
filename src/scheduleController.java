@@ -92,7 +92,7 @@ public class scheduleController implements Initializable {
         double wScore = schedulePane.getPrefWidth();
         double wLable = wScore / numCol;
         String []day={"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-        String []color={":Yellow",":Pink",":Green",":Orange",":Blue",":Purple",":Red"};
+        String []color={":#ffd656",":#ff8282",":#68ca7b",":#ee6422",":#3e77e9",":#644ca2",":#ff5952"};
         for (int i=0;i<4;i++){
             for (int j=0;j<8;j++){
                 Label topic_text = createLable("", schedulePane.getPrefHeight()/8, wLable, 0);
@@ -107,21 +107,6 @@ public class scheduleController implements Initializable {
             }
         }
 
-    }
-    public Pane createPane(Subject subject) {
-        Pane pane = new Pane();
-        int numCol = 4;
-        double wScore = schedulePane.getPrefWidth();
-        double wLable = wScore / numCol;
-
-        pane.setMinSize(100, 25);
-        String[] topic = {subject.getId_sub() + "", subject.getName(), "", "", "", ""};
-        for (int i = 0; i < numCol; i++) {
-            Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
-            topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-            pane.getChildren().add(topic_text);
-        }
-        return pane;
     }
 
     public Label createLable(String txt, double height, double width, double pos) {
