@@ -54,10 +54,7 @@ public class editscore_teacherController implements Initializable {
     @FXML
     private Label posLB;
 
-
     ArrayList<TextField> listScoreIn = new ArrayList<>();
-
-
     Preferences userPreferences = Preferences.userRoot();
     long id = userPreferences.getLong("currentUser", 0);
     Teacher currentTeacher = getObjTeacher(id);

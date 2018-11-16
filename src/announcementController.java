@@ -286,7 +286,23 @@ public class announcementController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    public void jumpChangePass() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/changePass.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
 
+        changePassController controller = fxmlLoader.<changePassController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
+
+    public void jumpEditProfile() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/editProfile.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        ediProfileController controller = fxmlLoader.<ediProfileController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
     public void jumpLogout() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
