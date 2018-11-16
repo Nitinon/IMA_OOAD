@@ -151,7 +151,10 @@ public class announcementController implements Initializable {
     }
 
     public boolean findAnnounce(int day, int month, int year, boolean print) {
-        String date = day + "/" + month + "/" + year;
+        String strD="";
+        if (day>9)strD=day+"";
+        else strD="0"+day;
+        String date = strD + "/" + month + "/" + year;
         ArrayList<Announcement> listAnnounce = new ArrayList<>();
 
         for (Subject temp : currentStudent.getSubject()) {
@@ -272,6 +275,14 @@ public class announcementController implements Initializable {
         Parent root = (Parent) fxmlLoader.load();
 
         announcementController controller = fxmlLoader.<announcementController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
+    public void jumpSchedule() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/schedule.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        scheduleController controller = fxmlLoader.<scheduleController>getController();
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }

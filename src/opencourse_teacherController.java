@@ -108,7 +108,8 @@ public class opencourse_teacherController implements Initializable {
         Label empty2 = createLable("Description", 25, wLable, wLable * 4);
         topic_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         score_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
-        maxscore_header.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
+        maxscore_header.setStyle("-fx-border-c" +
+                "olor:black; -fx-alignment:center;-fx-font-size:15 ");
         empty.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
         empty2.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
 

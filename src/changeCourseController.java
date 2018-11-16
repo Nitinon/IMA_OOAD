@@ -203,20 +203,15 @@ public class changeCourseController implements Initializable {
     }
 
     public void createDialog(long id) {
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Course Info");
-
         Subject foundedSubject = getSubject(id);
-        alert.setHeaderText("Info of " + foundedSubject.getName());
         String info = "Name: " + foundedSubject.getName() + "\n" +
                 "Teacher: " + foundedSubject.getTeacher() + "\n" +
                 "Description: " + foundedSubject.getDiscription() + "\n" +
-                "Time: " + foundedSubject.getTime() + "\n" +
-                "Teaching day: " + foundedSubject.getDay() + "\n" +
-                "Student: " + foundedSubject.getStudentNum() + "/" + foundedSubject.getNo_student();
-        alert.setContentText(info);
-        alert.showAndWait();
-
+                "--------------------------------------------------\n"+
+                "Teaching day  : " + foundedSubject.getDay()+"---"+foundedSubject.getTime()+"\n"+
+                "Midterm/time :" + foundedSubject.getMidtermExam() + "---" + foundedSubject.getMidtermTime()+"\n"+
+                "Final/time       :" + foundedSubject.getFinalExam() + "---" + foundedSubject.getFinalTime();
+        popUp(true, "Course Info", info);
     }
 
     public void createChangeDialog(long id) {
@@ -439,7 +434,14 @@ public class changeCourseController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    public void jumpSchedule() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/schedule.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
 
+        scheduleController controller = fxmlLoader.<scheduleController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
     public void jumpLogout() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();

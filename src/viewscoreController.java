@@ -336,7 +336,14 @@ public class viewscoreController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    public void jumpSchedule() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/schedule.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
 
+        scheduleController controller = fxmlLoader.<scheduleController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
     @FXML
     public void jumpLogout() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));

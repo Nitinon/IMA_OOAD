@@ -82,12 +82,8 @@ public class enrollController implements Initializable {
         int i = 0;
         for (Subject a : currentStudent.getSubject()) {
             i++;
-            System.out.println(a.getId_sub());
-            double wScore = scrollPane2.getPrefWidth();
-            double wLable = wScore / 4;
             gridpane.add(createPane2(i, a), 1, i + 2);
         }
-        System.out.println("=============================================");
         gridpane = new GridPane();
         gridpane.setMinSize(scrollPane2.getMinWidth(), 0);
         gridpane.setStyle("-fx-border-color:black; -fx-alignment:center;");
@@ -261,10 +257,11 @@ public class enrollController implements Initializable {
         String info = "Name: " + foundedSubject.getName() + "\n" +
                 "Teacher: " + foundedSubject.getTeacher() + "\n" +
                 "Description: " + foundedSubject.getDiscription() + "\n" +
-                "Time: " + foundedSubject.getTime() + "\n" +
-                "Teaching day: " + foundedSubject.getDay() + "\n" +
-                "Student: " + foundedSubject.getStudentNum() + "/" + foundedSubject.getNo_student();
-        popUp(true, "Course Info", info);
+                "--------------------------------------------------\n"+
+                "Teaching day  : " + foundedSubject.getDay()+"---"+foundedSubject.getTime()+"\n"+
+                "Midterm/time :" + foundedSubject.getMidtermExam() + "---" + foundedSubject.getMidtermTime()+"\n"+
+                "Final/time       :" + foundedSubject.getFinalExam() + "---" + foundedSubject.getFinalTime();
+                popUp(true, "Course Info", info);
     }
 
     public void createEnrollDialog(long id) {
@@ -428,6 +425,14 @@ public class enrollController implements Initializable {
         Parent root = (Parent) fxmlLoader.load();
 
         announcementController controller = fxmlLoader.<announcementController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
+    public void jumpSchedule() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/schedule.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        scheduleController controller = fxmlLoader.<scheduleController>getController();
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
