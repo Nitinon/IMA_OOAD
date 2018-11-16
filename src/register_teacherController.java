@@ -80,9 +80,9 @@ public class register_teacherController implements Initializable {
     }
 
     public void jumpBack() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/AdminHome.fxml"));
         Parent root = (Parent) fxmlLoader.load();
-        loginController controller = fxmlLoader.<loginController>getController();
+        AdminController controller = fxmlLoader.<AdminController>getController();
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }

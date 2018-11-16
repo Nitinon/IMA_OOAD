@@ -3,10 +3,8 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -17,10 +15,10 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="createAnnounceController">
+<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewStudentController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="423.0" layoutX="719.0" layoutY="68.0" stroke="WHITE" strokeMiterLimit="0.0" strokeType="INSIDE" width="390.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#35569e" height="727.0" layoutX="347.0" layoutY="-3.0" stroke="#35569e" strokeType="INSIDE" width="198.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8eeff" height="506.0" layoutY="215.0" stroke="#e8eeff" strokeType="INSIDE" width="350.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#3859c4" height="218.0" layoutX="-2.0" layoutY="-3.0" stroke="#3859c4" strokeMiterLimit="0.0" strokeType="INSIDE" width="350.0" />
@@ -64,7 +62,6 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-
                </children>
             </VBox>
             <VBox prefHeight="321.0" prefWidth="177.0" spacing="15.0">
@@ -104,7 +101,6 @@
                         <Font size="18.0" />
                      </font>
                   </Label>
-
                </children>
                <effect>
                   <InnerShadow />
@@ -132,7 +128,6 @@
       <Circle fill="#ffcc23" layoutX="540.0" layoutY="291.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="#ffcc23" layoutX="540.0" layoutY="360.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fill="#ffcc23" layoutX="540.0" layoutY="430.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-
 
       <Label layoutX="388.0" layoutY="277.0" text="Edit Score">
          <font>
@@ -170,64 +165,24 @@
       <Button fx:id="viewBT" layoutX="350.0" layoutY="264.0" mnemonicParsing="false" onAction="#jumpEditScore" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="jumpCreate" layoutX="350.0" layoutY="333.0" mnemonicParsing="false" onAction="#jumpCreateAnnounce" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
       <Button fx:id="jumpViewSt" layoutX="350.0" layoutY="401.0" mnemonicParsing="false" onAction="#jumpViewStudent" opacity="0.0" prefHeight="55.0" prefWidth="213.0" text="Button" />
-      <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onMouseClicked="#jumpLogout" text="log out" />
-      <Label layoutX="814.0" layoutY="91.0" text="Create Announcement">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Button layoutX="876.0" layoutY="443.0" mnemonicParsing="false" onMouseClicked="#createAnnounce" text="Submit" />
+      <Button fx:id="logoutBT" layoutX="14.0" layoutY="681.0" mnemonicParsing="false" onAction="#jumpLogout" onMouseClicked="#jumpLogout" text="log out" />
+
+      <ScrollPane fx:id="scrollPane" layoutX="583.0" layoutY="149.0" prefHeight="537.0" prefWidth="665.0" />
       <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
          <image>
             <Image url="@logo2.png" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="144.0" layoutX="719.0" layoutY="512.0" stroke="WHITE" strokeMiterLimit="0.0" strokeType="INSIDE" width="390.0" />
-      <VBox alignment="TOP_RIGHT" layoutX="719.0" layoutY="152.0" prefHeight="185.0" prefWidth="100.0" spacing="20.0">
-         <children>
-            <Label text="Subject">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-            <Label text="Title">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-            <Label text="Type">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-            <Label text="Day">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-            <Label text="Info">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Label>
-         </children>
-      </VBox>
-      <VBox layoutX="829.0" layoutY="151.0" prefHeight="274.0" prefWidth="175.0" spacing="20.0">
-         <children>
-            <ComboBox fx:id="subjectSelector" prefHeight="25.0" prefWidth="226.0" />
-            <TextField fx:id="titleIn" prefHeight="25.0" prefWidth="159.0" />
-            <ComboBox fx:id="typeIn" prefHeight="25.0" prefWidth="193.0" />
-            <DatePicker fx:id="dateIn" />
-            <TextArea fx:id="infoIn" prefHeight="94.0" prefWidth="213.0" />
-         </children>
-      </VBox>
-      <ComboBox fx:id="announceSelector2" layoutX="826.0" layoutY="598.0" prefWidth="150.0" />
-      <Button fx:id="delAnnounce" layoutX="983.0" layoutY="566.0" mnemonicParsing="false" onMouseClicked="#deleteAnnounce" text="Delete" />
-      <ComboBox fx:id="announceSelector1" layoutX="826.0" layoutY="566.0" onAction="#selected" prefWidth="150.0" />
-      <Label layoutX="726.0" layoutY="532.0" text="DeleteAnnouncement">
+      <ComboBox fx:id="subjectSelector" layoutX="822.0" layoutY="90.0" onAction="#enterSubject" prefHeight="35.0" prefWidth="187.0" />
+      <Text layoutX="747.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject">
          <font>
-            <Font size="18.0" />
+            <Font size="20.0" />
          </font>
-      </Label>
+      </Text>
+      <Text layoutX="820.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="View Student Info">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

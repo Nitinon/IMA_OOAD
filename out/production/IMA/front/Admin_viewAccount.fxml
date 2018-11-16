@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="backpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #e8eeff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminViewAccountController">
+   <children>
+      <ImageView fitHeight="158.0" fitWidth="158.0" layoutX="34.0" layoutY="26.0">
+         <image>
+            <Image url="@logo2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="218.0" layoutY="87.0" text="Admin System">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="1219.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#jumpBack" text="Back" />
+      <ScrollPane fx:id="scrollPane" layoutX="27.0" layoutY="235.0" prefHeight="373.0" prefWidth="597.0" />
+      <Text layoutX="245.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Account">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <ScrollPane fx:id="scrollPane2" layoutX="654.0" layoutY="235.0" prefHeight="373.0" prefWidth="597.0" />
+      <Text layoutX="872.0" layoutY="217.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Account">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

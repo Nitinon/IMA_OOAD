@@ -50,7 +50,7 @@
       </Text>
       <VBox layoutX="266.0" layoutY="74.0" prefHeight="104.0" prefWidth="119.0" spacing="10.0">
          <children>
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="View account info" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" onMouseClicked="#jumpViewAccount" text="View account info" />
             <Button fx:id="register_teacherBT" mnemonicParsing="false" onMouseClicked="#jumpRegister_teacher" prefHeight="25.0" prefWidth="165.0" text="register teacher" />
             <ToggleButton fx:id="enableBT" mnemonicParsing="false" onMouseClicked="#enable" prefHeight="25.0" prefWidth="196.0" text="Enable enroll" />
          </children>

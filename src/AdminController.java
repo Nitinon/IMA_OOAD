@@ -463,6 +463,14 @@ public class AdminController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    public void jumpViewAccount() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/Admin_viewAccount.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
+
+        AdminViewAccountController controller = fxmlLoader.<AdminViewAccountController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
 
     public void jumpBack() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));

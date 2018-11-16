@@ -46,7 +46,6 @@ public class scheduleController implements Initializable {
     Preferences userPreferences = Preferences.userRoot();
     long id = userPreferences.getLong("currentUser", 0);
     Student currentStudent = getObjStudent(id);
-
     public void initialize(URL url, ResourceBundle rb) {
         //    show info of current user---------------------------------------
         nameLB.setText(currentStudent.getName());
@@ -68,7 +67,6 @@ public class scheduleController implements Initializable {
             Label topic_text = createLable(topic[i], schedulePane.getPrefHeight()/8, wLable, 0);
             topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
             schedulePane.add(topic_text, i, 0 );
-
         }
         for (Subject a : currentStudent.getSubject()) {
             Label topic_text = createLable(a.getName(), schedulePane.getPrefHeight()/8, wLable, 0);
@@ -102,7 +100,6 @@ public class scheduleController implements Initializable {
                     topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15; -fx-background-color"+color[j-1]);
                 }
                 if(j==0)topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15; -fx-background-color:#ffdbb8");
-
                 schedulePane.add(topic_text,i,j);
             }
         }

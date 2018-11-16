@@ -191,7 +191,14 @@ public class editsubject_teacherController implements Initializable {
         fxmlLoader.setController(controller);
         backpane.getChildren().setAll(root);
     }
+    public void jumpViewStudent() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/viewStudent.fxml"));
+        Parent root = (Parent) fxmlLoader.load();
 
+        viewStudentController controller = fxmlLoader.<viewStudentController>getController();
+        fxmlLoader.setController(controller);
+        backpane.getChildren().setAll(root);
+    }
     public void jumpLogout() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("front/login.fxml"));
         Parent root = (Parent) fxmlLoader.load();
