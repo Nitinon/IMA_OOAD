@@ -12,20 +12,11 @@ public class Student extends Account {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id_student;
-    private long id;
     private int year_of_study;
     private String faculty;
 
     public long getId_student() {
         return id_student;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     //private static final long serialVersionUID = 1L;

@@ -2,14 +2,12 @@ import classss.Score;
 import classss.Student;
 import classss.Subject;
 import classss.Teacher;
-import com.sun.org.apache.xpath.internal.operations.Bool;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 
@@ -33,12 +31,10 @@ public class editscore_teacherController implements Initializable {
     private ComboBox topicSelector;
     @FXML
     private ScrollPane scrollPane;
-
     @FXML
     private TextField topicIn;
     @FXML
     private TextField maxIn;
-
     @FXML
     private Label nameLB;
     @FXML
@@ -94,8 +90,6 @@ public class editscore_teacherController implements Initializable {
         int i = 0;
         for (Score a : listScoreSelected) {
             i++;
-            double wScore = scrollPane.getPrefWidth();
-            double wLable = wScore / 4;
             gridpane.add(createPane(i, a), 1, i + 2);
         }
     }
@@ -122,13 +116,15 @@ public class editscore_teacherController implements Initializable {
         Student foundedStudent=getObjStudent(score.getIdStudent());
         pane.setMinSize(100, 25);
 
-        String[] topic = {foundedStudent.getId() + "",foundedStudent.getName()+" "+foundedStudent.getSurname(),score.getPoint()+"",score.getMax()+"",score.getPoint()+""};
+        String[] topic = {foundedStudent.getId() + "",foundedStudent.getName()+" "+foundedStudent.getSurname(),"",score.getMax()+"",score.getPoint()+""};
         for (int i = 0; i < numCol; i++) {
             Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
             topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15;-fx-background-color: white; ");
             pane.getChildren().add(topic_text);
         }
-
+        TextField inputScore=createTextField(score.getPoint()+"",25,wLable,wLable*2);
+        listScoreIn.add(inputScore);
+        pane.getChildren().add(inputScore);
         return pane;
     }
 

@@ -28,16 +28,16 @@ public class AdminViewAccountController implements Initializable {
     @FXML
     private ScrollPane scrollPane2;
 
-    List<Student> allStudent=new ArrayList<>();
-    List<Teacher> allTeacher=new ArrayList<>();
+    List<Student> allStudent = new ArrayList<>();
+    List<Teacher> allTeacher = new ArrayList<>();
 
     public void initialize(URL url, ResourceBundle rb) {
         update();
     }
 
     public void update() {
-        allStudent=getAllStudent();
-        allTeacher=getAllTeacher();
+        allStudent = getAllStudent();
+        allTeacher = getAllTeacher();
         GridPane gridpane = new GridPane();
         gridpane.setMinSize(scrollPane.getMinWidth(), 0);
         gridpane.setStyle("-fx-border-color:black; -fx-alignment:center;");
@@ -85,7 +85,7 @@ public class AdminViewAccountController implements Initializable {
         double wLable = wScore / numCol;
 
         pane.setMinSize(100, 25);
-        String[] topic = {student.getId()+"",student.getName(),student.getSurname(), ""};
+        String[] topic = {student.getId() + "", student.getName(), student.getSurname(), ""};
         for (int i = 0; i < numCol; i++) {
             Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
             topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
@@ -103,7 +103,7 @@ public class AdminViewAccountController implements Initializable {
         int numCol = 4;
         double wScore = scrollPane2.getPrefWidth();
         double wLable = wScore / numCol;
-        String[] topic = {teacher.getId()+"",teacher.getName(),teacher.getSurname(),""};
+        String[] topic = {teacher.getId() + "", teacher.getName(), teacher.getSurname(), ""};
         for (int i = 0; i < numCol; i++) {
             Label topic_text = createLable(topic[i], 25, wLable, wLable * i);
             topic_text.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:15 ");
@@ -115,31 +115,34 @@ public class AdminViewAccountController implements Initializable {
 
         return pane;
     }
+
     public Button createInfoBT(String txt, Student student) {
-        String info=student.getName()+" "+student.getSurname()+"\n"+
-                "BirthDay: "+student.getBirthday()+"\n"+
-                "Tel.: "+student.getPhonenumber()+"\n"+
-                "Email: "+student.getEmail()+"\n"+
-                "Year: "+student.getYear_of_study()+"\n"+
-                "Faculty: "+student.getFaculty();
+        String info = student.getName() + " " + student.getSurname() + "\n" +
+                "BirthDay: " + student.getBirthday() + "\n" +
+                "Tel.: " + student.getPhonenumber() + "\n" +
+                "Email: " + student.getEmail() + "\n" +
+                "Year: " + student.getYear_of_study() + "\n" +
+                "Faculty: " + student.getFaculty();
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
-            popUp(true,"Student Info",info);
+            popUp(true, "Student Info", info);
         });
         return btn;
     }
+
     public Button createInfoBT2(String txt, Teacher teacher) {
-        String info=teacher.getName()+" "+teacher.getSurname()+"\n"+
-                "BirthDay: "+teacher.getBirthday()+"\n"+
-                "Email: "+teacher.getEmail()+"\n"+
-                "Tel.: "+teacher.getPhonenumber()+"\n"+
-                "Position: "+teacher.getPost();
+        String info = teacher.getName() + " " + teacher.getSurname() + "\n" +
+                "BirthDay: " + teacher.getBirthday() + "\n" +
+                "Email: " + teacher.getEmail() + "\n" +
+                "Tel.: " + teacher.getPhonenumber() + "\n" +
+                "Position: " + teacher.getPost();
         Button btn = new Button(txt);
         btn.setOnAction(event -> {
-            popUp(true,"Student Info",info);
+            popUp(true, "Student Info", info);
         });
         return btn;
     }
+
     public Label createLable(String txt, double height, double width, double pos) {
         Label label = new Label(txt);
         label.setStyle("-fx-border-color:black; -fx-alignment:center;-fx-font-size:20");
@@ -149,7 +152,6 @@ public class AdminViewAccountController implements Initializable {
         label.setLayoutX(pos);
         return label;
     }
-
 
     public void popUp(Boolean success, String header, String txt) {
         if (success == true) {
@@ -166,6 +168,7 @@ public class AdminViewAccountController implements Initializable {
             alert.showAndWait();
         }
     }
+
     //    ===========================================DB==============================================================
     public static List<Student> getAllStudent() {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
@@ -175,6 +178,7 @@ public class AdminViewAccountController implements Initializable {
         List<classss.Student> results2 = query2.getResultList();
         return results2;
     }
+
     public static List<Teacher> getAllTeacher() {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("$objectdb/db/AccountDB.odb");
         EntityManager em = emf.createEntityManager();

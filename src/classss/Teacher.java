@@ -18,16 +18,6 @@ public class Teacher extends Account {
         return id_teacher;
     }
 
-    private long id;
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
     public Teacher(String password, String name, String surname, String birthday, String email, String phonenumber, String post){
         super(password,name,surname,birthday,email,phonenumber);
         this.post = post;

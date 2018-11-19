@@ -45,6 +45,20 @@ public class enrollController implements Initializable {
     private Label facultyLB;
     //------------------------------------------------------------------------
     @FXML
+    private Button enrollBT;
+    @FXML
+    private Button changeBT;
+    @FXML
+    private Button dropBT;
+    @FXML
+    private Button viewBT;
+    @FXML
+    private Button announceBT;
+    @FXML
+    private Button scheduleBT;
+
+//    -------------------------------------------------------------------------
+    @FXML
     private ScrollPane scrollPane1;
     @FXML
     private ScrollPane scrollPane2;
